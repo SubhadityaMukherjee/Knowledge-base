@@ -1,0 +1,31 @@
+
+---
+tags: ['anchor']
+---
+
+- [ACT-R Chunk](./ACT-R%2520Chunk.md#)
+- [ACT-R](./ACT-R.md#)
+- [Active tracking](./Active%2520tracking.md#)
+- [CogMod Final Paper](./CogMod%2520Final%2520Paper.md#)
+- [Cognition Hazard Rates](./Cognition%2520Hazard%2520Rates.md#)
+- [Cognitive Foreperiod](./Cognitive%2520Foreperiod.md#)
+- [Cognitive Multitasking](./Cognitive%2520Multitasking.md#)
+- [Cognitive Preparation](./Cognitive%2520Preparation.md#)
+- [Cognitive fMTP](./Cognitive%2520fMTP.md#)
+- [Declarative Memory Blending](./Declarative%2520Memory%2520Blending.md#)
+- [Declarative memory](./Declarative%2520memory.md#)
+- [Dikes and Rivers](./Dikes%2520and%2520Rivers.md#)
+- [Implicitly learning when to be ready - From instances to categories](./Implicitly%2520learning%2520when%2520to%2520be%2520ready%2520-%2520From%2520instances%2520to%2520categories.md#)
+- [Mental Fatigue](./Mental%2520Fatigue.md#)
+- [Modeling Driver Behavior with Cognitive Architecture](./Modeling%2520Driver%2520Behavior%2520with%2520Cognitive%2520Architecture.md#)
+- [Modeling motivation using goal competition in mental fatigue studies](./Modeling%2520motivation%2520using%2520goal%2520competition%2520in%2520mental%2520fatigue%2520studies.md#)
+- [On the Distinction Between Perceived Duration and Event Timing - Towards a Unified Model of Time Perception](./On%2520the%2520Distinction%2520Between%2520Perceived%2520Duration%2520and%2520Event%2520Timing%2520-%2520Towards%2520a%2520Unified%2520Model%2520of%2520Time%2520Perception.md#)
+- [Revisiting variable foreperiod effects evaluating the repetition priming account](./Revisiting%2520variable%2520foreperiod%2520effects%2520evaluating%2520the%2520repetition%2520priming%2520account.md#)
+- [Scaled benefits](./Scaled%2520benefits.md#)
+- [Sequential effects within a short foreperiod context Evidence for the conditioning account of temporal preparation](./Sequential%2520effects%2520within%2520a%2520short%2520foreperiod%2520context%2520Evidence%2520for%2520the%2520conditioning%2520account%2520of%2520temporal%2520preparation.md#)
+- [Sugar Factory Task](./Sugar%2520Factory%2520Task.md#)
+- [The Reward Experiment](./The%2520Reward%2520Experiment.md#)
+- [The warning stimulus as retrieval cue The role of associative memory in temporal preparation](./The%2520warning%2520stimulus%2520as%2520retrieval%2520cue%2520The%2520role%2520of%2520associative%2520memory%2520in%2520temporal%2520preparation.md#)
+- [Threaded Cognition](./Threaded%2520Cognition.md#)
+- [Traces of times past Representations of temporal intervals in memory](./Traces%2520of%2520times%2520past%2520Representations%2520of%2520temporal%2520intervals%2520in%2520memory.md#)
+- [You can play 20 questions with nature and win](./You%2520can%2520play%252020%2520questions%2520with%2520nature%2520and%2520win.md#)
