@@ -1,0 +1,15 @@
+---
+toc: true
+title: aphasia
+tags:
+  - brain
+date modified: Monday, October 10th 2022, 2:02:13 pm
+date created: Tuesday, July 26th 2022, 8:33:15 pm
+---
+
+# Aphasia
+- Disturbance of [[language|language]] affecting speech production, comprehension, reading or writing, due to brain injury – most commonly from [[./Stroke|Stroke]] or trauma.
+- The type of aphasia depends on the brain area damaged
+
+
+
