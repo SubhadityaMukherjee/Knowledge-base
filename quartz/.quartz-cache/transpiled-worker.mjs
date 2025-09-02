@@ -11532,7 +11532,7 @@ header h1 {
   flex: auto;
 }
 `;
-var Header_default = /* @__PURE__ */ __name(() => Header, "default");
+var Header_default = /* @__PURE__ */ __name((() => Header), "default");
 
 // quartz/components/scripts/clipboard.inline.ts
 var clipboard_inline_default = "";
@@ -11547,7 +11547,7 @@ var Body = /* @__PURE__ */ __name(({ children }) => {
 }, "Body");
 Body.afterDOMLoaded = clipboard_inline_default;
 Body.css = clipboard_default;
-var Body_default = /* @__PURE__ */ __name(() => Body, "default");
+var Body_default = /* @__PURE__ */ __name((() => Body), "default");
 
 // quartz/components/renderPage.tsx
 import { render } from "preact-render-to-string";
@@ -11846,7 +11846,7 @@ var Content = /* @__PURE__ */ __name(({ fileData, tree }) => {
   const classString = ["popover-hint", ...classes].join(" ");
   return /* @__PURE__ */ jsx7("article", { class: classString, children: content });
 }, "Content");
-var Content_default = /* @__PURE__ */ __name(() => Content, "default");
+var Content_default = /* @__PURE__ */ __name((() => Content), "default");
 
 // quartz/components/styles/listPage.scss
 var listPage_default = "";
@@ -11934,7 +11934,7 @@ import { Fragment as Fragment2, jsx as jsx10, jsxs as jsxs4 } from "preact/jsx-r
 var defaultOptions9 = {
   numPages: 10
 };
-var TagContent_default = /* @__PURE__ */ __name((opts) => {
+var TagContent_default = /* @__PURE__ */ __name(((opts) => {
   const options2 = { ...defaultOptions9, ...opts };
   const TagContent = /* @__PURE__ */ __name((props) => {
     const { tree, fileData, allFiles, cfg } = props;
@@ -12008,7 +12008,7 @@ var TagContent_default = /* @__PURE__ */ __name((opts) => {
   }, "TagContent");
   TagContent.css = concatenateResources(listPage_default, PageList.css);
   return TagContent;
-}, "default");
+}), "default");
 
 // quartz/util/fileTrie.ts
 var FileTrieNode = class _FileTrieNode {
@@ -12166,7 +12166,7 @@ var defaultOptions10 = {
   showFolderCount: true,
   showSubfolders: true
 };
-var FolderContent_default = /* @__PURE__ */ __name((opts) => {
+var FolderContent_default = /* @__PURE__ */ __name(((opts) => {
   const options2 = { ...defaultOptions10, ...opts };
   const FolderContent = /* @__PURE__ */ __name((props) => {
     const { tree, fileData, allFiles, cfg } = props;
@@ -12235,7 +12235,7 @@ var FolderContent_default = /* @__PURE__ */ __name((opts) => {
   }, "FolderContent");
   FolderContent.css = concatenateResources(listPage_default, PageList.css);
   return FolderContent;
-}, "default");
+}), "default");
 
 // quartz/components/pages/404.tsx
 import { jsx as jsx12, jsxs as jsxs6 } from "preact/jsx-runtime";
@@ -12248,7 +12248,7 @@ var NotFound = /* @__PURE__ */ __name(({ cfg }) => {
     /* @__PURE__ */ jsx12("a", { href: baseDir, children: i18n(cfg.locale).pages.error.home })
   ] });
 }, "NotFound");
-var __default = /* @__PURE__ */ __name(() => NotFound, "default");
+var __default = /* @__PURE__ */ __name((() => NotFound), "default");
 
 // quartz/components/ArticleTitle.tsx
 import { jsx as jsx13 } from "preact/jsx-runtime";
@@ -12265,7 +12265,7 @@ ArticleTitle.css = `
   margin: 2rem 0 0 0;
 }
 `;
-var ArticleTitle_default = /* @__PURE__ */ __name(() => ArticleTitle, "default");
+var ArticleTitle_default = /* @__PURE__ */ __name((() => ArticleTitle), "default");
 
 // quartz/components/scripts/darkmode.inline.ts
 var darkmode_inline_default = "";
@@ -12319,7 +12319,7 @@ var Darkmode = /* @__PURE__ */ __name(({ displayClass, cfg }) => {
 }, "Darkmode");
 Darkmode.beforeDOMLoaded = darkmode_inline_default;
 Darkmode.css = darkmode_default;
-var Darkmode_default = /* @__PURE__ */ __name(() => Darkmode, "default");
+var Darkmode_default = /* @__PURE__ */ __name((() => Darkmode), "default");
 
 // quartz/components/scripts/readermode.inline.ts
 var readermode_inline_default = "";
@@ -12355,7 +12355,7 @@ var ReaderMode = /* @__PURE__ */ __name(({ displayClass, cfg }) => {
 }, "ReaderMode");
 ReaderMode.beforeDOMLoaded = readermode_inline_default;
 ReaderMode.css = readermode_default;
-var ReaderMode_default = /* @__PURE__ */ __name(() => ReaderMode, "default");
+var ReaderMode_default = /* @__PURE__ */ __name((() => ReaderMode), "default");
 
 // quartz/util/theme.ts
 var DEFAULT_SANS_SERIF = 'system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"';
@@ -12951,7 +12951,7 @@ var CustomOgImages = /* @__PURE__ */ __name((userOpts) => {
 
 // quartz/components/Head.tsx
 import { Fragment as Fragment4, jsx as jsx18, jsxs as jsxs11 } from "preact/jsx-runtime";
-var Head_default = /* @__PURE__ */ __name(() => {
+var Head_default = /* @__PURE__ */ __name((() => {
   const Head = /* @__PURE__ */ __name(({
     cfg,
     fileData,
@@ -13022,7 +13022,7 @@ var Head_default = /* @__PURE__ */ __name(() => {
     ] });
   }, "Head");
   return Head;
-}, "default");
+}), "default");
 
 // quartz/components/PageTitle.tsx
 import { jsx as jsx19 } from "preact/jsx-runtime";
@@ -13038,7 +13038,7 @@ PageTitle.css = `
   font-family: var(--titleFont);
 }
 `;
-var PageTitle_default = /* @__PURE__ */ __name(() => PageTitle, "default");
+var PageTitle_default = /* @__PURE__ */ __name((() => PageTitle), "default");
 
 // quartz/components/ContentMeta.tsx
 import readingTime2 from "reading-time";
@@ -13052,7 +13052,7 @@ var defaultOptions12 = {
   showReadingTime: true,
   showComma: true
 };
-var ContentMeta_default = /* @__PURE__ */ __name((opts) => {
+var ContentMeta_default = /* @__PURE__ */ __name(((opts) => {
   const options2 = { ...defaultOptions12, ...opts };
   function ContentMetadata({ cfg, fileData, displayClass }) {
     const text = fileData.text;
@@ -13076,7 +13076,7 @@ var ContentMeta_default = /* @__PURE__ */ __name((opts) => {
   __name(ContentMetadata, "ContentMetadata");
   ContentMetadata.css = contentMeta_default;
   return ContentMetadata;
-}, "default");
+}), "default");
 
 // quartz/components/Spacer.tsx
 import { jsx as jsx21 } from "preact/jsx-runtime";
@@ -13084,7 +13084,7 @@ function Spacer({ displayClass }) {
   return /* @__PURE__ */ jsx21("div", { class: classNames(displayClass, "spacer") });
 }
 __name(Spacer, "Spacer");
-var Spacer_default = /* @__PURE__ */ __name(() => Spacer, "default");
+var Spacer_default = /* @__PURE__ */ __name((() => Spacer), "default");
 
 // quartz/components/styles/legacyToc.scss
 var legacyToc_default = "";
@@ -13144,7 +13144,7 @@ var defaultOptions13 = {
   layout: "modern"
 };
 var numTocs = 0;
-var TableOfContents_default = /* @__PURE__ */ __name((opts) => {
+var TableOfContents_default = /* @__PURE__ */ __name(((opts) => {
   const layout = opts?.layout ?? defaultOptions13.layout;
   const { OverflowList: OverflowList2, overflowListAfterDOMLoaded } = OverflowList_default();
   const TableOfContents2 = /* @__PURE__ */ __name(({
@@ -13208,7 +13208,7 @@ var TableOfContents_default = /* @__PURE__ */ __name((opts) => {
   }, "LegacyTableOfContents");
   LegacyTableOfContents.css = legacyToc_default;
   return layout === "modern" ? TableOfContents2 : LegacyTableOfContents;
-}, "default");
+}), "default");
 
 // quartz/components/styles/explorer.scss
 var explorer_default = "";
@@ -13242,7 +13242,7 @@ var defaultOptions14 = {
   order: ["filter", "map", "sort"]
 };
 var numExplorers = 0;
-var Explorer_default = /* @__PURE__ */ __name((userOpts) => {
+var Explorer_default = /* @__PURE__ */ __name(((userOpts) => {
   const opts = { ...defaultOptions14, ...userOpts };
   const { OverflowList: OverflowList2, overflowListAfterDOMLoaded } = OverflowList_default();
   const Explorer = /* @__PURE__ */ __name(({ cfg, displayClass }) => {
@@ -13347,7 +13347,7 @@ var Explorer_default = /* @__PURE__ */ __name((userOpts) => {
   Explorer.css = explorer_default;
   Explorer.afterDOMLoaded = concatenateResources(explorer_inline_default, overflowListAfterDOMLoaded);
   return Explorer;
-}, "default");
+}), "default");
 
 // quartz/components/TagList.tsx
 import { jsx as jsx25 } from "preact/jsx-runtime";
@@ -13390,7 +13390,7 @@ a.internal.tag-link {
   margin: 0 0.1rem;
 }
 `;
-var TagList_default = /* @__PURE__ */ __name(() => TagList, "default");
+var TagList_default = /* @__PURE__ */ __name((() => TagList), "default");
 
 // quartz/components/scripts/graph.inline.ts
 var graph_inline_default = "";
@@ -13432,7 +13432,7 @@ var defaultOptions15 = {
     enableRadial: true
   }
 };
-var Graph_default = /* @__PURE__ */ __name((opts) => {
+var Graph_default = /* @__PURE__ */ __name(((opts) => {
   const Graph = /* @__PURE__ */ __name(({ displayClass, cfg }) => {
     const localGraph = { ...defaultOptions15.localGraph, ...opts?.localGraph };
     const globalGraph = { ...defaultOptions15.globalGraph, ...opts?.globalGraph };
@@ -13466,7 +13466,7 @@ var Graph_default = /* @__PURE__ */ __name((opts) => {
   Graph.css = graph_default;
   Graph.afterDOMLoaded = graph_inline_default;
   return Graph;
-}, "default");
+}), "default");
 
 // quartz/components/styles/backlinks.scss
 var backlinks_default = "";
@@ -13476,7 +13476,7 @@ import { jsx as jsx27, jsxs as jsxs16 } from "preact/jsx-runtime";
 var defaultOptions16 = {
   hideWhenEmpty: true
 };
-var Backlinks_default = /* @__PURE__ */ __name((opts) => {
+var Backlinks_default = /* @__PURE__ */ __name(((opts) => {
   const options2 = { ...defaultOptions16, ...opts };
   const { OverflowList: OverflowList2, overflowListAfterDOMLoaded } = OverflowList_default();
   const Backlinks = /* @__PURE__ */ __name(({
@@ -13498,7 +13498,7 @@ var Backlinks_default = /* @__PURE__ */ __name((opts) => {
   Backlinks.css = backlinks_default;
   Backlinks.afterDOMLoaded = overflowListAfterDOMLoaded;
   return Backlinks;
-}, "default");
+}), "default");
 
 // quartz/components/styles/search.scss
 var search_default = "";
@@ -13511,7 +13511,7 @@ import { jsx as jsx28, jsxs as jsxs17 } from "preact/jsx-runtime";
 var defaultOptions17 = {
   enablePreview: true
 };
-var Search_default = /* @__PURE__ */ __name((userOpts) => {
+var Search_default = /* @__PURE__ */ __name(((userOpts) => {
   const Search = /* @__PURE__ */ __name(({ displayClass, cfg }) => {
     const opts = { ...defaultOptions17, ...userOpts };
     const searchPlaceholder = i18n(cfg.locale).components.search.searchBarPlaceholder;
@@ -13545,7 +13545,7 @@ var Search_default = /* @__PURE__ */ __name((userOpts) => {
   Search.afterDOMLoaded = search_inline_default;
   Search.css = search_default;
   return Search;
-}, "default");
+}), "default");
 
 // quartz/components/styles/footer.scss
 var footer_default = "";
@@ -13555,7 +13555,7 @@ var version = "4.5.1";
 
 // quartz/components/Footer.tsx
 import { jsx as jsx29, jsxs as jsxs18 } from "preact/jsx-runtime";
-var Footer_default = /* @__PURE__ */ __name((opts) => {
+var Footer_default = /* @__PURE__ */ __name(((opts) => {
   const Footer = /* @__PURE__ */ __name(({ displayClass, cfg }) => {
     const year = (/* @__PURE__ */ new Date()).getFullYear();
     const links = opts?.links ?? [];
@@ -13575,11 +13575,11 @@ var Footer_default = /* @__PURE__ */ __name((opts) => {
   }, "Footer");
   Footer.css = footer_default;
   return Footer;
-}, "default");
+}), "default");
 
 // quartz/components/DesktopOnly.tsx
 import { jsx as jsx30 } from "preact/jsx-runtime";
-var DesktopOnly_default = /* @__PURE__ */ __name((component) => {
+var DesktopOnly_default = /* @__PURE__ */ __name(((component) => {
   const Component = component;
   const DesktopOnly = /* @__PURE__ */ __name((props) => {
     return /* @__PURE__ */ jsx30(Component, { displayClass: "desktop-only", ...props });
@@ -13589,11 +13589,11 @@ var DesktopOnly_default = /* @__PURE__ */ __name((component) => {
   DesktopOnly.beforeDOMLoaded = component?.beforeDOMLoaded;
   DesktopOnly.css = component?.css;
   return DesktopOnly;
-}, "default");
+}), "default");
 
 // quartz/components/MobileOnly.tsx
 import { jsx as jsx31 } from "preact/jsx-runtime";
-var MobileOnly_default = /* @__PURE__ */ __name((component) => {
+var MobileOnly_default = /* @__PURE__ */ __name(((component) => {
   const Component = component;
   const MobileOnly = /* @__PURE__ */ __name((props) => {
     return /* @__PURE__ */ jsx31(Component, { displayClass: "mobile-only", ...props });
@@ -13603,7 +13603,7 @@ var MobileOnly_default = /* @__PURE__ */ __name((component) => {
   MobileOnly.beforeDOMLoaded = component?.beforeDOMLoaded;
   MobileOnly.css = component?.css;
   return MobileOnly;
-}, "default");
+}), "default");
 
 // quartz/components/RecentNotes.tsx
 import { jsx as jsx32, jsxs as jsxs19 } from "preact/jsx-runtime";
@@ -13626,7 +13626,7 @@ function formatCrumb(displayName, baseSlug, currentSlug) {
   };
 }
 __name(formatCrumb, "formatCrumb");
-var Breadcrumbs_default = /* @__PURE__ */ __name((opts) => {
+var Breadcrumbs_default = /* @__PURE__ */ __name(((opts) => {
   const options2 = { ...defaultOptions18, ...opts };
   const Breadcrumbs = /* @__PURE__ */ __name(({
     fileData,
@@ -13660,14 +13660,14 @@ var Breadcrumbs_default = /* @__PURE__ */ __name((opts) => {
   }, "Breadcrumbs");
   Breadcrumbs.css = breadcrumbs_default;
   return Breadcrumbs;
-}, "default");
+}), "default");
 
 // quartz/components/Comments.tsx
 import { Fragment as Fragment5, jsx as jsx34 } from "preact/jsx-runtime";
 
 // quartz/components/Flex.tsx
 import { jsx as jsx35 } from "preact/jsx-runtime";
-var Flex_default = /* @__PURE__ */ __name((config2) => {
+var Flex_default = /* @__PURE__ */ __name(((config2) => {
   const Flex = /* @__PURE__ */ __name((props) => {
     const direction = config2.direction ?? "row";
     const wrap = config2.wrap ?? "nowrap";
@@ -13703,11 +13703,11 @@ var Flex_default = /* @__PURE__ */ __name((config2) => {
   );
   Flex.css = concatenateResources(...config2.components.map((c) => c.Component.css));
   return Flex;
-}, "default");
+}), "default");
 
 // quartz/components/ConditionalRender.tsx
 import { jsx as jsx36 } from "preact/jsx-runtime";
-var ConditionalRender_default = /* @__PURE__ */ __name((config2) => {
+var ConditionalRender_default = /* @__PURE__ */ __name(((config2) => {
   const ConditionalRender = /* @__PURE__ */ __name((props) => {
     if (config2.condition(props)) {
       return /* @__PURE__ */ jsx36(config2.component, { ...props });
@@ -13718,7 +13718,44 @@ var ConditionalRender_default = /* @__PURE__ */ __name((config2) => {
   ConditionalRender.beforeDOMLoaded = config2.component.beforeDOMLoaded;
   ConditionalRender.css = config2.component.css;
   return ConditionalRender;
-}, "default");
+}), "default");
+
+// quartz/components/ArtGallery.tsx
+import { readFileSync } from "fs";
+import { join } from "path";
+import { jsx as jsx37, jsxs as jsxs21 } from "preact/jsx-runtime";
+function getArtImages() {
+  try {
+    const artDataPath = join(process.cwd(), "content", "art-data.json");
+    const artData = readFileSync(artDataPath, "utf-8");
+    return JSON.parse(artData);
+  } catch (error) {
+    console.warn("Could not load art-data.json, falling back to empty gallery");
+    return [];
+  }
+}
+__name(getArtImages, "getArtImages");
+function ArtGallery({ fileData, displayClass }) {
+  const artImages = getArtImages();
+  if (artImages.length === 0) {
+    return /* @__PURE__ */ jsx37("div", { className: classNames(displayClass, "art-gallery"), children: /* @__PURE__ */ jsx37("div", { className: "art-gallery-empty", children: /* @__PURE__ */ jsx37("p", { children: "No art images found. Please check your art-data.json file." }) }) });
+  }
+  return /* @__PURE__ */ jsx37("div", { className: classNames(displayClass, "art-gallery"), children: /* @__PURE__ */ jsx37("div", { className: "art-gallery-grid", children: artImages.map((image, index) => /* @__PURE__ */ jsx37("div", { className: "art-gallery-item", children: /* @__PURE__ */ jsxs21("div", { className: "art-gallery-image-container", children: [
+    /* @__PURE__ */ jsx37(
+      "img",
+      {
+        src: image.src,
+        alt: image.alt,
+        title: image.title,
+        loading: "lazy",
+        className: "art-gallery-image"
+      }
+    ),
+    /* @__PURE__ */ jsx37("div", { className: "art-gallery-overlay", children: /* @__PURE__ */ jsx37("div", { className: "art-gallery-title", children: image.title }) })
+  ] }) }, index)) }) });
+}
+__name(ArtGallery, "ArtGallery");
+var ArtGallery_default = /* @__PURE__ */ __name((() => ArtGallery), "default");
 
 // quartz.layout.ts
 var sharedPageComponents = {
@@ -13727,8 +13764,8 @@ var sharedPageComponents = {
   afterBody: [],
   footer: Footer_default({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t"
+      GitHub: "https://github.com/SubhadityaMukherjee/Knowledge-base",
+      LinkedIn: "https://www.linkedin.com/in/subhaditya-mukherjee-a36883100/"
     }
   })
 };
@@ -13780,6 +13817,48 @@ var defaultListPageLayout = {
     Explorer_default()
   ],
   right: []
+};
+var artPageLayout = {
+  beforeBody: [
+    ConditionalRender_default({
+      component: Breadcrumbs_default(),
+      condition: /* @__PURE__ */ __name((page) => page.fileData.slug !== "index", "condition")
+    }),
+    ArticleTitle_default(),
+    ContentMeta_default(),
+    TagList_default()
+  ],
+  left: [
+    PageTitle_default(),
+    MobileOnly_default(Spacer_default()),
+    Flex_default({
+      components: [
+        {
+          Component: Search_default(),
+          grow: true
+        },
+        { Component: Darkmode_default() },
+        { Component: ReaderMode_default() }
+      ]
+    }),
+    Explorer_default()
+  ],
+  right: [
+    Graph_default(),
+    DesktopOnly_default(TableOfContents_default()),
+    Backlinks_default()
+  ]
+};
+var artPageSharedLayout = {
+  head: Head_default(),
+  header: [],
+  afterBody: [ArtGallery_default()],
+  footer: Footer_default({
+    links: {
+      GitHub: "https://github.com/SubhadityaMukherjee/Knowledge-base",
+      LinkedIn: "https://www.linkedin.com/in/subhaditya-mukherjee-a36883100/"
+    }
+  })
 };
 
 // quartz/plugins/emitters/contentPage.tsx
@@ -14119,7 +14198,7 @@ var FolderPage = /* @__PURE__ */ __name((userOpts) => {
 
 // quartz/plugins/emitters/contentIndex.tsx
 import { toHtml as toHtml2 } from "hast-util-to-html";
-import { jsx as jsx37 } from "preact/jsx-runtime";
+import { jsx as jsx38 } from "preact/jsx-runtime";
 var defaultOptions19 = {
   enableSiteMap: true,
   enableRSS: true,
@@ -14230,7 +14309,7 @@ var ContentIndex = /* @__PURE__ */ __name((opts) => {
       if (opts?.enableRSS) {
         return {
           additionalHead: [
-            /* @__PURE__ */ jsx37(
+            /* @__PURE__ */ jsx38(
               "link",
               {
                 rel: "alternate",
@@ -14750,19 +14829,81 @@ var NotFoundPage = /* @__PURE__ */ __name(() => {
   };
 }, "NotFoundPage");
 
+// quartz/plugins/emitters/artPage.tsx
+async function processArtPage(ctx, tree, fileData, allFiles, opts, resources) {
+  const slug = fileData.slug;
+  const cfg = ctx.cfg.configuration;
+  const externalResources = pageResources(pathToRoot(slug), resources);
+  const componentData = {
+    ctx,
+    fileData,
+    externalResources,
+    cfg,
+    children: [],
+    tree,
+    allFiles
+  };
+  const content = renderPage(cfg, slug, componentData, opts, externalResources);
+  return write({
+    ctx,
+    content,
+    slug,
+    ext: ".html"
+  });
+}
+__name(processArtPage, "processArtPage");
+var ArtPage = /* @__PURE__ */ __name((userOpts) => {
+  const opts = {
+    ...artPageSharedLayout,
+    ...artPageLayout,
+    pageBody: Content_default(),
+    ...userOpts
+  };
+  const { head: Head, header, beforeBody, pageBody, afterBody, left, right, footer: Footer } = opts;
+  const Header2 = Header_default();
+  const Body2 = Body_default();
+  return {
+    name: "ArtPage",
+    getQuartzComponents() {
+      return [
+        Head,
+        Header2,
+        Body2,
+        ...header,
+        ...beforeBody,
+        pageBody,
+        ...afterBody,
+        ...left,
+        ...right,
+        Footer
+      ];
+    },
+    async *emit(ctx, content, resources) {
+      const allFiles = content.map((c) => c[1].data);
+      for (const [tree, file] of content) {
+        if (file.data.slug === "My-Art") {
+          yield processArtPage(ctx, tree, file.data, allFiles, opts, resources);
+        }
+      }
+    },
+    async *partialEmit() {
+    }
+  };
+}, "ArtPage");
+
 // quartz.config.ts
 var config = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "Subhaditya's KB",
+    pageTitleSuffix: "Welcome to my KB and Art Page",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible"
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "https://subhadityamukherjee.github.io/Knowledge-base/My-Art",
+    ignorePatterns: ["private", "templates", ".obsidian", "Daily Notes", "Mental-Health", "Drafts"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
@@ -14834,7 +14975,8 @@ var config = {
       Favicon(),
       NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      CustomOgImages()
+      CustomOgImages(),
+      ArtPage()
     ]
   }
 };
