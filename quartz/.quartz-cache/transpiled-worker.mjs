@@ -13723,6 +13723,11 @@ var ConditionalRender_default = /* @__PURE__ */ __name(((config2) => {
 // content/art-data.json
 var art_data_default = [
   {
+    src: "art_images/The_Botherlands.webp",
+    alt: "The Botherlands",
+    title: "The Botherlands"
+  },
+  {
     src: "art_images/boat_people.webp",
     alt: "River people",
     title: "River people"
@@ -13763,7 +13768,7 @@ var art_data_default = [
     title: "My Grandma"
   },
   {
-    src: "art_images/WhatsApp Image 2025-06-12 at 20.55.31.webp",
+    src: "art_images/WhatsApp_Image_2025-06-12_at_20.55.31.webp",
     alt: "Black Myth Wukong and Elden ring fan art",
     title: "Black Myth Wukong and Elden ring fan art"
   },
@@ -13773,7 +13778,7 @@ var art_data_default = [
     title: "Owl friend"
   },
   {
-    src: "art_images/WhatsApp Image 2025-06-28 at 21.22.47 1.webp",
+    src: "art_images/WhatsApp_Image_2025-06-28_at_21.22.47_1.webp",
     alt: "Christmas card 2024",
     title: "Christmas card 2024"
   },
@@ -13788,7 +13793,7 @@ var art_data_default = [
     title: "A scene from the Mahabharata"
   },
   {
-    src: "art_images/Untitled_Artwork 8 2.webp",
+    src: "art_images/Untitled_Artwork_8_2.webp",
     alt: "Tiny frens",
     title: "Tiny frens"
   },
@@ -13798,7 +13803,7 @@ var art_data_default = [
     title: "That is a giant flower innit?"
   },
   {
-    src: "art_images/Project (20250303082959).webp",
+    src: "art_images/Project_(20250303082959).webp",
     alt: "Valentines day",
     title: "Valentines day"
   },
@@ -13808,27 +13813,27 @@ var art_data_default = [
     title: "Tree grandpa"
   },
   {
-    src: "art_images/Untitled_Artwork 2 1.webp",
+    src: "art_images/Untitled_Artwork_2_1.webp",
     alt: "Onward my noble steed",
     title: "Onward my noble steed"
   },
   {
-    src: "art_images/Untitled_Artwork 21.webp",
+    src: "art_images/Untitled_Artwork_21.webp",
     alt: "Assasins creed Egypt?",
     title: "Assasins creed Egypt?"
   },
   {
-    src: "art_images/Untitled - 2 June 2024 15.34.webp",
+    src: "art_images/Untitled_-_2_June_2024_15.34.webp",
     alt: "Happy new year 2025",
     title: "Happy new year 2025"
   },
   {
-    src: "art_images/Untitled - 9 March 2024 17.03.25.webp",
+    src: "art_images/Untitled_-_9_March_2024_17.03.25.webp",
     alt: "Niffler (Fantastic beasts and where to find them) fan art",
     title: "Niffler (Fantastic beasts and where to find them) fan art"
   },
   {
-    src: "art_images/Untitled_Artwork 5.webp",
+    src: "art_images/Untitled_Artwork_5.webp",
     alt: "Finch fan art - where I ask my partner out",
     title: "Finch fan art - where I ask my partner out"
   },
@@ -13838,7 +13843,7 @@ var art_data_default = [
     title: "Black myth wukong fan art"
   },
   {
-    src: "art_images/Untitled_Artwork 1.webp",
+    src: "art_images/Untitled_Artwork_1.webp",
     alt: "Modern family fan art (lily as a baby)",
     title: "Modern family fan art (lily as a baby)"
   },
@@ -13858,12 +13863,12 @@ var art_data_default = [
     title: "Pingu"
   },
   {
-    src: "art_images/Untitled_Artwork 15 (copy 1).webp",
+    src: "art_images/Untitled_Artwork_15_(copy_1).webp",
     alt: "Wizard kitty",
     title: "Wizard kitty"
   },
   {
-    src: "art_images/Untitled_Artwork 30 (copy 1).webp",
+    src: "art_images/Untitled_Artwork_30_(copy_1).webp",
     alt: "Cotton (from instagram)",
     title: "Cotton (from instagram)"
   },
@@ -13883,12 +13888,12 @@ var art_data_default = [
     title: "Just a cute parrot"
   },
   {
-    src: "art_images/Untitled_Artwork 1 6.webp",
+    src: "art_images/Untitled_Artwork_1_6.webp",
     alt: "One of my friend's pets",
     title: "One of my friend's pets"
   },
   {
-    src: "art_images/Untitled_Artwork 70.webp",
+    src: "art_images/Untitled_Artwork_70.webp",
     alt: "Zhongli staring at his old friends (Genshin Impact fan art)",
     title: "Zhongli staring at his old friends (Genshin Impact fan art)"
   },
@@ -13903,18 +13908,21 @@ var art_data_default = [
 import { jsx as jsx37, jsxs as jsxs21 } from "preact/jsx-runtime";
 var artImages = art_data_default;
 function ArtGallery({ displayClass }) {
-  return /* @__PURE__ */ jsx37("div", { className: classNames(displayClass, "art-gallery"), children: artImages.length === 0 ? /* @__PURE__ */ jsx37("div", { className: "art-gallery-empty", children: /* @__PURE__ */ jsx37("p", { children: "No art images found. Please check your art-data.json file." }) }) : /* @__PURE__ */ jsx37("div", { className: "art-gallery-grid", children: artImages.map((image, index) => /* @__PURE__ */ jsx37("div", { className: "art-gallery-item", children: /* @__PURE__ */ jsxs21("div", { className: "art-gallery-image-container", children: [
+  return /* @__PURE__ */ jsx37("div", { className: classNames(displayClass, "art-gallery"), children: artImages.length === 0 ? /* @__PURE__ */ jsx37("div", { className: "art-gallery-empty", children: /* @__PURE__ */ jsx37("p", { children: "No art images found. Please check your art-data.json file." }) }) : /* @__PURE__ */ jsx37("div", { className: "art-gallery-grid", children: artImages.map((image, index) => /* @__PURE__ */ jsx37("div", { className: "art-gallery-item", onClick: () => window.open(image.src, "_blank"), children: /* @__PURE__ */ jsxs21("div", { className: "art-gallery-image-container", children: [
     /* @__PURE__ */ jsx37(
       "img",
       {
         src: image.src,
         alt: image.alt,
-        title: image.title,
+        title: `${image.title} - Click to view full size`,
         loading: "lazy",
         className: "art-gallery-image"
       }
     ),
-    /* @__PURE__ */ jsx37("div", { className: "art-gallery-overlay", children: /* @__PURE__ */ jsx37("div", { className: "art-gallery-title", children: image.title }) })
+    /* @__PURE__ */ jsxs21("div", { className: "art-gallery-overlay", children: [
+      /* @__PURE__ */ jsx37("div", { className: "art-gallery-title", children: image.title }),
+      /* @__PURE__ */ jsx37("div", { className: "art-gallery-click-hint", children: "Click to view full size" })
+    ] })
   ] }) }, index)) }) });
 }
 __name(ArtGallery, "ArtGallery");
