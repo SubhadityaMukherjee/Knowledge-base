@@ -6,6 +6,7 @@ tags:
 date modified: 
 date created: 13-07-2024
 publish: "false"
+draft: true
 ---
 
 # What I Learnt About Myself the Past Two Years

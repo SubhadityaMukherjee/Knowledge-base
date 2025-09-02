@@ -6,6 +6,7 @@ tags:
 date modified: 
 date created: 
 publish: "false"
+draft: true
 ---
 # A letter to my junior school art teacher - David Fitzgerald
 

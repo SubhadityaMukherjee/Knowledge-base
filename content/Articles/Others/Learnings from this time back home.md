@@ -6,6 +6,7 @@ tags:
 date modified: 
 date created: 
 publish: "false"
+draft: true
 ---
 # Lessons for future me : Part 1 - 31st Aug 2022
 

@@ -8,16 +8,16 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "Subhaditya's KB",
+    pageTitleSuffix: "Welcome to my KB and Art Page",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "https://subhadityamukherjee.github.io/Knowledge-base/My-Art",
+    ignorePatterns: ["private", "templates", ".obsidian", "Daily Notes", "Mental-Health", "Drafts"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
