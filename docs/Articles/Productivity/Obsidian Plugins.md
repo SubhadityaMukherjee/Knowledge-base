@@ -1,4 +1,3 @@
-
 ---
 toc: true
 title: Obsidian Plugins

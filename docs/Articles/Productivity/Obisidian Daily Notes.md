@@ -1,4 +1,3 @@
-
 ---
 toc: true
 title: Obisidian Daily Notes

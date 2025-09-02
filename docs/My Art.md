@@ -6,6 +6,7 @@ tags:
 date modified: Friday 27th June 2025, Fri
 date created: Friday 27th June 2025, Fri
 zoom: "true"
+share: "true"
 ---
 
 # My Art
@@ -19,6 +20,9 @@ zoom: "true"
 - Everything here is either drawn using Gouache or on [Procreate](https://procreate.com/)
 - For commissions : Try sending me an [Email](mailto:msubhaditya@gmail.com) . (Warning, this is completely dependant on how much time I have)
 ## Art
+- River people ![[boat_people.webp]]
+- A dragon food stall concept ![[dragon_cafe_doodle.webp]]
+- Inspired by narnia and a hotel in Leiden ([Paco Ciao](https://www.instagram.com/p/Cd1mxXLInpu/))![[Narnia.webp]]
 - I had an 8 hour lay over at [Abu dhabi airport](https://www.zayedinternationalairport.ae/en/)![[Abu_Dhabi_Airport.webp]]
 - It was some really good ramen (from [Takumi ramen amsterdam](https://maps.app.goo.gl/kRXNGcHGGi4c24Wu8)) though ;p , Jul 2025![[Untitled_Artwork.webp]]
 - Okay hear me out - Elden ring (Erdtree) + Harry potter (Quidditch) , Jul 2025![[eldhar.webp]]
@@ -27,6 +31,7 @@ zoom: "true"
 - Black Myth Wukong and Elden ring fan art![[WhatsApp Image 2025-06-12 at 20.55.31.webp]]
 - Owl friend![[owl.webp]]
 - Christmas card 2024![[WhatsApp Image 2025-06-28 at 21.22.47 1.webp]]
+- For my moms birthday 2025 ![[mumbday25.webp]]
 - A scene from the Mahabharata![[IMG_0197.webp]]
 - Tiny frens![[Untitled_Artwork 8 2.webp]]
 - That is a giant flower innit?![[flower.webp]]
@@ -36,7 +41,7 @@ zoom: "true"
 - Assasins creed Egypt?![[Untitled_Artwork 21.webp]]
 - Happy new year 2025![[Untitled - 2 June 2024 15.34.webp]]
 - Niffler (Fantastic beasts and where to find them) fan art![[Untitled - 9 March 2024 17.03.25.webp]]
-- This was for my mum![[art_images/Untitled_Artwork.webp]]
+
 - Finch fan art - where I ask my partner out![[Untitled_Artwork 5.webp]]
 - Black myth wukong fan art![[Illustration24.webp]]
 - Modern family fan art (lily as a baby)![[Untitled_Artwork 1.webp]]

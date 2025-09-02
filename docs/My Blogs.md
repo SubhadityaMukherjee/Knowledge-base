@@ -46,7 +46,7 @@ A thesis is a rather long document, but by this point, you hopefully have writte
 ...
 ```
 
-- [[Ai_for_startups]]
+- [[Hitchhikers Guide to AI for Startups]]
 
 ```md
 

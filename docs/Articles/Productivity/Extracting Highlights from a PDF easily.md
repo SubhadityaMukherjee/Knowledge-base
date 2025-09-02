@@ -1,4 +1,3 @@
-
 ---
 toc: true
 title: Extracting Highlights from a PDF easily

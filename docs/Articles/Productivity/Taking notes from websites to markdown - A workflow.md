@@ -1,4 +1,3 @@
-
 ---
 toc: true
 title: Taking notes from websites to markdown - A workflow

@@ -1,4 +1,3 @@
-
 ---
 toc: true
 title: Extensions that make writing research papers easier
