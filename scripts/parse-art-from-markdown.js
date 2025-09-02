@@ -14,6 +14,7 @@ const __dirname = path.dirname(__filename);
 
 const MARKDOWN_PATH = path.join(process.cwd(), 'content', 'My Art.md');
 const ART_DATA_PATH = path.join(process.cwd(), 'content', 'art-data.json');
+const ART_DATA_TS_PATH = path.join(process.cwd(), 'quartz', 'data', 'artData.ts');
 
 function parseArtFromMarkdown() {
   try {
@@ -48,8 +49,20 @@ function parseArtFromMarkdown() {
     // Save the parsed data
     fs.writeFileSync(ART_DATA_PATH, JSON.stringify(artPieces, null, 2));
     
+    // Generate TypeScript file
+    const tsContent = `export interface ArtImage {
+  src: string
+  alt: string
+  title?: string
+}
+
+export const artImages: ArtImage[] = ${JSON.stringify(artPieces, null, 2)}
+`;
+    
+    fs.writeFileSync(ART_DATA_TS_PATH, tsContent);
+    
     console.log(`✅ Parsed ${artPieces.length} art pieces from My Art.md`);
-    console.log(`📝 Generated art-data.json`);
+    console.log(`📝 Generated art-data.json and artData.ts`);
     
     // Show a preview
     console.log('\n🎨 Preview of parsed art pieces:');

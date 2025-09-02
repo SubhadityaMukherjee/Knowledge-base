@@ -19,6 +19,7 @@ const __dirname = path.dirname(__filename);
  */
 
 const ART_DATA_PATH = path.join(process.cwd(), 'content', 'art-data.json');
+const ART_DATA_TS_PATH = path.join(process.cwd(), 'quartz', 'data', 'artData.ts');
 const ART_IMAGES_DIR = path.join(process.cwd(), 'content', 'art_images');
 
 function loadArtData() {
@@ -32,8 +33,21 @@ function loadArtData() {
 }
 
 function saveArtData(artData) {
+  // Save JSON file
   fs.writeFileSync(ART_DATA_PATH, JSON.stringify(artData, null, 2));
-  console.log(`✅ Updated art-data.json with ${artData.length} art pieces`);
+  
+  // Generate TypeScript file
+  const tsContent = `export interface ArtImage {
+  src: string
+  alt: string
+  title?: string
+}
+
+export const artImages: ArtImage[] = ${JSON.stringify(artData, null, 2)}
+`;
+  
+  fs.writeFileSync(ART_DATA_TS_PATH, tsContent);
+  console.log(`✅ Updated art-data.json and artData.ts with ${artData.length} art pieces`);
 }
 
 function scanArtImages() {

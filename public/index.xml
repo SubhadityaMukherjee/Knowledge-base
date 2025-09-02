@@ -6,6 +6,12 @@
       <description>Last 10 notes on Subhaditya&#039;s KB</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>My Art</title>
+    <link>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/My-Art</link>
+    <guid>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/My-Art</guid>
+    <description><![CDATA[ My Art About My Art This page showcases my digital and traditional artwork. ]]></description>
+    <pubDate>Tue, 02 Sep 2025 17:34:56 GMT</pubDate>
+  </item><item>
     <title>BookTalk - Piranesi</title>
     <link>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/Articles/BookNotes/BookTalk---Piranesi</link>
     <guid>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/Articles/BookNotes/BookTalk---Piranesi</guid>
@@ -58,12 +64,6 @@
     <link>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/Articles/DL/Notes---Machine-Learning-System-Design</link>
     <guid>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/Articles/DL/Notes---Machine-Learning-System-Design</guid>
     <description><![CDATA[ Notes on “Machine Learning System Design” (for Interviews) by Chip Huyen deeplearning These are my notes on this article by Chip Huyen. ]]></description>
-    <pubDate>Tue, 02 Sep 2025 16:21:10 GMT</pubDate>
-  </item><item>
-    <title>Parsing and Querying Tensorboard logs - A Mini Tutorial</title>
-    <link>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/Articles/DL/Parsing-and-Querying-Tensorboard-logs---A-Mini-Tutorial</link>
-    <guid>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/Articles/DL/Parsing-and-Querying-Tensorboard-logs---A-Mini-Tutorial</guid>
-    <description><![CDATA[ Parsing and Querying Tensorboard logs: A Mini Tutorial So, you wanted to parse your Tensorboard logs, didn’t you? Did you try using GPT-3? OH! GPT-4? Well. ]]></description>
     <pubDate>Tue, 02 Sep 2025 16:21:10 GMT</pubDate>
   </item>
     </channel>

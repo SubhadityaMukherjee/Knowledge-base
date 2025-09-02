@@ -13720,27 +13720,190 @@ var ConditionalRender_default = /* @__PURE__ */ __name(((config2) => {
   return ConditionalRender;
 }), "default");
 
+// content/art-data.json
+var art_data_default = [
+  {
+    src: "art_images/boat_people.webp",
+    alt: "River people",
+    title: "River people"
+  },
+  {
+    src: "art_images/dragon_cafe_doodle.webp",
+    alt: "A dragon food stall concept",
+    title: "A dragon food stall concept"
+  },
+  {
+    src: "art_images/Narnia.webp",
+    alt: "Inspired by narnia and a hotel in Leiden",
+    title: "Inspired by narnia and a hotel in Leiden"
+  },
+  {
+    src: "art_images/Abu_Dhabi_Airport.webp",
+    alt: "8 hour layover at Abu Dhabi airport",
+    title: "8 hour layover at Abu Dhabi airport"
+  },
+  {
+    src: "art_images/Untitled_Artwork.webp",
+    alt: "Really good ramen from Takumi ramen amsterdam",
+    title: "Really good ramen from Takumi ramen amsterdam"
+  },
+  {
+    src: "art_images/eldhar.webp",
+    alt: "Elden ring (Erdtree) + Harry potter (Quidditch)",
+    title: "Elden ring (Erdtree) + Harry potter (Quidditch)"
+  },
+  {
+    src: "art_images/doggo.webp",
+    alt: "Doggo sniffing our peace lily",
+    title: "Doggo sniffing our peace lily"
+  },
+  {
+    src: "art_images/grandma.webp",
+    alt: "My Grandma",
+    title: "My Grandma"
+  },
+  {
+    src: "art_images/WhatsApp Image 2025-06-12 at 20.55.31.webp",
+    alt: "Black Myth Wukong and Elden ring fan art",
+    title: "Black Myth Wukong and Elden ring fan art"
+  },
+  {
+    src: "art_images/owl.webp",
+    alt: "Owl friend",
+    title: "Owl friend"
+  },
+  {
+    src: "art_images/WhatsApp Image 2025-06-28 at 21.22.47 1.webp",
+    alt: "Christmas card 2024",
+    title: "Christmas card 2024"
+  },
+  {
+    src: "art_images/mumbday25.webp",
+    alt: "For my moms birthday 2025",
+    title: "For my moms birthday 2025"
+  },
+  {
+    src: "art_images/IMG_0197.webp",
+    alt: "A scene from the Mahabharata",
+    title: "A scene from the Mahabharata"
+  },
+  {
+    src: "art_images/Untitled_Artwork 8 2.webp",
+    alt: "Tiny frens",
+    title: "Tiny frens"
+  },
+  {
+    src: "art_images/flower.webp",
+    alt: "That is a giant flower innit?",
+    title: "That is a giant flower innit?"
+  },
+  {
+    src: "art_images/Project (20250303082959).webp",
+    alt: "Valentines day",
+    title: "Valentines day"
+  },
+  {
+    src: "art_images/treegrandpa.webp",
+    alt: "Tree grandpa",
+    title: "Tree grandpa"
+  },
+  {
+    src: "art_images/Untitled_Artwork 2 1.webp",
+    alt: "Onward my noble steed",
+    title: "Onward my noble steed"
+  },
+  {
+    src: "art_images/Untitled_Artwork 21.webp",
+    alt: "Assasins creed Egypt?",
+    title: "Assasins creed Egypt?"
+  },
+  {
+    src: "art_images/Untitled - 2 June 2024 15.34.webp",
+    alt: "Happy new year 2025",
+    title: "Happy new year 2025"
+  },
+  {
+    src: "art_images/Untitled - 9 March 2024 17.03.25.webp",
+    alt: "Niffler (Fantastic beasts and where to find them) fan art",
+    title: "Niffler (Fantastic beasts and where to find them) fan art"
+  },
+  {
+    src: "art_images/Untitled_Artwork 5.webp",
+    alt: "Finch fan art - where I ask my partner out",
+    title: "Finch fan art - where I ask my partner out"
+  },
+  {
+    src: "art_images/Illustration24.webp",
+    alt: "Black myth wukong fan art",
+    title: "Black myth wukong fan art"
+  },
+  {
+    src: "art_images/Untitled_Artwork 1.webp",
+    alt: "Modern family fan art (lily as a baby)",
+    title: "Modern family fan art (lily as a baby)"
+  },
+  {
+    src: "art_images/valentines.webp",
+    alt: "Valentines day",
+    title: "Valentines day"
+  },
+  {
+    src: "art_images/cathedral.webp",
+    alt: "Cathedral lady",
+    title: "Cathedral lady"
+  },
+  {
+    src: "art_images/penguin.webp",
+    alt: "Pingu",
+    title: "Pingu"
+  },
+  {
+    src: "art_images/Untitled_Artwork 15 (copy 1).webp",
+    alt: "Wizard kitty",
+    title: "Wizard kitty"
+  },
+  {
+    src: "art_images/Untitled_Artwork 30 (copy 1).webp",
+    alt: "Cotton (from instagram)",
+    title: "Cotton (from instagram)"
+  },
+  {
+    src: "art_images/Chosen.webp",
+    alt: "Posiedon has chosen you",
+    title: "Posiedon has chosen you"
+  },
+  {
+    src: "art_images/Baby_Yoda_.webp",
+    alt: "Baby Yoda (Mandalorian fan art)",
+    title: "Baby Yoda (Mandalorian fan art)"
+  },
+  {
+    src: "art_images/Detective_Feather_.webp",
+    alt: "Just a cute parrot",
+    title: "Just a cute parrot"
+  },
+  {
+    src: "art_images/Untitled_Artwork 1 6.webp",
+    alt: "One of my friend's pets",
+    title: "One of my friend's pets"
+  },
+  {
+    src: "art_images/Untitled_Artwork 70.webp",
+    alt: "Zhongli staring at his old friends (Genshin Impact fan art)",
+    title: "Zhongli staring at his old friends (Genshin Impact fan art)"
+  },
+  {
+    src: "art_images/doodle76.webp",
+    alt: "Quick lil study of fruits",
+    title: "Quick lil study of fruits"
+  }
+];
+
 // quartz/components/ArtGallery.tsx
-import { readFileSync } from "fs";
-import { join } from "path";
 import { jsx as jsx37, jsxs as jsxs21 } from "preact/jsx-runtime";
-function getArtImages() {
-  try {
-    const artDataPath = join(process.cwd(), "content", "art-data.json");
-    const artData = readFileSync(artDataPath, "utf-8");
-    return JSON.parse(artData);
-  } catch (error) {
-    console.warn("Could not load art-data.json, falling back to empty gallery");
-    return [];
-  }
-}
-__name(getArtImages, "getArtImages");
-function ArtGallery({ fileData, displayClass }) {
-  const artImages = getArtImages();
-  if (artImages.length === 0) {
-    return /* @__PURE__ */ jsx37("div", { className: classNames(displayClass, "art-gallery"), children: /* @__PURE__ */ jsx37("div", { className: "art-gallery-empty", children: /* @__PURE__ */ jsx37("p", { children: "No art images found. Please check your art-data.json file." }) }) });
-  }
-  return /* @__PURE__ */ jsx37("div", { className: classNames(displayClass, "art-gallery"), children: /* @__PURE__ */ jsx37("div", { className: "art-gallery-grid", children: artImages.map((image, index) => /* @__PURE__ */ jsx37("div", { className: "art-gallery-item", children: /* @__PURE__ */ jsxs21("div", { className: "art-gallery-image-container", children: [
+var artImages = art_data_default;
+function ArtGallery({ displayClass }) {
+  return /* @__PURE__ */ jsx37("div", { className: classNames(displayClass, "art-gallery"), children: artImages.length === 0 ? /* @__PURE__ */ jsx37("div", { className: "art-gallery-empty", children: /* @__PURE__ */ jsx37("p", { children: "No art images found. Please check your art-data.json file." }) }) : /* @__PURE__ */ jsx37("div", { className: "art-gallery-grid", children: artImages.map((image, index) => /* @__PURE__ */ jsx37("div", { className: "art-gallery-item", children: /* @__PURE__ */ jsxs21("div", { className: "art-gallery-image-container", children: [
     /* @__PURE__ */ jsx37(
       "img",
       {
@@ -13761,7 +13924,12 @@ var ArtGallery_default = /* @__PURE__ */ __name((() => ArtGallery), "default");
 var sharedPageComponents = {
   head: Head_default(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    ConditionalRender_default({
+      component: ArtGallery_default(),
+      condition: /* @__PURE__ */ __name((page) => page.fileData.slug === "My-Art" || page.fileData.slug === "My Art", "condition")
+    })
+  ],
   footer: Footer_default({
     links: {
       GitHub: "https://github.com/SubhadityaMukherjee/Knowledge-base",
@@ -13817,48 +13985,6 @@ var defaultListPageLayout = {
     Explorer_default()
   ],
   right: []
-};
-var artPageLayout = {
-  beforeBody: [
-    ConditionalRender_default({
-      component: Breadcrumbs_default(),
-      condition: /* @__PURE__ */ __name((page) => page.fileData.slug !== "index", "condition")
-    }),
-    ArticleTitle_default(),
-    ContentMeta_default(),
-    TagList_default()
-  ],
-  left: [
-    PageTitle_default(),
-    MobileOnly_default(Spacer_default()),
-    Flex_default({
-      components: [
-        {
-          Component: Search_default(),
-          grow: true
-        },
-        { Component: Darkmode_default() },
-        { Component: ReaderMode_default() }
-      ]
-    }),
-    Explorer_default()
-  ],
-  right: [
-    Graph_default(),
-    DesktopOnly_default(TableOfContents_default()),
-    Backlinks_default()
-  ]
-};
-var artPageSharedLayout = {
-  head: Head_default(),
-  header: [],
-  afterBody: [ArtGallery_default()],
-  footer: Footer_default({
-    links: {
-      GitHub: "https://github.com/SubhadityaMukherjee/Knowledge-base",
-      LinkedIn: "https://www.linkedin.com/in/subhaditya-mukherjee-a36883100/"
-    }
-  })
 };
 
 // quartz/plugins/emitters/contentPage.tsx
@@ -14829,68 +14955,6 @@ var NotFoundPage = /* @__PURE__ */ __name(() => {
   };
 }, "NotFoundPage");
 
-// quartz/plugins/emitters/artPage.tsx
-async function processArtPage(ctx, tree, fileData, allFiles, opts, resources) {
-  const slug = fileData.slug;
-  const cfg = ctx.cfg.configuration;
-  const externalResources = pageResources(pathToRoot(slug), resources);
-  const componentData = {
-    ctx,
-    fileData,
-    externalResources,
-    cfg,
-    children: [],
-    tree,
-    allFiles
-  };
-  const content = renderPage(cfg, slug, componentData, opts, externalResources);
-  return write({
-    ctx,
-    content,
-    slug,
-    ext: ".html"
-  });
-}
-__name(processArtPage, "processArtPage");
-var ArtPage = /* @__PURE__ */ __name((userOpts) => {
-  const opts = {
-    ...artPageSharedLayout,
-    ...artPageLayout,
-    pageBody: Content_default(),
-    ...userOpts
-  };
-  const { head: Head, header, beforeBody, pageBody, afterBody, left, right, footer: Footer } = opts;
-  const Header2 = Header_default();
-  const Body2 = Body_default();
-  return {
-    name: "ArtPage",
-    getQuartzComponents() {
-      return [
-        Head,
-        Header2,
-        Body2,
-        ...header,
-        ...beforeBody,
-        pageBody,
-        ...afterBody,
-        ...left,
-        ...right,
-        Footer
-      ];
-    },
-    async *emit(ctx, content, resources) {
-      const allFiles = content.map((c) => c[1].data);
-      for (const [tree, file] of content) {
-        if (file.data.slug === "My-Art") {
-          yield processArtPage(ctx, tree, file.data, allFiles, opts, resources);
-        }
-      }
-    },
-    async *partialEmit() {
-    }
-  };
-}, "ArtPage");
-
 // quartz.config.ts
 var config = {
   configuration: {
@@ -14975,8 +15039,7 @@ var config = {
       Favicon(),
       NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      CustomOgImages(),
-      ArtPage()
+      CustomOgImages()
     ]
   }
 };

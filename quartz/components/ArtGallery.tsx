@@ -1,7 +1,8 @@
-import { QuartzComponentConstructor, QuartzComponentProps } from "../types"
+import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
-import { readFileSync } from "fs"
-import { join } from "path"
+
+// Import art data from JSON file
+import artData from "../../content/art-data.json"
 
 interface ArtImage {
   src: string
@@ -9,51 +10,36 @@ interface ArtImage {
   title?: string
 }
 
-function getArtImages(): ArtImage[] {
-  try {
-    // Try to read from the art-data.json file
-    const artDataPath = join(process.cwd(), "content", "art-data.json")
-    const artData = readFileSync(artDataPath, "utf-8")
-    return JSON.parse(artData)
-  } catch (error) {
-    console.warn("Could not load art-data.json, falling back to empty gallery")
-    return []
-  }
-}
+const artImages: ArtImage[] = artData as ArtImage[]
 
-function ArtGallery({ fileData, displayClass }: QuartzComponentProps) {
-  const artImages = getArtImages()
-  
-  if (artImages.length === 0) {
-    return (
-      <div className={classNames(displayClass, "art-gallery")}>
+function ArtGallery({ displayClass }: QuartzComponentProps) {
+  return (
+    <div className={classNames(displayClass, "art-gallery")}>
+      {artImages.length === 0 ? (
         <div className="art-gallery-empty">
           <p>No art images found. Please check your art-data.json file.</p>
         </div>
-      </div>
-    )
-  }
-
-  return (
-    <div className={classNames(displayClass, "art-gallery")}>
-      <div className="art-gallery-grid">
-        {artImages.map((image, index) => (
-          <div key={index} className="art-gallery-item">
-            <div className="art-gallery-image-container">
-              <img
-                src={image.src}
-                alt={image.alt}
-                title={image.title}
-                loading="lazy"
-                className="art-gallery-image"
-              />
-              <div className="art-gallery-overlay">
-                <div className="art-gallery-title">{image.title}</div>
+      ) : (
+        <div className="art-gallery-grid">
+          {artImages.map((image, index) => (
+            <div key={index} className="art-gallery-item" onClick={() => window.open(image.src, '_blank')}>
+              <div className="art-gallery-image-container">
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  title={`${image.title} - Click to view full size`}
+                  loading="lazy"
+                  className="art-gallery-image"
+                />
+                <div className="art-gallery-overlay">
+                  <div className="art-gallery-title">{image.title}</div>
+                  <div className="art-gallery-click-hint">Click to view full size</div>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
     </div>
   )
 }

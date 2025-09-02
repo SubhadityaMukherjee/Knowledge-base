@@ -6,7 +6,12 @@ import ArtGallery from "./quartz/components/ArtGallery"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.ConditionalRender({
+      component: ArtGallery(),
+      condition: (page) => page.fileData.slug === "My-Art" || page.fileData.slug === "My Art",
+    }),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/SubhadityaMukherjee/Knowledge-base",
@@ -68,48 +73,4 @@ export const defaultListPageLayout: PageLayout = {
   right: [],
 }
 
-// custom layout for art gallery page
-export const artPageLayout: PageLayout = {
-  beforeBody: [
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
-  ],
-  left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
-      ],
-    }),
-    Component.Explorer(),
-  ],
-  right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
-  ],
-}
 
-// custom shared layout for art gallery page
-export const artPageSharedLayout: SharedLayout = {
-  head: Component.Head(),
-  header: [],
-  afterBody: [ArtGallery()],
-  footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/SubhadityaMukherjee/Knowledge-base",
-      LinkedIn : "https://www.linkedin.com/in/subhaditya-mukherjee-a36883100/",
-    },
-  }),
-}

@@ -1,22 +1,27 @@
 .art-gallery {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 2rem 1rem;
 
   .art-gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 2rem;
     padding: 0;
 
+    @media (max-width: 1024px) {
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 1.5rem;
+    }
+
     @media (max-width: 768px) {
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      gap: 1rem;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.25rem;
     }
 
     @media (max-width: 480px) {
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 0.75rem;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
     }
   }
 
@@ -47,6 +52,13 @@
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    image-rendering: high-quality;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
   }
 
   .art-gallery-overlay {
@@ -77,7 +89,13 @@
     font-size: 0.9rem;
     font-weight: 500;
     line-height: 1.3;
-    margin: 0;
+    margin: 0 0 0.5rem 0;
+  }
+
+  .art-gallery-click-hint {
+    font-size: 0.75rem;
+    opacity: 0.8;
+    font-style: italic;
   }
 
   .art-gallery-empty {
