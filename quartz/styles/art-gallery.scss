@@ -27,7 +27,7 @@
 
   .art-gallery-item {
     position: relative;
-    aspect-ratio: 1;
+    /* Allow natural image aspect ratios */
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -43,14 +43,16 @@
   .art-gallery-image-container {
     position: relative;
     width: 100%;
-    height: 100%;
+    /* Let container height follow image height */
+    height: auto;
     overflow: hidden;
   }
 
   .art-gallery-image {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
+    display: block;
     transition: transform 0.3s ease;
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
