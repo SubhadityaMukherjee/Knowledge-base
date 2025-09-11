@@ -198,4 +198,4 @@ date created: Tuesday 2nd September 2025, Tue
 - docker & cloud run
 
 - The above was OCR'd from images so heres the actual thing
-![[AI Dev Conf-1756842766588.png]]![[AI Dev Conf-1756842766588.png]]![[AI Dev Conf-1756842766586.png]]![[AI Dev Conf-1756842766582.png]]![[AI Dev Conf-1756842766578.png]]![[AI Dev Conf-1756842766578.png]]![[AI Dev Conf-1756842766577.png]]![[AI Dev Conf-1756842766575.png]]
+![[AI Dev Conf-1756842766588.png]]![[AI Dev Conf-1756842766586.png]]![[AI Dev Conf-1756842766582.png]]![[AI Dev Conf-1756842766578.png]]![[AI Dev Conf-1756842766578.png]]![[AI Dev Conf-1756842766577.png]]![[AI Dev Conf-1756842766575.png]]

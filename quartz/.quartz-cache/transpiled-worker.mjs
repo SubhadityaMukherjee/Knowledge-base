@@ -13723,6 +13723,11 @@ var ConditionalRender_default = /* @__PURE__ */ __name(((config2) => {
 // content/art-data.json
 var art_data_default = [
   {
+    src: "art_images/Wedding_Card.webp",
+    alt: "Wedding Card",
+    title: "My wedding card :)"
+  },
+  {
     src: "art_images/The_Botherlands.webp",
     alt: "The Botherlands",
     title: "The Botherlands"
@@ -13914,15 +13919,12 @@ function ArtGallery({ displayClass }) {
       {
         src: image.src,
         alt: image.alt,
-        title: `${image.title} - Click to view full size`,
+        title: `${image.title}`,
         loading: "lazy",
         className: "art-gallery-image"
       }
     ),
-    /* @__PURE__ */ jsxs21("div", { className: "art-gallery-overlay", children: [
-      /* @__PURE__ */ jsx37("div", { className: "art-gallery-title", children: image.title }),
-      /* @__PURE__ */ jsx37("div", { className: "art-gallery-click-hint", children: "Click to view full size" })
-    ] })
+    /* @__PURE__ */ jsx37("div", { className: "art-gallery-overlay", children: /* @__PURE__ */ jsx37("div", { className: "art-gallery-title", children: image.title }) })
   ] }) }, index)) }) });
 }
 __name(ArtGallery, "ArtGallery");

@@ -27,13 +27,12 @@ function ArtGallery({ displayClass }: QuartzComponentProps) {
                 <img
                   src={image.src}
                   alt={image.alt}
-                  title={`${image.title} - Click to view full size`}
+                  title={`${image.title}`}
                   loading="lazy"
                   className="art-gallery-image"
                 />
                 <div className="art-gallery-overlay">
                   <div className="art-gallery-title">{image.title}</div>
-                  <div className="art-gallery-click-hint">Click to view full size</div>
                 </div>
               </div>
             </div>
