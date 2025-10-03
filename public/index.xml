@@ -6,11 +6,29 @@
       <description>Last 10 notes on Subhaditya&#039;s KB</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Essentials for Building Intelligent Systems Using AI</title>
+    <link>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/KB/Conferences/Essentials-for-Building-Intelligent-Systems-Using-AI</link>
+    <guid>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/KB/Conferences/Essentials-for-Building-Intelligent-Systems-Using-AI</guid>
+    <description><![CDATA[ Essentials for Building Intelligent Systems Using AI by Subhaditya Mukherjee OpenML Overview of the session Building AI systems in the real world ! “Advanced/Not cool” topics ahead! So feel free to ask questions :) Limited time, so if you want to know more about something, ask Its okay if something ... ]]></description>
+    <pubDate>Fri, 03 Oct 2025 15:48:16 GMT</pubDate>
+  </item><item>
+    <title>Research Jam presentation 1oct25</title>
+    <link>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/KB/ALFIE/Research-Jam-presentation-1oct25</link>
+    <guid>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/KB/ALFIE/Research-Jam-presentation-1oct25</guid>
+    <description><![CDATA[ Alfie - research jam Overview Generate AI models based on user constraints User : Wants an AI model, might not know what that entails Pitfalls : Bias, loads of extra time, no proper evaluation or explainability Extra sources of information to help guide the user Use cases - Website Accessibility che... ]]></description>
+    <pubDate>Tue, 30 Sep 2025 16:58:15 GMT</pubDate>
+  </item><item>
+    <title>Hosting on prem LLM (SSC)</title>
+    <link>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/KB/Conferences/Hosting-on-prem-LLM-(SSC)</link>
+    <guid>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/KB/Conferences/Hosting-on-prem-LLM-(SSC)</guid>
+    <description><![CDATA[ Hosting on prem LLM (SSC) Hengjian Zhang - AI application support engineer Nvidia ai blueprint monitoring zipkin, grafana prometheus RAG : NeMO retriever + paddle ocr Milvus vector DB Why uva has a chatbot already (so we should as well ;p) Advantages monitoring and safety control NVIDIA inference mi... ]]></description>
+    <pubDate>Thu, 18 Sep 2025 11:12:57 GMT</pubDate>
+  </item><item>
     <title>AI Dev Conf</title>
     <link>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/KB/Conferences/AI-Dev-Conf</link>
     <guid>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/KB/Conferences/AI-Dev-Conf</guid>
     <description><![CDATA[ AI Dev Conf (Amsterdam 29/8/25) Linux foundation &gt; AI myths small business using AI &gt; big seems there’s less AI talent &amp; easier to teach your employees (cuff xD) who is sovereign AI now seems we need open source AI (duh…:-)) vendor lock in (there is some state of sovereign AI report @ linu... ]]></description>
-    <pubDate>Tue, 02 Sep 2025 19:57:04 GMT</pubDate>
+    <pubDate>Thu, 11 Sep 2025 20:18:32 GMT</pubDate>
   </item><item>
     <title>My Art</title>
     <link>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/My-Art</link>
@@ -46,24 +64,6 @@
     <link>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/Articles/DL/AI-and-Doom</link>
     <guid>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/Articles/DL/AI-and-Doom</guid>
     <description><![CDATA[ AI and Doom : The Real Fear and Some Hope Ideas Why do we work : society The pursuit of art Luddites Malthusian mindset Research Why be an artist when there is AI? Just because we have cars, should we stop walking? We taught machines how to speak, but now that they have, why should we stop? AI and R... ]]></description>
-    <pubDate>Tue, 02 Sep 2025 16:21:10 GMT</pubDate>
-  </item><item>
-    <title>Easier Deep Learning Research for Beginners</title>
-    <link>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/Articles/DL/Easier-Deep-Learning-Research-for-Beginners</link>
-    <guid>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/Articles/DL/Easier-Deep-Learning-Research-for-Beginners</guid>
-    <description><![CDATA[ Starting Deep Learning Research (PART 1): A start using FastAI deeplearning {{TOC}} So, you took your first steps into Deep Learning. ]]></description>
-    <pubDate>Tue, 02 Sep 2025 16:21:10 GMT</pubDate>
-  </item><item>
-    <title>Experiments with Temperature</title>
-    <link>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/Articles/DL/Experiments-with-LLM-temperature</link>
-    <guid>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/Articles/DL/Experiments-with-LLM-temperature</guid>
-    <description><![CDATA[ Experimenting with LLM temperature and its effects on answer quality ]]></description>
-    <pubDate>Tue, 02 Sep 2025 16:21:10 GMT</pubDate>
-  </item><item>
-    <title>GRAD</title>
-    <link>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/Articles/DL/GRAD-CAM</link>
-    <guid>https://https://subhadityamukherjee.github.io/Knowledge-base/My-Art/Articles/DL/GRAD-CAM</guid>
-    <description><![CDATA[ GRAD-Cam deeplearning Note: This is a slightly advanced article. ]]></description>
     <pubDate>Tue, 02 Sep 2025 16:21:10 GMT</pubDate>
   </item>
     </channel>
