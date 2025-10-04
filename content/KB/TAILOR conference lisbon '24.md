@@ -1,0 +1,137 @@
+---
+title: TAILOR conference lisbon '24
+toc: true
+tags:
+  - conference
+  - openml
+  - deeplearning
+date modified: Tuesday 3rd September 2024, Tue
+date created: Tuesday 3rd September 2024, Tue
+---
+
+# TAILOR Conference Lisbon '24
+
+```toc
+```
+## Notes from Notebook
+- ![](../images/Pasted%20image%2020240903130546.png)
+- ![](../images/Pasted%20image%2020240903130602.png)
+- ![](../images/Pasted%20image%2020240903130635.png)
+- ![](../images/Pasted%20image%2020240903130642.png)
+- ![](../images/Pasted%20image%2020240903130647.png)
+- ![](../images/Pasted%20image%2020240903130654.png)
+- ![](../images/Pasted%20image%2020240903130700.png)
+- ![](../images/Pasted%20image%2020240903130705.png)
+- ![](../images/Pasted%20image%2020240903130711.png)
+- ![](../images/Pasted%20image%2020240903130716.png)
+- ![](../images/Pasted%20image%2020240903130721.png)
+- ![](../images/Pasted%20image%2020240903130725.png)
+- ![](../images/Pasted%20image%2020240903130729.png)
+
+## OCR Notes - processed with [ChatGPT](ChatGPT.md) 
+- Wendy Ju
+    - Robots should have good manners.
+    - Engagement.
+    - People treat robots like children.
+- Carles Sierra
+    - People are nervous about AI.
+    - Psychopaths
+    - How is this related to AI?
+    - Adapt technology as a community.
+    - Sustainable collective.
+    - Governing the commons.
+    - L'Horta watering communities.
+    - Groups talking about technology.
+    - Ostrom's criteria.
+    - Community arms.
+- "I must be..."
+    - Valve
+    - Goals
+    - Tailor thing
+- Turns out Isabelle is part of this, but they ran out of funds so she couldn't come. XD
+    - Logistics
+    - Breakout Room 5
+    - "Why!"
+    - "I think it's cool to assign teams & make people uncomfortable."
+    - "I am a leader!! (ugh.)"
+    - Short presentation
+    - Neuro
+    - Uncertainty in humans:
+        - State of mind
+        - Semantic
+    - Uncertainty in life is short.
+    - Reasoning shortcuts in NS.
+        - Deterministic vs probabilistic
+        - Concept rehearsal
+    - Feeling weird as a fellow lab member.
+    - Internal vs External symbolic neuro
+    - Symbolic AI
+        - Pointing → Saliency
+        - Wording → RLHF
+        - Approximate retrieval (VSRAGIL)
+        - He just destroyed LIM prompts.
+        - Using the internet as training
+    - LIMs → Good at common sense.
+    - Approximate omniscience
+    - LIMs are masters of style.
+- She hasn't stopped for one second.
+    - KL also now available.
+    - WTF did she actually use, and how is she keeping track of outages?
+- Glioblastoma → Dead.
+    - Low data
+    - Genetic expressions
+    - Multimodal classification
+    - Patching, how?
+    - Pankaj Pandey → FNFIELD
+    - Started in Norway
+    - Adaptive, green, trustworthy
+    - Dislike (hate) stable diffusion
+- Explainable Malware Detection
+    - Ontologies as explanation?
+    - Concept learning, but what model?
+    - They published a lot though.
+- Trustworthy robotic teammates
+    - Humans seem to trust robots less initially but more over time compared to other humans.
+    - What forms the expectation? Set low expectations.
+- Collaborative Human-AI
+    - Trusting black-box models
+    - Started with the theory of mind, now game theory
+    - AI is the new steam engine?
+    - Transpilation 2. (Quantum)
+- Federalized NSGA-II
+    - Soft unification
+    - Class distribution bias
+    - Spectrogram → Original biological component.
+    - Perturbation → Robustness distribution.
+    - What kind of perturbations?
+    - How distribution?
+    - Safety requirements.
+    - Operation
+- Standardization & legal means.
+    - Fundamental research → End user?
+    - B2B vs B2C
+    - Companies don’t care about research.
+    - Academia doesn’t care about the product.
+    - AI: No time to wait for results, collaborative research.
+    - Transfer Lab = Industry + Academia.
+    - AI combines the chain, but customers own the data, not us.
+    - Trust the platform.
+    - European data space.
+    - Business model → Safety
+    - Standardization & funding
+    - B2B
+- People are skeptical of their own abilities.
+    - The more you know, the less you trust.
+    - Replica AI → Social AI?
+    - Tailor individual collaboration.
+    - Certification for AI?
+    - Politics
+    - Methods for trusted AI?
+    - Evaluation tools.
+    - Neural explicit models.
+    - Valves → Code: Schwartz theory
+    - Goals are proxies of values.
+    - Optimize for fairness.
+    - Privacy vs Trust.
+    - Choices
+    - Differences in values across cultures.

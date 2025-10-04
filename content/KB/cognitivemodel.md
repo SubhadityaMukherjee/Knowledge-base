@@ -1,0 +1,31 @@
+
+---
+tags: ['anchor']
+---
+
+- [ACT-R Chunk](ACT-R%20Chunk.md)
+- [ACT-R](ACT-R.md)
+- [Active tracking](Active%20tracking.md)
+- [CogMod Final Paper](CogMod%20Final%20Paper.md)
+- [Cognition Hazard Rates](Cognition%20Hazard%20Rates.md)
+- [Cognitive Foreperiod](Cognitive%20Foreperiod.md)
+- [Cognitive Multitasking](Cognitive%20Multitasking.md)
+- [Cognitive Preparation](Cognitive%20Preparation.md)
+- [Cognitive fMTP](Cognitive%20fMTP.md)
+- [Declarative Memory Blending](Declarative%20Memory%20Blending.md)
+- [Declarative memory](Declarative%20memory.md)
+- [Dikes and Rivers](Dikes%20and%20Rivers.md)
+- [Implicitly learning when to be ready - From instances to categories](Implicitly%20learning%20when%20to%20be%20ready%20-%20From%20instances%20to%20categories.md)
+- [Mental Fatigue](Mental%20Fatigue.md)
+- [Modeling Driver Behavior with Cognitive Architecture](Modeling%20Driver%20Behavior%20with%20Cognitive%20Architecture.md)
+- [Modeling motivation using goal competition in mental fatigue studies](Modeling%20motivation%20using%20goal%20competition%20in%20mental%20fatigue%20studies.md)
+- [On the Distinction Between Perceived Duration and Event Timing - Towards a Unified Model of Time Perception](On%20the%20Distinction%20Between%20Perceived%20Duration%20and%20Event%20Timing%20-%20Towards%20a%20Unified%20Model%20of%20Time%20Perception.md)
+- [Revisiting variable foreperiod effects evaluating the repetition priming account](Revisiting%20variable%20foreperiod%20effects%20evaluating%20the%20repetition%20priming%20account.md)
+- [Scaled benefits](Scaled%20benefits.md)
+- [Sequential effects within a short foreperiod context Evidence for the conditioning account of temporal preparation](Sequential%20effects%20within%20a%20short%20foreperiod%20context%20Evidence%20for%20the%20conditioning%20account%20of%20temporal%20preparation.md)
+- [Sugar Factory Task](Sugar%20Factory%20Task.md)
+- [The Reward Experiment](The%20Reward%20Experiment.md)
+- [The warning stimulus as retrieval cue The role of associative memory in temporal preparation](The%20warning%20stimulus%20as%20retrieval%20cue%20The%20role%20of%20associative%20memory%20in%20temporal%20preparation.md)
+- [Threaded Cognition](Threaded%20Cognition.md)
+- [Traces of times past Representations of temporal intervals in memory](Traces%20of%20times%20past%20Representations%20of%20temporal%20intervals%20in%20memory.md)
+- [You can play 20 questions with nature and win](You%20can%20play%2020%20questions%20with%20nature%20and%20win.md)

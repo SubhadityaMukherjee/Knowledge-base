@@ -1,5 +1,6 @@
 ---
 toc: true
+<<<<<<< HEAD
 title: An understanding of will - Part 1
 tags:
   - articles
@@ -7,6 +8,13 @@ date modified:
 date created: 
 publish: "false"
 draft: true
+=======
+title:  An understanding of will - Part 1
+
+tags: ["articles"]
+date modified: 
+date created: 
+>>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 ---
 # An understanding of will - Part 1
 Willpower is illusive. In essence, it would be something that you don’t encounter unless you see an extreme. Someone going through insane hardships to make ends meet, a mother lifting a car up to save her child, people struggling through all odds to escape oppression. But in real life, sometimes you encounter people like that. Ones that have lived entire lives with the ability to drag through. Hell, high water or drought. They will pull through anything. The question of course, is.. how? How can someone pull through being a 95 year old grandmother with every last living direct family member having passed on; in the last decade? How can one push through holding their husband, their child, their siblings as they took their final breath? It truly shows how strong we are , when we want to be.

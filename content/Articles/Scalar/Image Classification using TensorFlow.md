@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 ---
 toc: true
 title: Image Classification using TensorFlow
@@ -26,7 +30,11 @@ Before we get to the actual code, we must understand a few pre-requisite terms. 
 A Data Loader is a utility function that enables Tensorflow to optimize the data loading performance. The Loader does this by pre-allocating memory, creating batched containers, and applying many other tweaks to improve performance. 
 
 #### Data Augmentation
+<<<<<<< HEAD
 Data Augmentation is a [[Regularization]], and many others.
+=======
+Data Augmentation is a [Regularization](../../KB/Regularization.md), and many others.
+>>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 
 [IMAGE {1} Data Augmentation  START SAMPLE]
 ![Data Augmentation ](https://hackmd.io/_uploads/Syb2UUV9s.png)

@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "https://subhadityamukherjee.github.io/Knowledge-base/My-Art",
+    baseUrl: "https://subhadityamukherjee.github.io/Knowledge-base/",
     ignorePatterns: ["private", "templates", ".obsidian", "Daily Notes", "Mental-Health", "Drafts"],
     defaultDateType: "modified",
     theme: {

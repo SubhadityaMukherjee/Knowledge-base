@@ -1,0 +1,101 @@
+---
+toc: true
+title: The Self Organization of Explicit Attitudes
+
+tags: ['language']
+date modified: Friday, October 14th 2022, 5:13:39 pm
+date created: Friday, October 14th 2022, 5:07:15 pm
+---
+
+# The Self Organization of Explicit Attitudes
+- Michael T. Wojnowicz, Melissa J. Ferguson, Rick Dale, and Michael J. Spivey
+
+
+## ABSTRACT
+- How do minds produce explicit attitudes over several hundred milliseconds?
+- implicit biases beyond cognitive control and subjective awareness, yet mental processing may culminate in an explicit attitude that feels personally endorsed and corroborates voluntary intentions
+- self-reported explicit attitudes derive from a continuous, temporally dynamic process, whereby multiple simultaneously conflicting sources of information selforganize into a meaningful mental representation
+- While our participants reported their explicit (like vs. dislike) attitudes toward White versus Black people by moving a cursor to a ''like'' or ''dislike'' response box, we recorded streaming xand y-coordinates from their hand-movement trajectories
+- participants' hand-movement paths exhibited greater curvature toward the ''dislike'' response when they reported positive explicit attitudes toward Black people than when they reported positive explicit attitudes toward White people
+- these trajectories were characterized by movement disorder and competitive velocity profiles that were predicted under the assumption that the deliberate attitudes emerged from continuous interactions between multiple simultaneously conflicting constraints.
+- For example, an implicit attitude toward a stimulus can be unintentionally activated by the mere presence of that stimulus.
+- Given that many people demonstrate spontaneous initial biases toward traditionally stigmatized groups, how do they overcome these biases to explicitly report positive attitudes toward the same groups?
+- coexistence of multiple attitudes and an emphasis on the temporal dynamics of how they influence evaluative responses
+- Rather than selecting among the specific theories, we invoked the encompassing theoretical framework of self-organization to guide an exploration of those temporal dynamics, and made specific predictions for what should result from multiple attitudes interacting over time.
+- In early moments of processing, distributed representations are partially consistent with multiple interpretations because of their proximity to multiple neural population codes.
+- However, a continuous accrual of information causes the distributed pattern to dynamically ''sharpen'' into a confident (selected) interpretation, forcing other, partially activated, competing alternative representations, decisions, or actions to gradually die out.
+- The latter attitude will eventually activate other subsystems, such as language and memory, thus making the attitude seem explicit
+- What makes the first attitude implicit is not necessarily that it was generated in a different subsystem, but simply that it did not hold sway long enough to activate those language and memory subsystems.
+- Mental processing generically involves [Recurrent](Recurrent.md) processing loops (or cyclic feedback) between higher-order integrative regions and lower-level informational sources (Lamme & Roelfsema, 2000; O'Reilly, 1998; Spivey, 2007)
+- These higher-order integrative regions enforce representational competition, in which increasing the activation of one particular interpretation inhibits alternatives.
+- The unfolding cognitive dynamics may be revealed in continuous motor output
+- Because mental processing is [Recurrent](Recurrent.md), motor representations begin specifying movement parameters probabilistically, rather than waiting for a perfectly completed cognitive command
+- If the phrase ''Black people'' evokes elevated dynamic competition between simultaneously active ''like'' and ''dislike'' representations, movement trajectories for ''Black people'' should exhibit evidence of nonlinear dynamics in their velocity profiles, as well as increased spatial disorder in the curviness of the trajectories.
+
+## EXPERIMENT 1
+
+### Method
+- Streaming xand y-coordinates of mouse-cursor movements were recorded from 68 Cornell University undergraduates (43 female and 25 male) as they performed a simple explicit-attitude task.
+- 2 s for participants to view the evaluative response options
+- Participants then clicked on a small box at the bottom of the screen to reveal a stimulus word or phrase and dragged the mouse toward their selected evaluative response to that stimulus
+- Responses to the two stimulus repetitions were averaged together to yield a single measurement for each participant for all statistical analyses.
+
+### Results and Discussion
+- Compared with the trajectories for ''White people,'' the trajectories for ''Black people'' curved significantly more toward the ''dislike'' response option observed differential motor curvatures could have been generated by a stage-based sequence of decisional commands, rather than by continuous motor attraction to the ''dislike'' response.
+- If motor execution required the complete prespecification of a unique target destination, rather than tracking of motor trajectory parameters that continuously evolved midflight, then a mean trajectory could look differentially curved because of the effect of averaging in replanned trajectories
+- To accommodate the empirical mean trajectory, which initially moved upward rather than actually toward ''dislike,'' such an account would need to predict a bimodal distribution of curvatures that included some trajectories that were very curved and others that were not curved.
+- However, the distribution of trajectory curvatures shows no evidence of bimodality The standard cutoff for inferring bimodality in a distribution is b > 0.55
+- Neither the ''Black people'' nor the ''White people'' trajectories had distributions that met this cutoff, and in fact, the ''Black people'' trajectories formed a distribution of movement curvature that was closer to normal (b 5 0.24, skewness 5 0.613, kurtosis 5 2.57) than the ''White people'' trajectories (b 5 0.301, skewness 5 0.98, kurtosis 5 3.44).
+- Velocity profiles were constructed by analyzing the temporal derivatives of motion toward the ''like'' response box along the x-coordinate.
+- Our velocity predictions came from Usher and McClelland's (2003) differential equations for modeling the dynamics of competition between mental representations
+- where, in this case, x1 and x2 represent the activations of the mental representations for ''like'' and ''dislike,'' dx1 and dx2 represent the change in the activation of the two mental representations in a time step of size dt, I1 and I2 represent excitatory input to the representations from informational sources, bf1 and bf2 represent the inhibitory input from each mental representation to the other (lateral inhibition), and fi (where i 5 1 or 2) is equal to xi if xi is greater than zero.
+- differential equations for competition dynamics, a strong evaluative competitor (dislike, x2) sends intensified and prolonged lateral inhibition (bf2) to the ''like'' evaluation (x1)
+- Thus, strong competition alters the velocity profile of the movement toward the evaluative attractor (dx1/dt), reducing velocity toward the attractor early on in processing
+- as the more active alternative begins to win the competition, this lateral inhibition is gradually lifted, thus increasing velocity later in processing to produce greater acceleration
+- Moreover, this particular dynamic pattern (reduced early velocity and greater later acceleration) should lead to greater peak velocity, if jerk is minimized as the system achieves equivalent integral under the curve (where the integral represents net change in activation or location)
+- The spatial-disorder analysis investigated the regularity of change in x-coordinate location over time
+- To investigate whether the ''Black people'' trajectories had more wiggles, blips, and other irregularities than the ''White people'' trajectories, we analyzed x-coordinate location over time, but only after the trajectory began moving in the positive x direction
+- The ''Black people'' trajectories had significantly greater deviation from the sigmoidal fit
+- indicated disorderly variation around the x dimension in those trajectories.
+
+## EXPERIMENT 2
+- our claim is that multiple, partially active mental representations compete for the privilege of driving evaluative responses, imposing a set of response options that are not particularly competitive should change the motor dynamics
+
+### Method
+- Sixty-six Cornell University undergraduates (40 female and 26 male) were asked to classify words (e.g., ''ice cream,'' ''sunshine,'' ''boron'') as something they liked (''like'') or as the name of a chemical element (''chemical'')
+- We analyzed data only from the 63 participants who consistently chose the ''like'' response for both ''Black people'' and ''White people'' on both repetitions of these trials, and who reported in a poststudy questionnaire that they were not forced into selecting ''like'' by the paradigm.
+
+### Results
+- According to statistical analyses on maximum deviation and distance traveled, the ''Black people'' and ''White people'' trajectories no longer differed in their curvature toward the competing respons
+- Thus, the results of Experiment 1 are not attributable merely to responses to ''Black people'' involving a longer latency to settle on a positive evaluation
+- thereby drifting for longer in empty regions of movement space before curving
+- toward the ''like'' response box
+- Rather, the ''dislike'' response option in Experiment 1 was actively pulling movement trajectories toward it, in a way that the ''chemical'' response option in Experiment 2 did not.
+
+## EXPERIMENT 3
+- Experiment 1 may have diverged because of subtle confounds that do not refer to people at all.
+
+### Method
+- Seventy-one Cornell University undergraduates (37 female and 34 male) were asked to classify stimuli as something they liked (''like'') or disliked (''dislike'')
+- The crucial stimuli in this experiment were ''African Americans'' and ''Caucasians. Results
+- The trajectories for ''African Americans'' curved significantly more toward the ''dislike'' response than the trajectories for ''Caucasians,
+- The motor trajectories evolved over time in accordance with the competitive velocity predictions, as reported in Experiment
+- The ''African Americans'' trajectories, compared with the ''Caucasians'' trajectories, had significantly greater maximum xcoordinate acceleration
+- Moreover, as we found for ''Black people'' trajectories in Experiment 1, the ''African Americans'' trajectories exhibited greater spatial disorder than the ''Caucasians'' trajectories, even after moving toward the ''like'' response, as indicated by significantly greater mean deviation from the sigmoidal fi
+
+## GENERAL DISCUSSION
+- People's hand-movement trajectories for explicitly evaluating ''Black people'' and ''White people'' were distinct as measured by three properties of movement dynamics: shape, time, and order.
+- explicit attitudes evolve through continuous temporal dynamics during real-time mental processing, with graded motor curvature revealing the influence of tendencies toward dislike
+- evidence for cleanly separated (i.e., discrete, rather than continuous) explicit decisions, in which an initial response was executed solely toward the ''dislike'' response box and then a corrective response was executed midflight toward the ''like'' response box.
+- Rather, the results suggest that a dynamic competition process may be what allows a single explicit attitude choice to emerge from multiple, potentially conflicting evaluative influences (e.g., Busemeyer & Townsend, 1993; Usher & McClelland, 2003)
+- the mind may host a continuously evolving blend of (implicit) evaluative decisions from which the eventual (explicit) behavioral choice emerges.
+
+## Pictures
+- ![](../images/Pasted%20image%2020221014170754.png)
+- ![](../images/Pasted%20image%2020221014170803.png)
+- ![](../images/Pasted%20image%2020221014170822.png)
+- ![](../images/Pasted%20image%2020221014170834.png)
+- ![](../images/Pasted%20image%2020221014170848.png)
+
+
+
