@@ -105,7 +105,7 @@ Subhaditya Mukherjee
 - Why is this not easy? Big models vs on device ML
 ---
 ### GDPR
-- Europe AI Act
+- European AI Act
 - Why does it matter to you?
 	- A really good set of guidelines
 	- Related to everything we discussed now
