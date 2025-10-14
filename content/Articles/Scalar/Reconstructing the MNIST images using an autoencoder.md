@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 ---
 toc: true
 title: Reconstructing the MNIST images using an autoencoder
@@ -33,11 +30,7 @@ The following sections elaborate on these points.
 Before moving to the implementation, we must understand some prerequisite terms.
 
 ### Transposed Convolution
-<<<<<<< HEAD
-2D Convolutions compress information from images into smaller representations by [[Downsampling]] them. Transposed Convolutions perform the opposite operation. These convolutions take compressed/small images and attempt to expand their sizes. An illustration of how this happens is as follows.
-=======
 2D Convolutions compress information from images into smaller representations by [Downsampling](../../KB/Downsampling.md) them. Transposed Convolutions perform the opposite operation. These convolutions take compressed/small images and attempt to expand their sizes. An illustration of how this happens is as follows.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 
 [IMAGE {1} Transposed Conv START SAMPLE]
 ![Transposed Conv](https://hackmd.io/_uploads/S1cHysVqo.gif)

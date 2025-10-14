@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 ---
 toc: true
 title: Building a GAN from scratch
@@ -72,11 +69,7 @@ The Generator can be considered a network that takes a random noise and then arr
 ### Discriminator
 
 The second part of the network is the Discriminator, whose job is to take the images that the Generator creates and return the probability that the image is real. 
-<<<<<<< HEAD
-The Discriminator is a binary classifier and comprises blocks of fully connected linear layers (FC), Leaky ReLU activations, and [[Dropout]] layers. The final layer of the Discriminator is a block with an FC layer and a Sigmoid at the end. The Sigmoid is responsible for returning the classification probability that we want.
-=======
 The Discriminator is a binary classifier and comprises blocks of fully connected linear layers (FC), Leaky ReLU activations, and [Dropout](../../KB/Dropout.md) layers. The final layer of the Discriminator is a block with an FC layer and a Sigmoid at the end. The Sigmoid is responsible for returning the classification probability that we want.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 
 ## Demystifying the loss function
 Loss functions are an essential part of any neural network pipeline. Before we learn how to make a Generative Adversarial Network, we first need to understand the loss functions.
@@ -98,11 +91,7 @@ Mathematically, this can be represented as $$\underset{G}{min} \underset{D}{max}
 ### Heuristic loss
 Another aspect of knowing how to make a Generative Adversarial Network is understanding heuristics. These heuristics are not part of any network directly but are training guidelines that work for most GANs. (Any GAN created before 2016, at least.)
 We can use these heuristics to ensure stable reductions in the loss landscape, which is key to training a Generative Adversarial Network well.
-<<<<<<< HEAD
-- If the network has any pooling layers, they can be replaced with [[Strided]] convolutions in the Generator.
-=======
 - If the network has any pooling layers, they can be replaced with [Strided](../../KB/Strided.md) convolutions in the Generator.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 - We can use Batch Normalization layers in the Generator and the Discriminator.
 - If the architecture is deep, we should remove FC layers for better performance.
 - As for activations, the ReLU activation should be used for all the layers. The only exception is the output layer, where a TanH activation should be used.

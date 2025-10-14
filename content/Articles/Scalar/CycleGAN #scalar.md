@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 ---
 toc: true
 title: CycleGAN #scalar
@@ -17,11 +14,7 @@ date created:
 The field of computer vision has been trying to create AI that creates never seen before images for decades. Generative networks such as the CycleGAN are part of a long line of such research, but one that performs extremely well in tasks ranging from converting images to paintings to changing the weather in images. The CycleGAN is rather different from many approaches before it as it is an unpaired Image2Image translation task with these tasks being cyclic in nature. In this article, we will explore what all these terms mean and how to put them into practise in a CycleGAN.
 
 ## Disclaimer
-<<<<<<< HEAD
-This is an intermediate level article and introduces a significant number of new terms. Attempting to understand this article is not recommended before mastering how a [[Basic GAN]] (eg: DCGAN) works.
-=======
 This is an intermediate level article and introduces a significant number of new terms. Attempting to understand this article is not recommended before mastering how a [Basic GAN](../../KB/Basic%20GAN.md) (eg: DCGAN) works.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 Being so complex, it is advised to slow down and understand a section before moving on to the next.
 :::
 :::section{.scope}
@@ -64,11 +57,7 @@ The generator is the “thief”. It starts with random noise to create a fake i
 Consequently, the discriminator is the “cop”. It is essentially a classifier that returns a metric of how fake the image looks. 
 
 ### Encoder Decoder Architecture 
-<<<<<<< HEAD
-Many networks such as the UNet and GANs have a two sided architecture that involves [[Downsampling]] the image until a point and then upsampling from there on. The Encoder is the first half which downsamples the image and condenses the information in a batch of data down into the smallest possible unit. 
-=======
 Many networks such as the UNet and GANs have a two sided architecture that involves [Downsampling](../../KB/Downsampling.md) the image until a point and then upsampling from there on. The Encoder is the first half which downsamples the image and condenses the information in a batch of data down into the smallest possible unit. 
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 The decoder does the opposite, it takes this smallest possible unit and attempts to recreate the original input. In the process, it learns how to traverse the latent space and create the required translation. 
 
 ### Residual Block

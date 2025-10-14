@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 ---
 toc: true
 title: StackGAN
@@ -64,11 +61,7 @@ Stage I of the GAN is focused on generating a rough sketch with simple colours f
 
 #### Architecture
 
-<<<<<<< HEAD
-It is first fed into a fully connected layer(FC) to understand the embedding. The output of this FC layer is then passed to the Generator, which attempts to learn how to create the image better. The Discriminator takes the text embeddings and compresses them to a smaller representation using another FC layer. The image is also passed through a few [[Downsampling]] blocks until it is a size the network can use. The final down-sampled image is combined with the text embedding and passed through a 1x1 convolutional layer. The final layer is another FC layer that returns the probability of the generated image being real or fake.
-=======
 It is first fed into a fully connected layer(FC) to understand the embedding. The output of this FC layer is then passed to the Generator, which attempts to learn how to create the image better. The Discriminator takes the text embeddings and compresses them to a smaller representation using another FC layer. The image is also passed through a few [Downsampling](../../KB/Downsampling.md) blocks until it is a size the network can use. The final down-sampled image is combined with the text embedding and passed through a 1x1 convolutional layer. The final layer is another FC layer that returns the probability of the generated image being real or fake.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 
 #### Loss functions
 
@@ -87,11 +80,7 @@ The Stage II GAN receives the output of the Stage I GAN and refines it by re-con
 
 #### Architecture
 
-<<<<<<< HEAD
-The StackGANs Stage II Generator follows an encoder-decoder architecture with residual blocks. Text embedding is used first to create the conditioning variables. The result of Stage I is passed through [[Downsampling]] layers and then concatenated with the features obtained from the text embedding. The output of these layers is then upsampled to generate high-resolution images.
-=======
 The StackGANs Stage II Generator follows an encoder-decoder architecture with residual blocks. Text embedding is used first to create the conditioning variables. The result of Stage I is passed through [Downsampling](../../KB/Downsampling.md) layers and then concatenated with the features obtained from the text embedding. The output of these layers is then upsampled to generate high-resolution images.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 The Discriminator architecture is almost identical to Stage I, except for a few extra down-sampling layers. These down-sampling layers were included as the output of this part of the network is of a higher resolution than Stage I.
 
 #### Loss functions
@@ -107,11 +96,7 @@ Some architectural details were also mentioned in the StackGAN research. These d
 - The residual blocks have 3x3 stride 1 convolutions. 
 - The StackGAN model that generates 256x256 images has four residual blocks, while the one that generates 128x128 images has only two blocks.
 - The down-sampling blocks have 4x4 stride two convolutions and LeakyReLU instead of ReLU. 
-<<<<<<< HEAD
-- The first [[Downsampling]] block does not have a Batch Normalization layer.
-=======
 - The first [Downsampling](../../KB/Downsampling.md) block does not have a Batch Normalization layer.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 
 ## Embedding
 
@@ -121,15 +106,9 @@ Contrary to other networks where the text embeddings are transformed using non-l
 
 Conditioning Augmentation is one of the major contributions of the StackGAN research. Given a text description $t$, the StackGAN uses an embedding to convert it to input for the Generator. Under circumstances where the data is limited, the latent space of the embedding is not fully exploited and leads to changes in the data manifold. These changes in the manifold are not desirable and hurt performance. 
 
-<<<<<<< HEAD
-Conditioning Augmentation uses these to create more training pairs from a small subset of data. Instead of using a fixed conditioning variable, StackGAN samples latent variables from a Gaussian distribution. The mean and [[Covariance]] matrix is generated for a text embedding $\varphi_{t}$. 
-
-The secondary objective of Conditioning Augmentation is to encourage reducing changes in the output with small changes in the data manifold. To do this, StackGAN uses a [[Regularization]] term called KL Divergence as part of the Generator.
-=======
 Conditioning Augmentation uses these to create more training pairs from a small subset of data. Instead of using a fixed conditioning variable, StackGAN samples latent variables from a Gaussian distribution. The mean and [Covariance](../../KB/Covariance.md) matrix is generated for a text embedding $\varphi_{t}$. 
 
 The secondary objective of Conditioning Augmentation is to encourage reducing changes in the output with small changes in the data manifold. To do this, StackGAN uses a [Regularization](../../KB/Regularization.md) term called KL Divergence as part of the Generator.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 This is given by, $$D{KL}(\mathcal{N}(\mu(\varphi{t}), \Sigma(\varphi_{t})) || \mathcal{N}(0,I))$$ 
  
 

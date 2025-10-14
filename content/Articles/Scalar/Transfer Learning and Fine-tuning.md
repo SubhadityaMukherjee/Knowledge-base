@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 ---
 toc: true
 title: Transfer Learning and Fine-tuning
@@ -28,11 +25,7 @@ Training deep learning models requires a massive amount of labeled data. In most
 :::section{.main}
 
 ## Introduction
-<<<<<<< HEAD
-Transfer Learning is useful for smaller datasets and can be considered an intelligent weight [[Initialization]] scheme. Instead of randomly initializing the weights of the model like we usually do, we obtain weights from a model trained on a larger dataset. Any company/individual with the funds can train a larger model and make its weights public. After doing so, we can train these models on any other similar dataset much faster than before. 
-=======
 Transfer Learning is useful for smaller datasets and can be considered an intelligent weight [Initialization](../../KB/Initialization.md) scheme. Instead of randomly initializing the weights of the model like we usually do, we obtain weights from a model trained on a larger dataset. Any company/individual with the funds can train a larger model and make its weights public. After doing so, we can train these models on any other similar dataset much faster than before. 
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 This article explores the concept of Transfer Learning by creating a network that can identify ten different classes from the **CIFAR10** dataset by fine-tuning a model pre-trained on the **ImageNet** dataset (1000 classes). 
 
 ## Transfer Learning
@@ -96,11 +89,7 @@ validation_dataset = validation_dataset.cache().batch(bs).prefetch(buffer_size=1
 test_dataset = test_dataset.cache().batch(bs).prefetch(buffer_size=10)
 ```
 
-<<<<<<< HEAD
-This article uses an **[[Xception]]** model pre-trained on the ImageNet dataset and applied to images 150x150x3 in size. The important point is to exclude the pre-trained model's final classification layer. This final layer is just for classification, and we only care about the layers before it.
-=======
 This article uses an **[Xception](../../KB/Xception.md)** model pre-trained on the ImageNet dataset and applied to images 150x150x3 in size. The important point is to exclude the pre-trained model's final classification layer. This final layer is just for classification, and we only care about the layers before it.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 
 ```python
 model_pretrained = keras.applications.Xception(
@@ -110,11 +99,7 @@ model_pretrained = keras.applications.Xception(
 )
 ```
 
-<<<<<<< HEAD
-The [[Xception]] model architecture is shown here.
-=======
 The [Xception](../../KB/Xception.md) model architecture is shown here.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 [IMAGE {2} arch START SAMPLE]
 ![arch](https://hackmd.io/_uploads/Hygq2Q4qi.png)
 [IMAGE {2} FINISH SAMPLE]
@@ -123,11 +108,7 @@ The [Xception](../../KB/Xception.md) model architecture is shown here.
 ### Fine-Tuning
 Now, we freeze the layers of the model we just loaded by setting the trainable parameter to False.
 After that, we create a model on top of the frozen layers and apply the data augmentations we defined.
-<<<<<<< HEAD
-The [[Xception]] model's caveat is that it defines the inputs are scaled from the original range of (0,255) to the range of (-1.0, 1.0). We perform this rescaling using the **Rescaling** layer as follows.
-=======
 The [Xception](../../KB/Xception.md) model's caveat is that it defines the inputs are scaled from the original range of (0,255) to the range of (-1.0, 1.0). We perform this rescaling using the **Rescaling** layer as follows.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 
 ```python
 model_pretrained.trainable = False
@@ -140,11 +121,7 @@ x = rescale_layer(x)
 ```
 
 ### Unfreeze the top layers of the model
-<<<<<<< HEAD
-The [[Xception]]** layers to improve performance further. Global Average Pooling is an alternative to the Fully Connected layer (FC) that preserves spatial information better. Since our pre-trained model uses different data, these layers are useful here. The final layer is an FC layer for a binary classification task. 
-=======
 The [Xception](../../KB/Xception.md)** layers to improve performance further. Global Average Pooling is an alternative to the Fully Connected layer (FC) that preserves spatial information better. Since our pre-trained model uses different data, these layers are useful here. The final layer is an FC layer for a binary classification task. 
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 ```python 
 x = model_pretrained(x, training=False)
 x = keras.layers.GlobalAveragePooling2D()(x)

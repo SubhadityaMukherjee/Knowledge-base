@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 ---
 toc: true
 title: Masked Language Modeling in BERT #scalar
@@ -10,11 +7,7 @@ tags: ["article"]
 date modified: 
 date created: 
 ---
-<<<<<<< HEAD
-# [[Masked Language Modeling]] in BERT #scalar
-=======
 # [Masked Language Modeling](../../KB/Masked%20Language%20Modeling.md) in BERT #scalar
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 masked language model explained
 
 :::section{.abstract}
@@ -27,11 +20,7 @@ Language modelling is a massive domain and has many sub-research areas. One such
 
 ## Scope of the Article
 This article covers the following topics:
-<<<<<<< HEAD
-- [[Masked Language Modeling]] explained in an easy-to-understand manner
-=======
 - [Masked Language Modeling](../../KB/Masked%20Language%20Modeling.md) explained in an easy-to-understand manner
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 - Quickly recap all the pre-requisite terms to build an MLM model
 - Go over some libraries that are essential to MLM
 - How to build a BERT-based MLM model using our data in Tensorflow/Keras
@@ -39,11 +28,7 @@ This article covers the following topics:
 :::
 :::section{.main}
 
-<<<<<<< HEAD
-## [[Masked Language Modeling]] Explained
-=======
 ## [Masked Language Modeling](../../KB/Masked%20Language%20Modeling.md) Explained
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 To a NN model, the word context has no meaning. So, we need to find ways to make the model consider surrounding words to learn which context words appear. For example, consider the sentence, "I am eating an ice cream". In this, the "ice cream" is being "eaten". What would an appropriate word be if we now remove the word "eating" and have the sentence as "I am ___ an ice cream"? We can consider something along the lines of "licking", "eating", "sharing", etc. However, we cannot say "drowning", "cycle", "chair", or other random words.
 
 In the same way, to ensure the model learns which word is appropriate, it needs to understand the structure of language. As modellers, we need to help it do so. 
@@ -71,11 +56,7 @@ A training paradigm that changed the DL world by allowing any researcher with li
 Words that do not add much value to the model but are repeated enough times for it to become a problem. These are generally removed before modelling.
 
 ## MLM vs CLM vs Word2Vec
-<<<<<<< HEAD
-The major difference between MLM and CLM is that CLM can only take into account words that occur before it in a sentence, unlike MLM, which is bi-directional. This difference means that CLM does better for generating large amounts of text. However, MLM is better for contextually understanding text (refer to the [[Masked Language Modeling]] Explained section).
-=======
 The major difference between MLM and CLM is that CLM can only take into account words that occur before it in a sentence, unlike MLM, which is bi-directional. This difference means that CLM does better for generating large amounts of text. However, MLM is better for contextually understanding text (refer to the [Masked Language Modeling](../../KB/Masked%20Language%20Modeling.md) Explained section).
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 Word2Vec, on the other hand, has similar ideas but the embeddings it generates have weaker contextual information than Transformer based models. The outputs it produces can also be used as a part of BERT training, although it is not usually required.
 
 ## Libraries We Need
@@ -162,11 +143,7 @@ We use the model from the Transformers library directly. The uncased model conve
 model = TFBertForMaskedLM.from_pretrained('bert-base-uncased')
 ```
 
-<<<<<<< HEAD
-In [[Masked Language Modeling]], we explained that every sentence needs to be converted to a format with words masked using a special token, `<MASK>`. We can do that by using the tokenized words and making the model aware of which token number corresponds to this special token. (In this case, it is 103). In the original paper, token numbers 101 and 102 were replaced, but we ignore that here. (It is not relevant for now.)
-=======
 In [Masked Language Modeling](../../KB/Masked%20Language%20Modeling.md), we explained that every sentence needs to be converted to a format with words masked using a special token, `<MASK>`. We can do that by using the tokenized words and making the model aware of which token number corresponds to this special token. (In this case, it is 103). In the original paper, token numbers 101 and 102 were replaced, but we ignore that here. (It is not relevant for now.)
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 
 "`Python
 # MASK

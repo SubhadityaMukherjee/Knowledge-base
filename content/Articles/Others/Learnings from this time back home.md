@@ -1,16 +1,3 @@
-<<<<<<< HEAD
----
-toc: true
-title: Learnings from this time back home
-tags:
-  - article
-date modified: 
-date created: 
-publish: "false"
-draft: true
----
-# Lessons for future me : Part 1 - 31st Aug 2022
-=======
 
 ---
 toc: true
@@ -21,7 +8,6 @@ date modified:
 date created: 
 ---
 Lessons for future me : Part 1 - 31st Aug 2022 #learnings
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 
 This is a time of change, and this trip was the period of rest between what my life was, and what it will become soon. I needed it. A break. A space between me and everything that I thought mattered. It gave me the time and environment to learn a lot more about myself and what I want to do in my life from now on until whenever my time comes. This is a list of the things that I realised in this holiday. It is probably not an exhaustive list, but it is something to look back on in the future and see how much this changed my life.
 
@@ -45,11 +31,7 @@ This is a time of change, and this trip was the period of rest between what my l
 18. The idea of impermanence is something that I want to focus on. Every time I feel sad about not being too close to someone. Or anything. I know that its not going to last. Nothing does. Its a cycle of lows and highs. Or whatever we choose to perceive. My time here is not permanent. Neither are my grudges, or discomfort with people. 
 19. Everyone, deep down, wants similar things. Even people who appear cold and uncaring, turn out to be the most broken and confused souls. They too just want a warm hug and someone to tell them that it will be okay. Especially when they are drunk.
 20. People regret saving up a lot and never spending it when they have the time to. Mainly because they are dead.
-<<<<<<< HEAD
-21. [[Resistance]] is the biggest killer of anything. The more you resist something, the more it might be an indicator of what you truly want to do.
-=======
 21. [Resistance](../../KB/Resistance.md) is the biggest killer of anything. The more you resist something, the more it might be an indicator of what you truly want to do.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 22. With old age and too much power, comes a sense of ego. A sense of “I am the best”.
 23. Journalling is life changing. Especially micro journaling
 24. Don’t forget to backup!

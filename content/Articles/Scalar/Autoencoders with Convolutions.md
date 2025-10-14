@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 ---
 toc: true
 title: Autoencoders with Convolutions
@@ -29,11 +26,7 @@ In the absence of labels in a dataset, only a few models can perform well. The C
 :::section{.main}
 
 ## Introduction
-<<<<<<< HEAD
-To be able to learn how to re-create a dataset, a model must have an understanding of the underlying **latent space**. The Convolutional Autoencoder compresses the information in an image dataset by applying successive convolutions. This output is passed to a Bottleneck layer, the smallest possible representation of the dataset. Using this compressed representation, the Decoder attempts to recreate the original dataset. In the process of re-creation, the compressed output resembles a sort of **[[Dimensionality Reduction]]** procedure, while the **Reconstruction Loss** can be used as a classification metric.
-=======
 To be able to learn how to re-create a dataset, a model must have an understanding of the underlying **latent space**. The Convolutional Autoencoder compresses the information in an image dataset by applying successive convolutions. This output is passed to a Bottleneck layer, the smallest possible representation of the dataset. Using this compressed representation, the Decoder attempts to recreate the original dataset. In the process of re-creation, the compressed output resembles a sort of **[Dimensionality Reduction](../../KB/Dimensionality%20Reduction.md)** procedure, while the **Reconstruction Loss** can be used as a classification metric.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 This article explores the architecture and methods behind creating a Convolutional Autoencoder. 
 
 ## What is an Autoencoder?
@@ -63,21 +56,13 @@ The latent space of a network is the compressed representation it creates from a
 The Convolutional Autoencoder architecture is good for a lot of use cases. Some of these are explained below.
 
 ### Reducing Complexity
-<<<<<<< HEAD
-The Encoder of the model works very well as a [[Dimensionality Reduction]] technique. For example, if we consider an image dataset, we can compress every image before feeding it to another model. This compression reduces the number of input values and thus makes the model less likely to be biased toward smaller details. The Autoencoder thus helps in improving the performance of a second model.
-=======
 The Encoder of the model works very well as a [Dimensionality Reduction](../../KB/Dimensionality%20Reduction.md) technique. For example, if we consider an image dataset, we can compress every image before feeding it to another model. This compression reduces the number of input values and thus makes the model less likely to be biased toward smaller details. The Autoencoder thus helps in improving the performance of a second model.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 
 ### Anomaly Detection
 An Autoencoder is generally used for reconstructing the base data using an Encoder-Bottleneck-Decoder architecture. Thus if the output reconstruction has a much larger error for a given sample, this sample could be an outlier. We can thus use the reconstruction error to find unusual data points in a dataset.
 
 ### Unsupervised Learning
-<<<<<<< HEAD
-A convolutional Autoencoder's information compression ability is a good start for an unsupervised learning problem. Using the Autoencoder as a [[Dimensionality Reduction]] technique allows the data to be clustered without any labels much more easily. This clustering may not be useful but can be a starting point for many other solutions.
-=======
 A convolutional Autoencoder's information compression ability is a good start for an unsupervised learning problem. Using the Autoencoder as a [Dimensionality Reduction](../../KB/Dimensionality%20Reduction.md) technique allows the data to be clustered without any labels much more easily. This clustering may not be useful but can be a starting point for many other solutions.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 
 ## What is a CNN?
 A CNN is one of the foundation stones of Deep Learning that can take an input data sample and learn to recognize it given other such samples. A CNN generally comprises an input, multiple hidden layers, and an output. CNN's are composed of individual neurons that respond to specific sets of stimuli and combine their responses to perform many tasks such as classification, clustering, segmentation, and others. CNNs are useful because they can understand spatial and temporal dependencies given large amounts of data by learning feature "filters". Complex CNNs can model large amounts of data previously impossible for a computer to understand. 

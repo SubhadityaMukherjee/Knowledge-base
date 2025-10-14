@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 ---
 toc: true
 title: DCGAN – Adding convolution to a GAN
@@ -22,13 +19,8 @@ Generative networks are a fascinating subfield of Computer vision. The GAN, in p
 
 ## Scope
 - This article explains the concept of GANs and how DCGANs differ from Vanilla GANs.
-<<<<<<< HEAD
-- It shows how to build a DCGAN from scratch using PyTorch for image generation using the [[CIFAR]] dataset.
-- It explains the preprocessing and loading of the [[CIFAR]] dataset using a DataLoader.
-=======
 - It shows how to build a DCGAN from scratch using PyTorch for image generation using the [CIFAR](../../KB/CIFAR.md) dataset.
 - It explains the preprocessing and loading of the [CIFAR](../../KB/CIFAR.md) dataset using a DataLoader.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 - It describes the architecture of the DCGAN and the reasoning behind the choices of layers and activation functions.
 - The article also describes how to train the network, generate new images, and improve the training time and the results.
 
@@ -38,19 +30,11 @@ Generative networks are a fascinating subfield of Computer vision. The GAN, in p
 :::section{.main}
 
 ## Introduction to DGGAN
-<<<<<<< HEAD
-This article will explore using a Deep Convolutional Generative Adversarial Network (DCGAN) to generate new images from the [[CIFAR]] dataset. GANs are neural networks designed to generate new, previously unseen data similar to the input data the model trained on. DCGANs are a variation of GANs that address issues that can arise with standard GANs by using deep convolutional neural networks in both the Generator and the Discriminator.
-
-This architecture allows larger image sizes than in standard GANs, as convolutional layers can efficiently process images with many pixels. Additionally, DCGANs use batch normalization and leaky ReLU activations in the Discriminator and transposed convolutional layers in the Generator, improving performance and stability during training.
-
-We will use PyTorch to build the DCGAN from scratch, train it on the [[CIFAR]] dataset. Before we begin, we will set up the necessary libraries and create folders to store the models' images and weights. This article will guide the implementation process and explain the reasoning for some architectural choices.
-=======
 This article will explore using a Deep Convolutional Generative Adversarial Network (DCGAN) to generate new images from the [CIFAR](../../KB/CIFAR.md) dataset. GANs are neural networks designed to generate new, previously unseen data similar to the input data the model trained on. DCGANs are a variation of GANs that address issues that can arise with standard GANs by using deep convolutional neural networks in both the Generator and the Discriminator.
 
 This architecture allows larger image sizes than in standard GANs, as convolutional layers can efficiently process images with many pixels. Additionally, DCGANs use batch normalization and leaky ReLU activations in the Discriminator and transposed convolutional layers in the Generator, improving performance and stability during training.
 
 We will use PyTorch to build the DCGAN from scratch, train it on the [CIFAR](../../KB/CIFAR.md) dataset. Before we begin, we will set up the necessary libraries and create folders to store the models' images and weights. This article will guide the implementation process and explain the reasoning for some architectural choices.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 
 
 :::
@@ -80,15 +64,9 @@ A De-Convolution is an upsampling method that uses transforms opposite to a norm
 [IMAGE {1} FINISH SAMPLE]
 
 
-<<<<<<< HEAD
-### [[Strided]] Convolutions
-
-The stride in a Convolution determines how many steps the moving filter skips over in an image. In a general Convolution, the stride is set to 1. To perform [[Downsampling]], we can set the stride to any number above 1. Larger numbers are only sometimes good; only experimenting with the parameter can be used to understand which to pick.
-=======
 ### [Strided](../../KB/Strided.md) Convolutions
 
 The stride in a Convolution determines how many steps the moving filter skips over in an image. In a general Convolution, the stride is set to 1. To perform [Downsampling](../../KB/Downsampling.md), we can set the stride to any number above 1. Larger numbers are only sometimes good; only experimenting with the parameter can be used to understand which to pick.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 [IMAGE {2} {Strided Convolution} START SAMPLE]
 ![Strided Convolution](https://hackmd.io/_uploads/ByXX1Sodj.png)
 [IMAGE {2} FINISH SAMPLE]
@@ -131,13 +109,8 @@ In the architecture diagram of this component, *nz* stands for the width of the 
 
 ### Convolutional Discriminator
 
-<<<<<<< HEAD
-The Discriminator is a mirror of the Generator except for a few changes. The input size remains the same as the Generator (3x64x64). Instead of a De-Convolution, a **[[Strided]] Convolution** is used. A **Leaky ReLU** version of ReLU replaces the ReLU activations. The final layer is a **Sigmoid** layer to return the probability of real vs. fake. 
-The DCGAN architecture also uses [[Strided]] Convolutions to downsample the images instead of Pooling, allowing the network to learn a custom pooling function. 
-=======
 The Discriminator is a mirror of the Generator except for a few changes. The input size remains the same as the Generator (3x64x64). Instead of a De-Convolution, a **[Strided](../../KB/Strided.md) Convolution** is used. A **Leaky ReLU** version of ReLU replaces the ReLU activations. The final layer is a **Sigmoid** layer to return the probability of real vs. fake. 
 The DCGAN architecture also uses [Strided](../../KB/Strided.md) Convolutions to downsample the images instead of Pooling, allowing the network to learn a custom pooling function. 
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 
 ## Implementation
 To generate images using a DCGAN, we first need to prepare our dataset. This process includes creating a DataLoader to load the images, preprocessing them as necessary, and sending batches of the data to the GPU memory for efficient processing.
@@ -148,15 +121,9 @@ Once the data and network are ready, we can train the DCGAN. During training, th
 
 ### Defining the Discriminator
 
-<<<<<<< HEAD
-In the DCGAN, the Discriminator differentiates between the images generated by the Generator as real or fake. Its architecture resembles the Generator but with a few modifications. Specifically, the Discriminator incorporates [[Strided]] Convolution layers, a LeakyReLU activation function, and several layers of Batch Normalization. Lastly, the output is passed through a Sigmoid layer that returns a probability value.
-
-For the process of DCGAN image generation, the Discriminator uses [[Strided]] Convolutions in place of Pooling layers. This approach enables the network to develop custom padding functions, improving performance. This approach is a key technique that helps the Discriminator to distinguish between real and fake images more accurately.
-=======
 In the DCGAN, the Discriminator differentiates between the images generated by the Generator as real or fake. Its architecture resembles the Generator but with a few modifications. Specifically, the Discriminator incorporates [Strided](../../KB/Strided.md) Convolution layers, a LeakyReLU activation function, and several layers of Batch Normalization. Lastly, the output is passed through a Sigmoid layer that returns a probability value.
 
 For the process of DCGAN image generation, the Discriminator uses [Strided](../../KB/Strided.md) Convolutions in place of Pooling layers. This approach enables the network to develop custom padding functions, improving performance. This approach is a key technique that helps the Discriminator to distinguish between real and fake images more accurately.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 
 ```python 
 ngpu = 1
@@ -360,11 +327,7 @@ This article trains the network for 25 epochs. To get a better understanding of 
 [IMAGE {8} FINISH SAMPLE]
 
 ### Weight Initialization
-<<<<<<< HEAD
-The DCGAN model requires a careful weight [[Initialization]] scheme. If the layer is a Convolutional layer, we can take the [[Initialization]] values from a Normal distribution in the range of (0.0,0.02). On the other hand, if the layer is a Batch Normalization layer, we can take the weights from a Normal distribution in the range of (0.0, 0.02) while we can set the bias to 0.
-=======
 The DCGAN model requires a careful weight [Initialization](../../KB/Initialization.md) scheme. If the layer is a Convolutional layer, we can take the [Initialization](../../KB/Initialization.md) values from a Normal distribution in the range of (0.0,0.02). On the other hand, if the layer is a Batch Normalization layer, we can take the weights from a Normal distribution in the range of (0.0, 0.02) while we can set the bias to 0.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 
 ```python
 def weights_normal_init(m):
@@ -382,15 +345,9 @@ def weights_normal_init(m):
 
 ## Conclusion
 - The article has explained the concept of GANs and the specific architecture of DCGANs, which are a variation that can handle larger images.
-<<<<<<< HEAD
-- It has also provided a step-by-step guide on how to build a DCGAN from scratch using the PyTorch library and the [[CIFAR]] dataset.
-- The implementation process, including loading the dataset and preprocessing it, creating the network architecture and [[Initialization]] of weights, as well as training the network, has been explained.
-- The final output is expected to be a set of photorealistic images that resemble one of the classes in the [[CIFAR]] dataset, which is a significant achievement.
-=======
 - It has also provided a step-by-step guide on how to build a DCGAN from scratch using the PyTorch library and the [CIFAR](../../KB/CIFAR.md) dataset.
 - The implementation process, including loading the dataset and preprocessing it, creating the network architecture and [Initialization](../../KB/Initialization.md) of weights, as well as training the network, has been explained.
 - The final output is expected to be a set of photorealistic images that resemble one of the classes in the [CIFAR](../../KB/CIFAR.md) dataset, which is a significant achievement.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 - GANs, particularly DCGANs, have a wide range of applications and can generate images of different objects, depending on the dataset used to train the network. This article provides a foundation for further research and experimentation with GANs.
 
 :::

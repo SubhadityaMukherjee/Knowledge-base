@@ -1,18 +1,7 @@
----
-toc: true
-title: Commission FAQ
-<<<<<<< HEAD
-tags:
-  - articles
-date modified: 
-date created: 
-publish: "false"
-=======
 
 tags: ["articles"]
 date modified: 
 date created: 
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 ---
 # Commission FAQ
 

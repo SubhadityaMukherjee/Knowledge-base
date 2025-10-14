@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 ---
 toc: true
 title: Differences between Discriminative and Generative models
@@ -15,11 +12,7 @@ date created:
 :::section{.abstract}
 
 ## Overview
-<<<<<<< HEAD
-Machine learning models can be broadly classified into discriminative and generative. Discriminative models, such as logistic regression, support vector machines, and decision [[Trees]], while discriminative models are more commonly used for classification and regression.
-=======
 Machine learning models can be broadly classified into discriminative and generative. Discriminative models, such as logistic regression, support vector machines, and decision [Trees](../../KB/Trees.md), while discriminative models are more commonly used for classification and regression.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 :::
 :::section{.scope}
 
@@ -57,11 +50,7 @@ Considering the difference between Generative and Discriminative models is impor
 
 ### Support Vector Machine
 
-<<<<<<< HEAD
-A Support Vector Machine (SVM) is a supervised classification and regression algorithm that uses the concept of **hyperplanes**. These hyperplanes can be understood as **multi-dimensional linear [[Decision Boundaries]]** that separate groups of unequal data points. 
-=======
 A Support Vector Machine (SVM) is a supervised classification and regression algorithm that uses the concept of **hyperplanes**. These hyperplanes can be understood as **multi-dimensional linear [Decision Boundaries](../../KB/Decision%20Boundaries.md)** that separate groups of unequal data points. 
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 An example of a hyperplane is shown below.
 
 [IMAGE {2 } { SVM } START SAMPLE]
@@ -73,13 +62,8 @@ To better understand how the SVM works, consider a group of data points like the
 
 ### Decision Tree
 
-<<<<<<< HEAD
-Decision [[Trees]] are tree-based decision models that use an internal structure of a **root node** followed by successive child **leaf nodes**. The leaf nodes are a placeholder for the classification label, and the branches show the outcomes of the decision. The paths from the tree's root to the leaves represent the classifier rules. Each tree and sub-tree models a single decision and enumerates all the possible decisions to choose the best one.
-A Decision tree can be optimal if it represents most of the data with the least number of levels. Decision [[Trees]] are computationally efficient, and many tree-based optimizations have been created over the years to make them perform even faster.
-=======
 Decision [Trees](../../KB/Trees.md) are tree-based decision models that use an internal structure of a **root node** followed by successive child **leaf nodes**. The leaf nodes are a placeholder for the classification label, and the branches show the outcomes of the decision. The paths from the tree's root to the leaves represent the classifier rules. Each tree and sub-tree models a single decision and enumerates all the possible decisions to choose the best one.
 A Decision tree can be optimal if it represents most of the data with the least number of levels. Decision [Trees](../../KB/Trees.md) are computationally efficient, and many tree-based optimizations have been created over the years to make them perform even faster.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 An example of such a tree is shown below. 
 [IMAGE {3 } { Decision Tree } START SAMPLE]
 ![Decision Tree](https://hackmd.io/_uploads/SJxhur7PYi.png)
@@ -92,11 +76,7 @@ An example of such a tree is shown below.
 ![Random Forest](https://hackmd.io/_uploads/S1wFBmPYo.png)
 [IMAGE { 4} FINISH SAMPLE]
 
-<<<<<<< HEAD
-Random Forest models use a forest of Decision [[Trees]] for a task is the best after the aggregation. This technique of aggregating multiple results from similar processes is called **Ensembling**. 
-=======
 Random Forest models use a forest of Decision [Trees](../../KB/Trees.md) for a task is the best after the aggregation. This technique of aggregating multiple results from similar processes is called **Ensembling**. 
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 The second component of the Random Forest pertains to another technique called **Bagging**. Bagging differs from Ensembling because, in Bagging, the data is different for every model, while in Ensembling, the different models are run on the same data. In Bagging, a random sample with replacement is chosen multiple times to create a data sample. These data samples are then used to train the model independently. After training all these models, the majority vote is taken to find a better estimate of the data.
 Random forests combine the concepts of Bagging and Ensembling to decide the best feature splits and select subsets of the same. This algorithm is better than using a single Decision Tree as it reduces bias and the net variance, generating better predictions.
 
@@ -105,13 +85,8 @@ Bagging and Ensembling might seem like they help model the joint probability dis
 ## Generative Models
 Generative Models are a family of models that create new data points. They are generally used for unsupervised tasks. Generative Models use the joint probability distribution $P(X, Y)$ on a variable X and a target variable Y to model the data and perform inference by estimating the probability of the new data point belonging to any given class.
 
-<<<<<<< HEAD
-### Latent Dirichlet Allocation ([[LDA]])
-[[LDA]] maximizes the class separation and not the variance of the data.
-=======
 ### Latent Dirichlet Allocation ([LDA](../../KB/LDA.md))
 [LDA](../../KB/LDA.md) maximizes the class separation and not the variance of the data.
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 This principle is illustrated in the figure below.
 
 [IMAGE {5 } { LDA } START SAMPLE]

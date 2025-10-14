@@ -1,19 +1,7 @@
----
-toc: true
-title: A letter to my junior school art teacher
-<<<<<<< HEAD
-tags:
-  - articles
-date modified: 
-date created: 
-publish: "false"
-draft: true
-=======
 
 tags: ["articles"]
 date modified: 
 date created: 
->>>>>>> c81e8f3ddc6c0c89fcb1bf4f17a5aa2cb566643b
 ---
 # A letter to my junior school art teacher - David Fitzgerald
 
