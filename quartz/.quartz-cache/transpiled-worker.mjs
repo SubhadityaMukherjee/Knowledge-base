@@ -13723,6 +13723,21 @@ var ConditionalRender_default = /* @__PURE__ */ __name(((config2) => {
 // content/art-data.json
 var art_data_default = [
   {
+    src: "art_images/Christmas_Card_25.webp",
+    alt: "Penguin for Christmas",
+    title: "Penguin for Christmas"
+  },
+  {
+    src: "art_images/arden.webp",
+    alt: "Cacti Garden",
+    title: "Cacti Garden"
+  },
+  {
+    src: "art_images/muscles.webp",
+    alt: "Study of a dude with a sword",
+    title: "Dude with a sword"
+  },
+  {
     src: "art_images/Wedding_Card.webp",
     alt: "Wedding Card",
     title: "My wedding card :)"
