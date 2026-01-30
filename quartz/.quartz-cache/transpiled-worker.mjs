@@ -13723,9 +13723,24 @@ var ConditionalRender_default = /* @__PURE__ */ __name(((config2) => {
 // content/art-data.json
 var art_data_default = [
   {
-    src: "art_images/Christmas_Card_25.webp",
-    alt: "Penguin for Christmas",
-    title: "Penguin for Christmas"
+    src: "art_images/Move, snorlax!.webp",
+    alt: "Cacti Garden",
+    title: "Cacti Garden"
+  },
+  {
+    src: "art_images/Sekiro.webp",
+    alt: "Fan Art of Sekiro",
+    title: "Fan Art of Sekiro"
+  },
+  {
+    src: "art_images/Shrimp ramen.webp",
+    alt: "Shrimp Ramen study",
+    title: "Shrimp Ramen study"
+  },
+  {
+    src: "art_images/Character_Practice.webp",
+    alt: "Character Practice",
+    title: "Character Practice"
   },
   {
     src: "art_images/arden.webp",
