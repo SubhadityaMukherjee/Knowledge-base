@@ -14,7 +14,7 @@ title-block-banner: true
 I am currently working as a software research engineer at [OpenML Labs](https://amore-labs.github.io/website/).
 ## Navigate to things
 - [[My Blogs|Blogs]]
-- [[My Art]]
+- [My Art!](https://subhadityamukherjee.github.io/My-Art-Gallery/)
 - [[__Index_of__KB|Knowledge Base]]
 - [Github](https://www.github.com/SubhadityaMukherjee)
 ## About This Site
