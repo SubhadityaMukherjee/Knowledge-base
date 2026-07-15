@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Gated [Recurrent](Recurrent.md) Unit (GRU)
-- ![](../images/Pasted%20image%2020220621124840.png)
+- ![](../../../../images/Pasted%20image%2020220621124840.webp)
 - Simplified [LSTM)](Long Short Term Memory (LSTM|Long Short Term Memory (LSTM|[LSTM)](LSTM)](LSTM)](Long Short Term Memory (LSTM|Long Short Term Memory (LSTM|[LSTM)](LSTM).md).md)
 - It has an input and forget gate, no output gate
 - Faster than LSTM in training, but does not perform well in many tasks

@@ -15,7 +15,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $h$ is hidden state for encoder and $s$ is hidden state for decoder
 - A type of [Attention Alignment](Attention%20Alignment.md)
 - Final scores after [Softmax](Softmax.md)
-- ![](../images/Pasted%20image%2020220621174933.png)
+- ![](../../../../images/Pasted%20image%2020220621174933.webp)
 
 
 

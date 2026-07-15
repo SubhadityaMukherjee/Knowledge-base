@@ -16,7 +16,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Complexity is $O(n \times w)$
 	- $w$ should be small compared to $n$
 - With $l$ layers, [Receptive field](Receptive%20field.md) size is $l \times w$
-- ![](../images/Pasted%20image%2020220621181138.png)
+- ![](../../../../images/Pasted%20image%2020220621181138.webp)
 
 
 

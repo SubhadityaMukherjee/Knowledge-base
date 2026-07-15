@@ -73,7 +73,7 @@ date created: Thursday, October 6th 2022, 10:29:54 am
 - As future work, we could consider performing saliency normalization according to global statistics (mean and variance) on the tested set.
 
 ## Images
-- ![](../images/Pasted%20image%2020221006103042.png)
+- ![](../../../../images/Pasted%20image%2020221006103042.webp)
 
 
 

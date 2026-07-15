@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Visual Encoding
-- ![](../images/Pasted%20image%2020220418104606.png)
+- ![](../../images/Pasted%20image%2020220418104606.webp)
 - [Characteristics of Visual Variables](Characteristics%20of%20Visual%20Variables.md)
 
 

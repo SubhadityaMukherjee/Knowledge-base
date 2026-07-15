@@ -8,7 +8,7 @@ date modified: Tuesday, January 24th 2023, 8:30:23 pm
 
 # Ensemble of Shape Functions
 - ESF
-- ![](../images/Pasted%20image%2020221103123354.png)
+- ![](../../images/Pasted%20image%2020221103123354.webp)
 
 
 

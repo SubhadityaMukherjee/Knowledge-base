@@ -40,9 +40,9 @@ Between cognition and the vehicle lies the embodiment of the driver, namely the 
 Not surprisingly, there can be parallelism in this integrated system – for instance, moving the hand while visually encoding the lead car – but there are also capacity constraints and/or bottlenecks that sometimes result in degraded performance.
 
 ## Pictures
-- ![](../images/Pasted%20image%2020221012124222.png)
-- ![](../images/Pasted%20image%2020221012124236.png)
-- ![](../images/Pasted%20image%2020221012124251.png)
+- ![](../../images/Pasted%20image%2020221012124222.webp)
+- ![](../../images/Pasted%20image%2020221012124236.webp)
+- ![](../../images/Pasted%20image%2020221012124251.webp)
 
 
 

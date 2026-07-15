@@ -52,16 +52,16 @@ date created: Wednesday 1st February 2023, Wed
 - Thus, preparation is already close to ceiling by the time the shortest foreperiod has elapsed and it remains at that level if the foreperiod lengthens (Fig. 1D), yielding the characteristically flat RT – foreperiod function
 
 ## Images
-- ![](../images/Pasted%20image%2020230201121201.png)
-- ![](../images/Pasted%20image%2020230201121209.png)
-- ![](../images/Pasted%20image%2020230201121226.png)
-- ![](../images/Pasted%20image%2020230201121234.png)
-- ![](../images/Pasted%20image%2020230201121246.png)
-- ![](../images/Pasted%20image%2020230201121254.png)
-- ![](../images/Pasted%20image%2020230201121301.png)
-- ![](../images/Pasted%20image%2020230201121320.png)
-- ![](../images/Pasted%20image%2020230201121325.png)
-- ![](../images/Pasted%20image%2020230201121331.png)
+- ![](../../../../images/Pasted%20image%2020230201121201.webp)
+- ![](../../../../images/Pasted%20image%2020230201121209.webp)
+- ![](../../../../images/Pasted%20image%2020230201121226.webp)
+- ![](../../../../images/Pasted%20image%2020230201121234.webp)
+- ![](../../../../images/Pasted%20image%2020230201121246.webp)
+- ![](../../../../images/Pasted%20image%2020230201121254.webp)
+- ![](../../../../images/Pasted%20image%2020230201121301.webp)
+- ![](../../../../images/Pasted%20image%2020230201121320.webp)
+- ![](../../../../images/Pasted%20image%2020230201121325.webp)
+- ![](../../../../images/Pasted%20image%2020230201121331.webp)
 
 
 

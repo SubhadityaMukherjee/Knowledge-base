@@ -12,7 +12,7 @@ date created: Monday 27th March 2023, Mon
 
 - @liVisualizingLossLandscape2018
 - Generalization error relates to convexity in the loss landscape
-	- ![](../images/Pasted%20image%2020230327124720.png)
+	- ![](../../../../images/Pasted%20image%2020230327124720.webp)
 - [Random Directions](Random Directions.md)
 - [Sharpness and Flatness](Sharpness and Flatness.md)
 - [Training Trajectories](Training Trajectories.md)
@@ -23,7 +23,7 @@ date created: Monday 27th March 2023, Mon
 - [Trajectory Plotting with PCA](Trajectory Plotting with PCA.md)
 
 ## Images
-- ![](../images/Pasted%20image%2020230327124659.png)
+- ![](../../../../images/Pasted%20image%2020230327124659.webp)
 
 
 

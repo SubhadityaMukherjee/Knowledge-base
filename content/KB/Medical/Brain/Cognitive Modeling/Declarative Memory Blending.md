@@ -31,7 +31,7 @@ date created: Monday, November 28th 2022, 1:07:49 pm
 - Exp done on generated data as well
 - Compares if same as when run on original
 - Does well with unmodified mode	
-- ![](../images/Pasted%20image%2020221128131719.png)
+- ![](../../../../images/Pasted%20image%2020221128131719.webp)
 
 
 

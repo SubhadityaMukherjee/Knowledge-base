@@ -10,7 +10,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Uncertainty](Uncertainty.md) produced by the model
 - Class imbalance etc
 - Reduce by adding more info
-- ![](../images/Pasted%20image%2020220323154101.png)
+- ![](../../../images/Pasted%20image%2020220323154101.webp)
 
 
 

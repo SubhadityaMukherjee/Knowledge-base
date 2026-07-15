@@ -15,7 +15,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Fast [Attention](Attention.md) kernels
 - Works nicely for images, music etc with a periodic structure
 - Otherwise with the [Strided](Strided.md) pattern , the spatial coordinates do not correlate with the positions the elements might be more relevant in the future
-- ![](../images/Pasted%20image%2020220621175944.png)
+- ![](../../../../images/Pasted%20image%2020220621175944.webp)
 
 
 

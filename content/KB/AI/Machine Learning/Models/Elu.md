@@ -8,7 +8,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 
 # Elu
 - $$f(x) = max(x, a \cdot (e^x-1))$$
-- ![](../images/Pasted%20image%2020220626151712.png)
+- ![](../../../../images/Pasted%20image%2020220626151712.webp)
 
 
 

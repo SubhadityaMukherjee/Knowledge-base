@@ -10,10 +10,10 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Autoregressive](Autoregressive.md)
 - If significant then electrode Granger-causes another
 - Theres some causality but not sure if physical or causal
-- ![](../images/Pasted%20image%2020220502162343.png)
+- ![](../../../images/Pasted%20image%2020220502162343.webp)
 - Partial Directed Coherence
 - Directed [Transfer Function](Transfer%20Function.md)
-- ![](../images/Pasted%20image%2020220502162559.png)
+- ![](../../../images/Pasted%20image%2020220502162559.webp)
 	- Magnitude vs freq
 	- Undirected
 	- From O1 to PZ is different from PZ to O1

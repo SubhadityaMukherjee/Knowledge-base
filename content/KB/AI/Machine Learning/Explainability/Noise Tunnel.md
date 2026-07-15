@@ -42,7 +42,7 @@ date created: Tuesday, December 6th 2022, 12:43:53 pm
 - That is a linear increase of computation and to make the method efficient you should use at least 5 generated noise samples
 
 ## Images
-- ![](../images/Pasted%20image%2020230310122837.png)
+- ![](../../../../images/Pasted%20image%2020230310122837.webp)
 
 
 

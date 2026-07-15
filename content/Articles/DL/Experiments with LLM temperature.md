@@ -18,7 +18,7 @@ So what does this entail? Consider the interface we have at the moment. We have 
 
 In summary, we want a query like "find me a large dataset with multiple classes of flowers" to automatically generate filters like "classification", "multiclass", "sort by size of dataset" etc.
 
-![[search.png]]
+![[search.webp]]
 
 ## Temperature
 
@@ -93,7 +93,7 @@ title='t')
 plt.show()
 ```
 
-![[experiments_with_temp_7_0.png]]
+![[experiments_with_temp_7_0.webp]]
 
 ## Creating the Experimental Setup
 Now, we can focus on testing the effects of temperature for our use case. We are using the `llama3` model for our experiments. The experiments are being run on a 2023 MacBook Pro with an M3 chip and 18GB memory.
@@ -235,7 +235,7 @@ plot_yes_no(df, toc: true
 title = query)
 ```
     
-![[experiments_with_temp_26_1.png]]
+![[experiments_with_temp_26_1.webp]]
 
 Rather interesting don't you think? At higher temperatures, the model gets the answers wrong. Even at a temperature slightly above 0.1, the model starts adding extra information to it's answers.
 
@@ -261,7 +261,7 @@ plot_yes_no(df, toc: true
 title = query)
 ```
 
-![[experiments_with_temp_30_1.png]]
+![[experiments_with_temp_30_1.webp]]
 
 Hmm, same as before. The model starts adding extra information at higher temperatures and starts getting the answers wrong. (Yes, No?? ) What kind of answer is that?
 
@@ -287,7 +287,7 @@ plot_yes_no(df, toc: true
 title = query)
 ```
 
-![[experiments_with_temp_35_1.png]]
+![[experiments_with_temp_35_1.webp]]
 
 This seems to have been very easy for the model. But as always, the model starts adding extra information at higher temperatures. A lot of extra information in fact. Even though the prompt says to ONLY answer with one or two words
 
@@ -313,7 +313,7 @@ plot_yes_no(df, toc: true
 title = query)
 ```
 
-![[experiments_with_temp_40_1.png]]
+![[experiments_with_temp_40_1.webp]]
 
 Notice how some things changed? At higher temperatures, we get extended answers.
 

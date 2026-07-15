@@ -99,9 +99,9 @@ date created: Wednesday 1st February 2023, Wed
 - Late injection of augmentation improves the generalization capabilities of the network similar to the optimizer switching method of [Keskar and Socher, 2017].
 
 ## Images
-- ![](../images/Pasted%20image%2020230201131437.png)
-- ![](../images/Pasted%20image%2020230201131458.png)
-- ![](../images/Pasted%20image%2020230201131507.png)
+- ![](../../../../images/Pasted%20image%2020230201131437.webp)
+- ![](../../../../images/Pasted%20image%2020230201131458.webp)
+- ![](../../../../images/Pasted%20image%2020230201131507.webp)
 
 
 

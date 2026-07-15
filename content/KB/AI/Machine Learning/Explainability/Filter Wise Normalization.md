@@ -17,8 +17,8 @@ $$
 	- d is a random Gaussian Direction vector
 	- $d_{i,j}$ is $j_{th}$ filter of the $i_{th}$ layer of the direction vector d
 	- $||\cdot||$ is the [Frobenius norm](Frobenius norm.md)
-- ![](../images/Pasted%20image%2020230327130027.png)
-- ![](../images/Pasted%20image%2020230327130311.png)
+- ![](../../../../images/Pasted%20image%2020230327130027.webp)
+- ![](../../../../images/Pasted%20image%2020230327130311.webp)
 
 
 

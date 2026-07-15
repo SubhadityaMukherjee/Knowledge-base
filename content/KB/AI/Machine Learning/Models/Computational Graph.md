@@ -8,7 +8,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Computational Graph
-- ![](../images/Pasted%20image%2020220810163656.png)
+- ![](../../../../images/Pasted%20image%2020220810163656.webp)
 - patterns in backward flow
 	- add gate: gradient distributor
 	- max gate: gradient router

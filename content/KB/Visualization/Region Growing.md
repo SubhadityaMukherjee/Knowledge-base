@@ -10,7 +10,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Automatic Segmentation
 - Requires seed point
 - Leakage through holes in [Contour](Contour.md)
-- ![](../images/Pasted%20image%2020220411131307.png)
+- ![](../../images/Pasted%20image%2020220411131307.webp)
 
 
 

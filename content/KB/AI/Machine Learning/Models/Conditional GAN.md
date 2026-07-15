@@ -31,7 +31,7 @@ date created: Sunday, December 18th 2022, 2:04:16 pm
 ### The Generator’s network
 - To create an image that looks as “real” as possible to fool the Discriminator.
 - Same as [DCGAN] except [one hot](DCGAN] except [one hot.md) vector.
-- ![](../images/0F73C7EC-EEAF-41B3-9959-D44C9A8B9674.png)
+- ![](../../../../images/0F73C7EC-EEAF-41B3-9959-D44C9A8B9674.webp)
 
 ## Loss functions
 - We need to calculate two losses for the Discriminator. The sum of the “fake” image and “real” image loss is the overall Discriminator loss. So the loss function of the Discriminator is aiming at minimizing the error of predicting real images coming from the dataset and fake images coming from the Generator given their one-hot labels.

@@ -21,7 +21,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [Midpoint Decider](Midpoint%20Decider.md)
 - [Asymptotic Decider](Asymptotic%20Decider.md)
 - 8. Go to next cell
-- ![](../images/Pasted%20image%2020220417235937.png)
+- ![](../../images/Pasted%20image%2020220417235937.webp)
 
 ## Limitations
 - Produces many triangles

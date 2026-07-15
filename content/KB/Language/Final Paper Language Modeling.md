@@ -32,7 +32,7 @@ title you would give to a paper. (Don't call it "My Gedankenexperiment" !;)).
 - [Shortcuts to Quantifier Interpretation in Children and Adults](Shortcuts%20to%20Quantifier%20Interpretation%20in%20Children%20and%20Adults.md) But studies and comparisons were weird. Change?
 - They were salty about This feature of their design provided children with unambiguous cues as to which set of entities was the focus of attention. : Crain and Thornton (1998)
 - Crain et al.’s (1996) claim that preschoolers have full competence with uni- versal quantifiers would seem to be undermined by the fact that even older school-age children make errors identifyi- **04:40** ng the domain of a universal quantifier.
-- ![](../images/Cpc7B-s9b0HYY1zVySgFLPl-hAQSmnK5t5g-d4Fl8tHC9namPP4qXpn8u4Z1sDhIpmt912t7t6X9zHTUz2otmcMkCpk5a4mRbMTY.png)
+- ![](../../images/Cpc7B-s9b0HYY1zVySgFLPl-hAQSmnK5t5g-d4Fl8tHC9namPP4qXpn8u4Z1sDhIpmt912t7t6X9zHTUz2otmcMkCpk5a4mRbMTY.webp)
 - Brooks and Braine (1996, Experiment 1) tested adults with actional scenes and found no errors. Their data, however, came from 10 undergraduates at a highly selective private university (Carnegie Mellon) and thus may not be representative of adults in general.
 - Test same thing as Shorts. but different data
 - Pictures

@@ -11,8 +11,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Ideal low-pass filter
 - multiply with box filter in frequency domain
 - convolution with sinc in spatial domain (impractical: infinite extent)
-- ![](../images/Pasted%20image%2020220411130419.png)
-- ![](../images/Pasted%20image%2020220411130431.png)
+- ![](../../images/Pasted%20image%2020220411130419.webp)
+- ![](../../images/Pasted%20image%2020220411130431.webp)
 - Spatially narrow (wide) filter has wide (narrow) spectrum and low (high) smoothing effect
 
 

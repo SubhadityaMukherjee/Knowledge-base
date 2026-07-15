@@ -89,13 +89,13 @@ date created: Friday, November 25th 2022, 12:05:56 pm
 - The proposed method scales quite well to datasets such as ImageNet and COCO while incurring minimal computational cost (e.g. 2 hyper-parameters), but notable predictive performance gains.
 
 ## Images
-- ![](../images/Pasted%20image%2020230116181447.png)
-- ![](../images/Pasted%20image%2020230116181458.png)
-- ![](../images/Pasted%20image%2020230116181528.png)
-- ![](../images/Pasted%20image%2020230116181537.png)
-- ![](../images/Pasted%20image%2020230116181619.png)
-- ![](../images/Pasted%20image%2020230116181627.png)
-- ![](../images/Pasted%20image%2020230116181636.png)
+- ![](../../../../images/Pasted%20image%2020230116181447.webp)
+- ![](../../../../images/Pasted%20image%2020230116181458.webp)
+- ![](../../../../images/Pasted%20image%2020230116181528.webp)
+- ![](../../../../images/Pasted%20image%2020230116181537.webp)
+- ![](../../../../images/Pasted%20image%2020230116181619.webp)
+- ![](../../../../images/Pasted%20image%2020230116181627.webp)
+- ![](../../../../images/Pasted%20image%2020230116181636.webp)
 
 
 

@@ -10,13 +10,13 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Inceptionism
 - [Google AI Blog: Inceptionism: Going Deeper into Neural Networks](https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html) #[Roam-Highlights](Roam-Highlights)
 - [Le Net](Le%20Net.md)
-- ![](../images/Pasted%20image%2020220711201721.png)
-- ![](../images/Pasted%20image%2020220711201740.png)
-- ![](../images/Pasted%20image%2020220711201745.png)
-- ![](../images/Pasted%20image%2020220711201750.png)
-- ![](../images/Pasted%20image%2020220711201754.png)
-- ![](../images/Pasted%20image%2020220711201758.png)
-- ![](../images/Pasted%20image%2020220711201804.png)
+- ![](../../images/Pasted%20image%2020220711201721.webp)
+- ![](../../images/Pasted%20image%2020220711201740.webp)
+- ![](../../images/Pasted%20image%2020220711201745.webp)
+- ![](../../images/Pasted%20image%2020220711201750.webp)
+- ![](../../images/Pasted%20image%2020220711201754.webp)
+- ![](../../images/Pasted%20image%2020220711201758.webp)
+- ![](../../images/Pasted%20image%2020220711201804.webp)
 - One of the challenges of neural networks is understanding what exactly goes on at each layer
 - We know that after training, each layer progressively extracts higher and higher-level [Features](Features.md) of the image, until the final layer essentially makes a decision on what the image shows
 - For example, the first layer maybe looks for edges or corners

@@ -51,9 +51,9 @@ date created: Wednesday 1st February 2023, Wed
 - Transfer effects like those in the present study illustrate the need for a flexible basis for preparation, subject to learning and updating
 
 ## Images
-- ![](../images/Pasted%20image%2020230201120247.png)
-- ![](../images/Pasted%20image%2020230201120302.png)
-- ![](../images/Pasted%20image%2020230201120312.png)
+- ![](../../../../images/Pasted%20image%2020230201120247.webp)
+- ![](../../../../images/Pasted%20image%2020230201120302.webp)
+- ![](../../../../images/Pasted%20image%2020230201120312.webp)
 
 
 

@@ -14,7 +14,7 @@ date created: Monday, November 28th 2022, 1:03:28 pm
 - Initially, short is 2 seconds and long is 3.1 seconds
 - They receive feedback on whether their estimate is within +/- 12.5% of the target, and receive “too short” or “too long” as feedback otherwise.
 - After a number of trials, the criterion for the long interval starts to change
-- ![](../images/Pasted%20image%2020221128130451.png)
+- ![](../../../../images/Pasted%20image%2020221128130451.webp)
 - Short intervals are also effected and vice versa
 
 ## Model

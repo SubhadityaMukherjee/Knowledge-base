@@ -20,8 +20,8 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - to generate high-quality embeddings using a high-performance model, we can switch the model’s task from predicting a neighboring word And switch it to a model that takes the input and output word, and outputs a score indicating if they’re neighbors or not (0 for “not neighbors”, 1 for “neighbors”).
 - This simple switch changes the model we need from a neural network, to a logistic regression model – thus it becomes much simpler and much faster to calculate. + [Negative Sampling](Negative Sampling.md)
 - Embedding and Context matrices randomly initialized
-- ![](../images/Pasted%20image%2020221208001319.png)
-- ![](../images/Pasted%20image%2020221208001413.png)
+- ![](../../../../images/Pasted%20image%2020221208001319.webp)
+- ![](../../../../images/Pasted%20image%2020221208001413.webp)
 
 ## Hyperparams
 

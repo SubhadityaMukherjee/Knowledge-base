@@ -16,7 +16,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - no of diamons in ton of ore
 - Expected no of events $E[X]$ : rate $\lambda$
 - [[PMF.md]] : $$p(k) = \frac{\lambda^{k}e^{-k}}{k!}$$
-- ![[../images/Pasted image 20220319133622.png]]
+- ![[Pasted image 20220319133622.webp]]
 - Eg:
 - N 1-hour protocols for calls : $n_{i} (i = 1, …, N)$
 - $$\hat\lambda =\frac{1}{N}\Sigma_{i}n_{i}$$

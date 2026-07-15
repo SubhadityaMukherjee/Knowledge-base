@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Functional Connectivity
-- ![](../images/Pasted%20image%2020220502161507.png)
+- ![](../../../images/Pasted%20image%2020220502161507.webp)
 
 ## Symmetric
 - [BrainWave Synchronization](BrainWave%20Synchronization.md)

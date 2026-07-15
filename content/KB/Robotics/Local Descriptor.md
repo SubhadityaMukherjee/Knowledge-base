@@ -10,8 +10,8 @@ tags: ['robotics']
 - The tangent plane is estimated
 - A 2D histogram is computed along the a and b dimensions in the neighborhood of the keypoint
 - Spin-image represents a small area of an object around a specific keypoints
-- ![](../images/Pasted%20image%2020221103123428.png)
-- ![](../images/Pasted%20image%2020221103123443.png)
+- ![](../../images/Pasted%20image%2020221103123428.webp)
+- ![](../../images/Pasted%20image%2020221103123443.webp)
 
 
 

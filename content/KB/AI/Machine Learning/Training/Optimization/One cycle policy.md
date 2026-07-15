@@ -22,7 +22,7 @@ date created: Thursday 11th May 2023, Thu
 - Then the last part of the training, with descending learning rates up until annihilation will allow us to go inside a steeper local minimum inside that smoother part
 - Surprisingly, applying this policy even allows us to pick larger maximum learning rates, closer to the minimum of the plot we draw when using the learning rate finder
 - Those trainings are a bit more dangerous in the sense that the loss can go too far away and make the whole thing diverge In those cases, it can be worth to try with a longer cycle before going to a slower learning rate, since a long warm-up seems to help
-- ![](../images/Pasted%20image%2020230511123527.png)
+- ![](../../../../../images/Pasted%20image%2020230511123527.webp)
 
 ## Cyclical Momentum
 - To accompany the movement toward larger learning rates, Leslie found in his experiments that decreasing the momentum led to better results
@@ -30,7 +30,7 @@ date created: Thursday 11th May 2023, Thu
 - According to Leslie, the exact best value of momentum chosen during the whole training can give us the same final results, but using cyclical momentums removes the hassle of trying multiple values and running several full cycles, losing precious time.
 - In his opinion, the batch size should be set to the highest possible value to fit in the available memory. Then the other hyper-parameters we may have (dropout for instance) can be tuned the same way as weight decay, or just by trying on a cycle and see the results they give
 - Training with the 1cycle policy at high learning rates is a method of regularization in itself, so we shouldn't be surprised if we have to reduce the other forms of regularization we were previously using when we put it in place
-- ![](../images/Pasted%20image%2020230511123512.png)
+- ![](../../../../../images/Pasted%20image%2020230511123512.webp)
 
 
 

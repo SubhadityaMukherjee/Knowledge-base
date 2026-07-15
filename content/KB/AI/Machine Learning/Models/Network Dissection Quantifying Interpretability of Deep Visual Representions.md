@@ -52,8 +52,8 @@ $$I_{o}U_{k,c}=\frac{\Sigma|M_{k}(x) \cap L_{c}(x|}{\Sigma|M_{k}(x) \cup L_{c}(x
 - Instead, we find that interpretability is a different quality that must be measured separately to be understood.
 
 ## Measure of Axis Aligned Interpretability
-- ![](../images/Pasted%20image%2020221124134828.png)
-- ![](../images/Pasted%20image%2020221124134900.png)
+- ![](../../../../images/Pasted%20image%2020221124134828.webp)
+- ![](../../../../images/Pasted%20image%2020221124134900.webp)
 
 ## Disentangled Concepts by Layer
 - Confirming intuition, color and texture concepts dominate at lower layers conv1 and conv2 while more object and part detectors emerge in conv5.
@@ -76,22 +76,22 @@ $$I_{o}U_{k,c}=\frac{\Sigma|M_{k}(x) \cap L_{c}(x|}{\Sigma|M_{k}(x) \cup L_{c}(x
 - batch normalization 'whitens' the activation at each layer, which smooths out scaling issues and allows a network to easily rotate axes of intermediate representations during training
 - While whitening apparently speeds training, it may also have an effect similar to random rotations analyzed in Sec. 3.2 which destroy interpretability
 - interpretability is neither a prerequisite nor an obstacle to discriminative power
-- ![](../images/Pasted%20image%2020221124135003.png)
-- ![](../images/Pasted%20image%2020221124135014.png)
-- ![](../images/Pasted%20image%2020221124135021.png)
+- ![](../../../../images/Pasted%20image%2020221124135003.webp)
+- ![](../../../../images/Pasted%20image%2020221124135014.webp)
+- ![](../../../../images/Pasted%20image%2020221124135021.webp)
 
 ## Discrimination Vs. Interpretability
 - For each trained model, we extract the representation at the highest convolutional layer, and train a linear SVM with C = 0.001 on the training data for action40 action recognition task
 - Thus the supervision tasks that encourage the emergence of more concept detectors may also improve the discrimination ability of deep features.
 - accuracy on a representation when applied to a task is dependent not only on the number of concept detectors in the representation, but on the suitability of the set of represented concepts to the transfer task.
-- ![](../images/Pasted%20image%2020221124135139.png)
+- ![](../../../../images/Pasted%20image%2020221124135139.webp)
 
 ## Layer Width Vs. Interpretability
 - Depth has been shown to be important to high discrimination ability
 - increasing the number of convolutional units at a layer significantly increases computational cost while yielding only marginal improvements in classification accuracy
 - carefully designed wide residual network can achieve classification accuracy superior to the commonly used thin and deep counterparts.
 - This may indicate a limit on the capacity of AlexNet to separate explanatory factors; or it may indicate that a limit on the number of disentangled concepts that are helpful to solve the primary task of scene classification.
-- ![](../images/Pasted%20image%2020221124135123.png)
+- ![](../../../../images/Pasted%20image%2020221124135123.webp)
 
 
 

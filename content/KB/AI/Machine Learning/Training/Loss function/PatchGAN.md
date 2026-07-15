@@ -17,7 +17,7 @@ date created: Sunday, December 11th 2022, 1:16:53 pm
 - assuming independence between pixels separated by more than a patch diameter
 - type of texture/style loss
 - rather the regular GAN maps from a 256×256 image to a single scalar output, which signifies “real” or “fake”, whereas the PatchGAN maps from 256×256 to an NxN (here 70×70) array of outputs X, where each $X_{ij}$ signifies whether the patch _ij_ in the image is real or fake.
-- ![](../images/Pasted%20image%2020221211131813.png)
+- ![](../../../../../images/Pasted%20image%2020221211131813.webp)
 
 
 

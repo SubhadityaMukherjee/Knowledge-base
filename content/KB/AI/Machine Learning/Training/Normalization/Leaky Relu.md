@@ -11,7 +11,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - has a small slope for negative values instead of a flat slope. The slope coefficient is determined before training, i.e. it is not learnt during training. This type of activation function is popular in tasks where we we may suffer from sparse gradients, for example training generative adversarial networks.
 - The reasons can be numerous, but in order to fight the situation when suddenly lot’s of neurons in the network simply do nothing
 - $$max(0.01x,x)$$
-- ![](../images/Pasted%20image%2020220626151659.png)
+- ![](../../../../../images/Pasted%20image%2020220626151659.webp)
 
 
 

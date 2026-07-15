@@ -18,7 +18,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 		- Any value between -inf to +inf so [Softmax](Softmax.md) is applied
 	- $x_i$ is the input vector at the same pos as the current output vector $y_i$
 - Propagates info between vectors
-- ![](../images/Pasted%20image%2020220525183444.png)
+- ![](../../../../images/Pasted%20image%2020220525183444.webp)
 - The process
 	- Assign every word t in the vocabular an [Embedding](Embedding.md)
 	- Feeding this into a self [Attention](Attention.md) layer we get another seq of vectors $y_{the}$ , $y_{cat}$ etc

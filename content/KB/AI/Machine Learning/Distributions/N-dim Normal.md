@@ -12,7 +12,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - [[PDF.md]] $$p(x) = \frac{1}{(2\pi)^{n/2}det(\Sigma)^{\frac{1}{2}}}exp\left(-\frac{1}{2}(x-\mu)'\Sigma^{-1}(x-\mu)\right)$$
 - $\mu$ is expectation $E[[Covariance.md|(X_{1}, …, X_{n}|[X_{1}, …, X_{n}|X_{1}, …, X_{n})']]'](X_%7B1%7D,%20%E2%80%A6,%20X_%7Bn%7D)'](X_{1}, …, X_{n})'](Covariance.md|(X_{1}, …, X_{n}|[[X_{1}, …, X_{n}|X_{1}, …, X_{n})']]'.md) matrix
 - $$\Sigma(i,j) = E[(X_{i} - E[X_{i}])(X_{j}-E[X_{j}])]$$
-- ![[../images/Pasted image 20220319151038.png]]
+- ![[Pasted image 20220319151038.webp]]
 - $$\hat \mu = \frac{1}{N}\Sigma_{i}x_{i}$$ and $$\hat \Sigma = \frac{1}{N-1}\Sigma_{i}(x_{i}-\hat\mu)(x_{i}-\hat\mu)'$$
 
 

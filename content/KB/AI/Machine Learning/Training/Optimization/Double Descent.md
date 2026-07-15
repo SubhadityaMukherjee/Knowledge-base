@@ -13,7 +13,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - occurs often in the over-parameterization regime
     - models which have a lot of parameters
     - models that have huge complexity
-- ![](../images/Pasted%20image%2020240620151512.png)
+- ![](../../../../../images/Pasted%20image%2020240620151512.webp)
 - once the model has enough capacity to drive the training loss to near zero, the model fits the training data almost perfectly
 - This implies that further capacity cannot help the model fit the training data any better; any change must occur between the training points
 - [Inductive Bias](Inductive%20Bias.md)

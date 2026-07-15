@@ -50,7 +50,7 @@ date created: Thursday 30th May 2024, Thu
 - we observe that the model's prior response only agreed with the reference answer 34.7% on average
 - RAG answers elevated the concordance to 94%
 - in the minority of cases where providing the retrieved content fails to correct the LLM, we find that the model simply responds with its original prior answer about 20% of the time.
-![](../images/6f5d466785a602433dc0d64a068157882b102ef9.png)
+![](../../../../images/6f5d466785a602433dc0d64a068157882b102ef9.webp)
 
 ### RAG Preference Rate vs. Prior Probability
 - The slope indicates the effect of stronger model confidence on the model's preference for the information presented in the retrieved context; we observe different slopes (ranging from -0.1 to -0.45), suggesting that the effectiveness of RAG in different QA domains can be characterized as being relatively susceptible (e.g., with Dates questions) or robust (e.g., with News questions) to the model's internal prior knowledge confidence.

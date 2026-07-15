@@ -8,7 +8,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Helmholtz Theorem
-- ![](../images/Screenshot%202022-09-14%20at%2012.25.11%20PM.png)
+- ![](../../images/Screenshot%202022-09-14%20at%2012.25.11%20PM.webp)
 
 
 

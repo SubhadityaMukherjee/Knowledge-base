@@ -80,9 +80,9 @@ date created: Wednesday 1st February 2023, Wed
 - If temporal preparation had increased with $FP_n$-length, this should have resulted in more efficient performance
 
 ## Images
-- ![](../images/Pasted%20image%2020230201114737.png)
-- ![](../images/Pasted%20image%2020230201114749.png)
-- ![](../images/Pasted%20image%2020230201114757.png)
+- ![](../../../../images/Pasted%20image%2020230201114737.webp)
+- ![](../../../../images/Pasted%20image%2020230201114749.webp)
+- ![](../../../../images/Pasted%20image%2020230201114757.webp)
 - 
 
 

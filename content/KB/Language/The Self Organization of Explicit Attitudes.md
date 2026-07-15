@@ -91,11 +91,11 @@ date created: Friday, October 14th 2022, 5:07:15 pm
 - the mind may host a continuously evolving blend of (implicit) evaluative decisions from which the eventual (explicit) behavioral choice emerges.
 
 ## Pictures
-- ![](../images/Pasted%20image%2020221014170754.png)
-- ![](../images/Pasted%20image%2020221014170803.png)
-- ![](../images/Pasted%20image%2020221014170822.png)
-- ![](../images/Pasted%20image%2020221014170834.png)
-- ![](../images/Pasted%20image%2020221014170848.png)
+- ![](../../images/Pasted%20image%2020221014170754.webp)
+- ![](../../images/Pasted%20image%2020221014170803.webp)
+- ![](../../images/Pasted%20image%2020221014170822.webp)
+- ![](../../images/Pasted%20image%2020221014170834.webp)
+- ![](../../images/Pasted%20image%2020221014170848.webp)
 
 
 

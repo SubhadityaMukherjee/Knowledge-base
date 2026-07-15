@@ -90,11 +90,11 @@ date created: Tuesday, October 25th 2022, 4:18:57 pm
 - What made the presence of extra objects in the drawings ostensive was the minimality of the drawings, suggesting that everything irrelevant had been eliminated from them.
 
 ## Pictures
-- ![](../images/Pasted%20image%2020221025163053.png)
-- ![](../images/Pasted%20image%2020221025163108.png)
-- ![](../images/Pasted%20image%2020221025163121.png)
-- ![](../images/Pasted%20image%2020221025163136.png)
-- ![](../images/Pasted%20image%2020221025163152.png)
+- ![](../../images/Pasted%20image%2020221025163053.webp)
+- ![](../../images/Pasted%20image%2020221025163108.webp)
+- ![](../../images/Pasted%20image%2020221025163121.webp)
+- ![](../../images/Pasted%20image%2020221025163136.webp)
+- ![](../../images/Pasted%20image%2020221025163152.webp)
 
 
 

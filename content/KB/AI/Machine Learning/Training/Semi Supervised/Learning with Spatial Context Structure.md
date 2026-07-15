@@ -9,7 +9,7 @@ tags: ['semisupervisedlearning']
 - The pretext task can be to predict the relative positions of two patches from same image [41], or to recognize the order of the shuffled a sequence of patches from same image [20], [88], [89] 
 - The context of full images can also be used as a supervision signal to design pretext tasks such as to recognize the rotating angles of the whole images [36] 
 - ConvNets need to learn spatial context information such as the shape of the objects and the relative positions of different parts of an object.  
-- ![](../images/img_p18_1.png) 
+- ![](../../../../../images/img_p18_1.webp) 
 - Doersch et al. is one of the pi- (b) oneer work of using spatial context cues for self- supervised visual feature learning [41] 
 - Random pairs of image patches are extracted from each image, then a ConvNet is trained to recognize the relative positions of the two image patches 
 - ConvNets need to recognize objects in images and learn the relationships among different parts of objects 

@@ -8,7 +8,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Minkowski Distance
-- ![](../images/Pasted%20image%2020220623160934.png)
+- ![](../../../../../images/Pasted%20image%2020220623160934.webp)
 - $$D(x,y) = (\Sigma_{i=1}^{n}|x_{i}-y_{i}|^{p})^{\frac{1}{p}}$$
 - It is a metric used in Normed vector space (n-dimensional real space), which means that it can be used in a space where distances can be represented as a vector that has a length.
 	- Zero Vector — The zero vector has a length of zero whereas every other vector has a positive length. For example, if we travel from one place to another, then that distance is always positive. However, if we travel from one place to itself, then that distance is zero.

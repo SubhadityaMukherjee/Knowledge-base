@@ -56,9 +56,9 @@ date created: Wednesday, October 5th 2022, 2:35:36 pm
 - We can observe a pattern that wide models fail more than deep models as the ϵ increases
 
 ## Images
-- ![](../images/Pasted%20image%2020221005143610.png)
-- ![](../images/Pasted%20image%2020221005143659.png)
-- ![](../images/Pasted%20image%2020221005143709.png)
+- ![](../../../../images/Pasted%20image%2020221005143610.webp)
+- ![](../../../../images/Pasted%20image%2020221005143659.webp)
+- ![](../../../../images/Pasted%20image%2020221005143709.webp)
 
 
 

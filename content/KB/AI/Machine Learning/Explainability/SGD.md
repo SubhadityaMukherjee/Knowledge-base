@@ -15,4 +15,4 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$\theta = \theta - \eta \cdot \nabla_{\theta} J(\theta ; x^{i}; y^{i} )$$
 	- For each example $x^{i}$ and label $y^{i}$
 ## Implicit Regularization
-- ![](../images/Pasted%20image%2020240918105821.png)
+- ![](../../../../images/Pasted%20image%2020240918105821.webp)

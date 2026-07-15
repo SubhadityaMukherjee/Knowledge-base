@@ -11,7 +11,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 (such as organs in [medical](medical.md) imaging data)
 -improve the detectability of edges between big structures,
 - preserve small scale structures
-![](../images/Pasted%20image%2020220418000525.png)- [Conv Based Noise Reduction](Conv%20Based%20Noise%20Reduction.md)
+![](../../images/Pasted%20image%2020220418000525.webp)- [Conv Based Noise Reduction](Conv%20Based%20Noise%20Reduction.md)
 - [Average Filter](Average%20Filter.md)
 - [Gaussian Filter](Gaussian%20Filter.md)
 - [Mesh Smoothing](Mesh%20Smoothing.md)

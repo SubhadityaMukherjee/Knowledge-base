@@ -37,11 +37,11 @@ date created: Wednesday 1st February 2023, Wed
 - a combination of a memory system and a time estimation system can explain the data discussed in this study, despite the fact that neither system was specifically designed for these experiments.
 
 ## Images
-- ![](../images/Pasted%20image%2020230201113500.png)
-- ![](../images/Pasted%20image%2020230201113518.png)
-- ![](../images/Pasted%20image%2020230201113623.png)
-- ![](../images/Pasted%20image%2020230201113634.png)
-- ![](../images/Pasted%20image%2020230201113649.png)
+- ![](../../../../images/Pasted%20image%2020230201113500.webp)
+- ![](../../../../images/Pasted%20image%2020230201113518.webp)
+- ![](../../../../images/Pasted%20image%2020230201113623.webp)
+- ![](../../../../images/Pasted%20image%2020230201113634.webp)
+- ![](../../../../images/Pasted%20image%2020230201113649.webp)
 
 
 

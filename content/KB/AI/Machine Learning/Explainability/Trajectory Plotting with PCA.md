@@ -19,7 +19,7 @@ $$
 - $\theta_{i}$ is the model params during epoch i
 - n is number of epochs
 - apply PCA to M and use 2 most explanatory directions
-- ![](../images/Pasted%20image%2020230327130326.png)
+- ![](../../../../images/Pasted%20image%2020230327130326.webp)
 
 
 

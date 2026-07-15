@@ -103,15 +103,15 @@ date created: Thursday 9th February 2023, Thu
 - On the other hand, if the context model is trained with little data, as in the case of using only 5% of the full set, our augmentation strategy tends to the random one and shows little improvement
 
 ## Images
-- ![](../images/Pasted%20image%2020230209110237.png)
-- ![](../images/Pasted%20image%2020230209110250.png)
-- ![](../images/Pasted%20image%2020230209110302.png)
-- ![](../images/Pasted%20image%2020230209110324.png)
-- ![](../images/Pasted%20image%2020230209110341.png)
-- ![](../images/Pasted%20image%2020230209110351.png)
-- ![](../images/Pasted%20image%2020230209110405.png)
-- ![](../images/Pasted%20image%2020230209110417.png)
-- ![](../images/Pasted%20image%2020230209110432.png)
+- ![](../../../../../images/Pasted%20image%2020230209110237.webp)
+- ![](../../../../../images/Pasted%20image%2020230209110250.webp)
+- ![](../../../../../images/Pasted%20image%2020230209110302.webp)
+- ![](../../../../../images/Pasted%20image%2020230209110324.webp)
+- ![](../../../../../images/Pasted%20image%2020230209110341.webp)
+- ![](../../../../../images/Pasted%20image%2020230209110351.webp)
+- ![](../../../../../images/Pasted%20image%2020230209110405.webp)
+- ![](../../../../../images/Pasted%20image%2020230209110417.webp)
+- ![](../../../../../images/Pasted%20image%2020230209110432.webp)
 - 
 
 

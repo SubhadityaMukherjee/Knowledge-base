@@ -14,7 +14,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - As a result, it could dominate the average score taken over multiple sets
 - It weights each item inversely proportionally to the size of the relevant set rather than treating them equally.
 - $$D(x,y) = \frac{2|x\cap y|}{|x|+|y|}$
-- ![](../images/Pasted%20image%2020220624121258.png)
+- ![](../../../../../images/Pasted%20image%2020220624121258.webp)
 
 
 

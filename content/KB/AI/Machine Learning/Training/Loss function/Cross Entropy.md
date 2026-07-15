@@ -40,7 +40,7 @@ $$ where $$
 l_{n} = -w_{y_{n}}log \frac{exp(x_{n, y_{n}})}{\Sigma_{c=1}^{C}exp(x_{n,c})}
 $$, $x$ is the input, $y$ is the target, $C$ is the number of classes
 
-- ![](../images/Pasted%20image%2020240828102220.png)
-- ![](../images/Pasted%20image%2020240828102230.png)
+- ![](../../../../../images/Pasted%20image%2020240828102220.webp)
+- ![](../../../../../images/Pasted%20image%2020240828102230.webp)
 - Also [Negative Log Likelihood](Negative%20Log%20Likelihood.md)
 

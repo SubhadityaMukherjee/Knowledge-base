@@ -57,10 +57,10 @@ $$
 - However, when the magnitudes of the transform are too large (≥ 16 for Cutout and ≥ 12 for RandAugment ), the training accuracy (blue line), and hence the testing accuracy (red line), starts to degenerate, indicating that augmented data no longer faithfully represent the clean training data in this case, such that the training loss on augmented data no longer forms a good surrogate of the training loss on the clean data.
 
 ## Images
-- ![](../images/Pasted%20image%2020230508121420.png)
-- ![](../images/Pasted%20image%2020230508121431.png)
-- ![](../images/Pasted%20image%2020230508121452.png)
-- ![](../images/Pasted%20image%2020230508121458.png)
+- ![](../../../../../images/Pasted%20image%2020230508121420.webp)
+- ![](../../../../../images/Pasted%20image%2020230508121431.webp)
+- ![](../../../../../images/Pasted%20image%2020230508121452.webp)
+- ![](../../../../../images/Pasted%20image%2020230508121458.webp)
 
 
 

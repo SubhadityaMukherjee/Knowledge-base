@@ -35,7 +35,7 @@ $$
 	- $G_{1}, G_{2}$ are Guassians at different $\sigma$ values,
 	- Low spatial scale activation $F(x_{i})*G_{1}$
 	- High scale activation $F^{-1}(F(x_{i})*(1-G_{2}))$
-- ![](../images/Pasted%20image%2020230511183730.png)
+- ![](../../../../images/Pasted%20image%2020230511183730.webp)
 
 ## Targeted Deep Visual Explanation
 - In our simple case of image classification (cf. speech, language) one of the ultimate goals of the visual explanation in the context of debugging is to be precise when determining the component salient patch.
@@ -48,10 +48,10 @@ $$
 - We experimented with a simple version of our approach on image classification.
 
 ## Images
-- ![](../images/Pasted%20image%2020230511184656.png)
-- ![](../images/Pasted%20image%2020230511184707.png)
-- ![](../images/Pasted%20image%2020230511184713.png)
-- ![](../images/Pasted%20image%2020230511184723.png)
+- ![](../../../../images/Pasted%20image%2020230511184656.webp)
+- ![](../../../../images/Pasted%20image%2020230511184707.webp)
+- ![](../../../../images/Pasted%20image%2020230511184713.webp)
+- ![](../../../../images/Pasted%20image%2020230511184723.webp)
 
 
 

@@ -17,5 +17,5 @@ date created: Thursday, December 15th 2022, 10:05:01 pm
 	- Between each row and columns of the input, insert z number of zeros. This increases the size of the input to $(2*i -1) \times (2*i -1)$
 	- Pad the modified image with p' no of zeros
 	- Standard conv with stride of 1
-- ![](../images/031324A4-A9BA-4615-A81D-82BC53564751.png)
+- ![](../../../../images/031324A4-A9BA-4615-A81D-82BC53564751.webp)
 

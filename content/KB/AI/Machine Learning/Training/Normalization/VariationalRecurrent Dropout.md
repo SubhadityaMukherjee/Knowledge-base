@@ -11,7 +11,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Only on the non [Recurrent](Recurrent.md) parts such as inputs and outputs
 - In recorrent parts, use the same [Dropout](Dropout.md) mask for all time steps
 - Same [Dropout](Dropout.md) mask for each time step
-- ![](../images/Pasted%20image%2020220306113950.png)
+- ![](../../../../../images/Pasted%20image%2020220306113950.webp)
 
 ## …
 

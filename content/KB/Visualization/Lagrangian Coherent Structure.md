@@ -9,7 +9,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 
 # Lagrangian Coherent Structure
 - [Lagrangian Grid](Lagrangian%20Grid.md)
-- ![](../images/Screenshot%202022-09-14%20at%2012.47.50%20PM.png)
+- ![](../../images/Screenshot%202022-09-14%20at%2012.47.50%20PM.webp)
 
 
 

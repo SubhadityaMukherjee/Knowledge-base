@@ -15,7 +15,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - method to explain models by selecting representative individual predictions and their explanations in a non-redundant way, framing the task as a submodular optimization problem and providing a global view of the model to users
 - flexibility of these methods by explaining different models for text (e.g random forests) and image classification (e.g neural networks)
 - usefulness of explanations is shown via novel experiments, both simulated and with human subjects
-- ![](../images/Pasted%20image%2020221012161828.png)
+- ![](../../../images/Pasted%20image%2020221012161828.webp)
 
 
 

@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Gestalt Laws
-- ![](../images/Pasted%20image%2020220418104002.png)
+- ![](../../images/Pasted%20image%2020220418104002.webp)
 - Good form can dominate other laws
 - crossing swarms in our visual field are perceived as different swarms
 

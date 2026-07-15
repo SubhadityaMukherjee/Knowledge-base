@@ -23,10 +23,10 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Examples
 	- 1 dim -> Lines in some high dim figure : B
 	- 2 dim -> Surfaces : A
-	- ![](../images/Pasted%20image%2020220316181643.png)
-	- ![](../images/Pasted%20image%2020220316181947.png)
-	- ![](../images/Pasted%20image%2020220316182354.png)
-	- ![](../images/Pasted%20image%2020220316182449.png)
+	- ![](../images/Pasted%20image%2020220316181643.webp)
+	- ![](../images/Pasted%20image%2020220316181947.webp)
+	- ![](../../../../images/Pasted%20image%2020220316182354.webp)
+	- ![](../../../../images/Pasted%20image%2020220316182449.webp)
 
 ## Refs
 - [tds](https://towardsdatascience.com/manifolds-in-data-science-a-brief-overview-2e9dde9437e5)

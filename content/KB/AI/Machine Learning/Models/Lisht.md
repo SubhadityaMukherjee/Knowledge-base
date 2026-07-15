@@ -8,9 +8,9 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Lisht
-- ![](../images/Pasted%20image%2020220625234951.png)
+- ![](../../../../images/Pasted%20image%2020220625234951.webp)
 - Derivatives
-	- ![](../images/Pasted%20image%2020220625234959.png)
+	- ![](../../../../images/Pasted%20image%2020220625234959.webp)
 - [blog](https://github.com/christianversloot/machine-learning-articles/blob/main/beyond-swish-the-lisht-activation-function.md) #[Roam-Highlights](Roam-Highlights)
     - Linearly Scaled Hyperbolic Tangent
     - his activation function simply uses the [Tanh](Tanh.md) function and scales it linearly, as follows

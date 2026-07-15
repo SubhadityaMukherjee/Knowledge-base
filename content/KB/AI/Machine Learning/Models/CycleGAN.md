@@ -25,7 +25,7 @@ date created: Sunday, December 11th 2022, 12:58:09 pm
 ## Architecture
 
 ## Generator
-- ![](../images/Pasted%20image%2020221211132006.png)
+- ![](../../../../images/Pasted%20image%2020221211132006.webp)
 
 ### Encoder
 - The encoder extracts features from the input image by using Convolutions and compressed the representation of image but increase the number of channels

@@ -426,7 +426,7 @@ But, its real power lies in the vast number of plugins it has. Most of these are
 
 
 ## Hello There
-- ![](Pasted%20image%2020240514132517.png)
+- ![](images/Pasted%20image%2020240514132517.webp)
 
 ...
 ```

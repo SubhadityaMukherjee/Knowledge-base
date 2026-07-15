@@ -11,7 +11,7 @@ date created: Tuesday 7th February 2023, Tue
 
 
 - Points where the gradient is zero but it is at the same a local minima and maxima (both relative)
-- ![](../images/Pasted%20image%2020230207111057.png)
+- ![](../../../../images/Pasted%20image%2020230207111057.webp)
 
 
 

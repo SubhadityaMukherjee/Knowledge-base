@@ -7,10 +7,10 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Marching Squares
-- ![](../images/Pasted%20image%2020220411133621.png)
+- ![](../../images/Pasted%20image%2020220411133621.webp)
 - Also uses [Interpolation](Interpolation.md)
 - Symmetries
-- ![](../images/Pasted%20image%2020220411133645.png)
+- ![](../../images/Pasted%20image%2020220411133645.webp)
 - [Asymptotic Decider](Asymptotic%20Decider.md)
 - [Midpoint Decider](Midpoint%20Decider.md)
 

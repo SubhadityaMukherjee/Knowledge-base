@@ -30,13 +30,13 @@ date created: Wednesday 29th May 2024, Wed
 - answer should be grounded in the given context
 - important to avoid hallucinations, and to ensure that the retrieved context can act as a justification for the generated answer
 - RAG systems are often used in applications where the factual consistency of the generated text w.r.t. the grounded sources is highly important
-- ![](../images/3762eb5a12b51651a8e1b7eb38b484f43a391fd7.png)
+- ![](../../../../images/3762eb5a12b51651a8e1b7eb38b484f43a391fd7.webp)
 - (Note : Basically they use an LLM to generate an answer and then check with the ground truth to see how closely it matched by comparing the number of matches/total number of statements)
 
 ## Answer Relevance
 - generated answer should address the actual question that was provided
 -  (Note : Basically uses cosine similarity. I am unsure of how different it is to that usual llm but oh well)
-![](../images/07bae6cf89f17bb75cb21014472299549d62e2e4.png)
+![](../../../../images/07bae6cf89f17bb75cb21014472299549d62e2e4.webp)
 
 ## Context Relevance
 - retrieved context should be focused, containing as little irrelevant information as possible

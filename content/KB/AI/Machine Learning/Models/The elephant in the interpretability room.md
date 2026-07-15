@@ -16,13 +16,13 @@ date created: Monday 22nd May 2023, Mon
 - While attention conveniently gives us one weight per input token and is easily extracted, it is often unclear toward what goal it is used as explanation.
 - that often that goal, whether explicitly stated or not, is to find out what input tokens are the most relevant to a prediction, and that the implied user for the explanation is a model developer
 - For this goal and user, we argue that input saliency methods are better suited, and that there are no compelling reasons to use attention, despite the coincidence that it provides a weight for each input.
-- ![](../images/Pasted%20image%2020230522171557.png)
+- ![](../../../../images/Pasted%20image%2020230522171557.webp)
 
 ## The Attention Debate
 - summarize the debate on whether attention is explanation
 - mostly features simple BiLSTM text classifiers
 - Unlike Transformers (Vaswani et al., 2017), they only contain a single attention mechanism, which is typically MLP-based (Bahdanau et al., 2015)
-- ![](../images/Pasted%20image%2020230522171529.png)
+- ![](../../../../images/Pasted%20image%2020230522171529.webp)
 
 ## Is Attention (not) Explanation?
 - Jain and Wallace (2019) show that attention is often uncorrelated with gradientbased feature importance measures, and that one can often find a completely different set of attention weights that results in the same prediction

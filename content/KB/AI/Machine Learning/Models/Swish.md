@@ -16,7 +16,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Second, it is unbounded above. This means that for very large values, the outputs do not saturate to the maximum value (i.e., to 1 for all the neurons). According to the authors of the Swish paper, this is what set [Relu](Relu.md) apart from the more traditional activation functions.
 - Third, separating Swish from [Relu](Relu.md), the fact that it is a smooth curve means that its output landscape will be smooth. This provides benefits when optimizing the model in terms of convergence towards the minimum [loss](../Tag%20Pages/loss.md).
 - Fourth, small negative values are zeroed out in [Relu](Relu.md) (since f(x) = 0 for x < 0). However, those negative values may still be relevant for capturing patterns underlying the data, whereas large negative values may be zeroed out (for reasons of [Sparsity](Sparsity.md), as we saw above). The [Smoothness](Smoothness.md) property and the values of f(x) < 0 for x ≈ 0 yield this benefit. This is a clear win over [Relu](Relu.md).
-- ![](../images/Pasted%20image%2020220626151728.png)
+- ![](../../../../images/Pasted%20image%2020220626151728.webp)
 
 
 

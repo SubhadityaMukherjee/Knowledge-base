@@ -34,8 +34,8 @@ date created: Friday, November 18th 2022, 1:28:08 pm
 - This often causes a problem when the object on the image has a lot of details and the model is using most of them to make a prediction.
 
 ## Images
-- ![](../images/Pasted%20image%2020230310115235.png)
-- ![](../images/Pasted%20image%2020230310115248.png)
+- ![](../../../../images/Pasted%20image%2020230310115235.webp)
+- ![](../../../../images/Pasted%20image%2020230310115248.webp)
 
 
 

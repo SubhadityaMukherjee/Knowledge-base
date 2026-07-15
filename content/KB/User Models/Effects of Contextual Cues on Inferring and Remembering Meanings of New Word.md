@@ -110,7 +110,7 @@ date created: Friday, October 14th 2022, 4:47:16 pm
 - since contextual cues being equally adequate, subjects can, within the same amount of time, better acquire vocabulary through visual patterns of learning than through oral patterns, it might follow that learners whose learning styles are congruent or similar to the subjects in this study, may well enlarge their vocabulary for reading in a more efficient way through visual ways of learning
 
 ## Pictures
-- ![](../images/Pasted%20image%2020221014165039.png)
+- ![](../../images/Pasted%20image%2020221014165039.webp)
 
 
 

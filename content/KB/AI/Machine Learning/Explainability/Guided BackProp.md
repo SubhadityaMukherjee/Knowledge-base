@@ -26,9 +26,9 @@ date created: Friday, November 18th 2022, 1:36:13 pm
 - This is not true because ReLU masking extracted from the deconvnet is applied on every level and therefore affects the gradient values all the way down to the input of the CNN, not only at the first level of the CNN
 
 ## Images
-- ![](../images/Pasted%20image%2020230310115413.png)
-- ![](../images/1!lF0KUFi_D04YIYo_1Yi0cA.png)
-- ![](../images/1!XhaBt82XZrD1ePnInOW2lg.png)
+- ![](../../../../images/Pasted%20image%2020230310115413.webp)
+- ![](../../../../images/1!lF0KUFi_D04YIYo_1Yi0cA.webp)
+- ![](../../../../images/1!XhaBt82XZrD1ePnInOW2lg.webp)
 
 
 

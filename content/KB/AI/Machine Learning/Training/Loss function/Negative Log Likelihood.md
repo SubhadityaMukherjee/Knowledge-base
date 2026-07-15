@@ -10,7 +10,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Classification, Smaller quicker training, Simple tasks.
 
 $$ - \mathrm{sum}\left( \log\left( y \right) \right)$$
-- ![](../images/Pasted%20image%2020240827215145.png)
+- ![](../../../../../images/Pasted%20image%2020240827215145.webp)
 - [Log Likelihood Loss](Log%20Likelihood%20Loss.md)
 
 

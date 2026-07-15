@@ -32,11 +32,11 @@ date created: Wednesday 29th May 2024, Wed
 - human annotation can be costly and is often impractical for evaluating all documents in a corpus
 - downstream ground truth out- put associated with the query to provide weak relevance labels
 - eRAG, a novel approach that involves utilizing the LLM in RAG system itself as the arbiter for generating labels to evaluate the retrieval model.
-![](../images/068099b4bf7ca1a777ac9fa6b4934a64e817dc83.png)
+![](../../../../images/068099b4bf7ca1a777ac9fa6b4934a64e817dc83.webp)
 
 ## **Using Downstream Large Language Model in RAG as Doc- Ument Annotator**
-![](../images/02d601fa1934b09b1629394bcecb6a66e97a8264.png)
-![](../images/1e49e392136da7fd5e16bc901d34cbd23e4b50ea.png)
+![](../../../../images/02d601fa1934b09b1629394bcecb6a66e97a8264.webp)
+![](../../../../images/1e49e392136da7fd5e16bc901d34cbd23e4b50ea.webp)
 
 ## **Retrieval Evaluation Metrics**
 
@@ -45,4 +45,4 @@ date created: Wednesday 29th May 2024, Wed
 - Interestingly, the most common approaches, KILT Provenance and Annotation with LLMs, that are, document-level relevance labels and using LLMs to assign a relevance label to each retrieved document, have the lowest correlation with the down- stream performance of the LLM
 - How do different retrieval evaluation methods in RAG per- form as the size of retrieval results increases?
 - varied the number of retrieved documents and computed the correlation between the metric with highest correlation for each method in Table 1 at each specifed number of retrieved documents and the downstream performance of the LLM given that number of retrieved documents
-![](../images/a23ed1abd5264208e45c181d84b39015d186600a.png)
+![](../../../../images/a23ed1abd5264208e45c181d84b39015d186600a.webp)

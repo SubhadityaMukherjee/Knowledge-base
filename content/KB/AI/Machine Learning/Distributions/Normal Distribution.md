@@ -9,7 +9,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Normal Distribution
 - $$Pr(y|\mu, \sigma^{2}) = \frac{1}{\sqrt{2\pi\sigma}}e^{-\frac{(y-\mu)^{2}}{2\sigma^{2}}}$$
 - Mean $\mu$ and std $\sigma$. $\mu$ is max and $\mu \pm \sigma$ is locations of zeros of second derivative
-- ![[../images/Pasted image 20220319144034.png]]
+- ![[Pasted image 20220319144034.webp]]
 - $\mathcal{N}(0,1)$
 - [[Central Limit Theorem.md]]
 

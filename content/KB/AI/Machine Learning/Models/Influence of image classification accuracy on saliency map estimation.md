@@ -69,10 +69,10 @@ date created: Thursday, October 6th 2022, 1:01:31 pm
 - if the model is trained for the image classification task which includes a wide variety of categories, overfitting for the objects in the training dataset would be suppressed owing to a large number of categories.
 
 ## Images
-- ![](../images/Screenshot%202022-10-06%20at%201.01.58%20PM.png)
-- ![](../images/Pasted%20image%2020221006130217.png){:height 598, :width 600}
-- ![](../images/Pasted%20image%2020221006130326.png)
-- ![](../images/Pasted%20image%2020221006132051.png)
+- ![](../../../../images/Screenshot%202022-10-06%20at%201.01.58%20PM.webp)
+- ![](../../../../images/Pasted%20image%2020221006130217.webp){:height 598, :width 600}
+- ![](../../../../images/Pasted%20image%2020221006130326.webp)
+- ![](../../../../images/Pasted%20image%2020221006132051.webp)
 
 
 

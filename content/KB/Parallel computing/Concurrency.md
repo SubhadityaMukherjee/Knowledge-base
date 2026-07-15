@@ -11,7 +11,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - always equal to the number of leaves in the tree
 - Both the maximum and the average degrees of concurrency usually increase as the [Parallel Granularity](Parallel%20Granularity.md) of tasks becomes smaller (finer)
 - $$CriticalPath = \frac{\text{Total amount of work}}{\text{Critical path length}}$$
-- ![](../images/Pasted%20image%2020220506154858.png)
+- ![](../../images/Pasted%20image%2020220506154858.webp)
 
 
 

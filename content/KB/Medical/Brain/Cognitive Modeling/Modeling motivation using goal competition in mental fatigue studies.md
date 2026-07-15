@@ -50,12 +50,12 @@ date created: Wednesday 1st February 2023, Wed
 - Although adjusting goal activation values as a way to model mental fatigue showed good results for the experiments we modeled, it is possible that this does not directly generalize to other studies
 
 ## Images
-- ![](../images/Pasted%20image%2020230201115702.png)
-- ![](../images/Pasted%20image%2020230201115832.png)
-- ![](../images/Pasted%20image%2020230201115840.png)
-- ![](../images/Pasted%20image%2020230201115851.png)
-- ![](../images/Pasted%20image%2020230201115902.png)
-- ![](../images/Pasted%20image%2020230201115918.png)
+- ![](../../../../images/Pasted%20image%2020230201115702.webp)
+- ![](../../../../images/Pasted%20image%2020230201115832.webp)
+- ![](../../../../images/Pasted%20image%2020230201115840.webp)
+- ![](../../../../images/Pasted%20image%2020230201115851.webp)
+- ![](../../../../images/Pasted%20image%2020230201115902.webp)
+- ![](../../../../images/Pasted%20image%2020230201115918.webp)
 - 
 
 

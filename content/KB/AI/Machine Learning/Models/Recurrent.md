@@ -15,7 +15,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 	- operation invariant to the sequence
 	- reduces no of params needed
 - Output comes back as input
-	- ![](../images/Pasted%20image%2020220314132442.png)
+	- ![](../../../../images/Pasted%20image%2020220314132442.webp)
 - variable sized inputs and outputs : encoder decoder
 - Three weight matrices and two bias vectors.
 - $$h_t = \sigma_h(W_{hh}h_{t-1} + W_{xh}x_t + b_h)$$
@@ -23,7 +23,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Stateful : hidden state kept across batches of inputs
 - Activation usually [Sigmoid](Sigmoid.md) or [Tanh](Tanh.md)
 - BPTT
-	- ![](../images/Pasted%20image%2020220306185944.png)![](../images/Pasted%20image%2020220306190603.png)
+	- ![](../../../../images/Pasted%20image%2020220306185944.webp)![](../../../../images/Pasted%20image%2020220306190603.webp)
 	- #architecture
 		- If eigen decomposition $$W = Q\wedge^tQ$$, then $$h_t = Q^T\wedge^tQ$$
 		- If less than 0 then will converge to 0 or if bigger then will explore to infinity -> long sequences

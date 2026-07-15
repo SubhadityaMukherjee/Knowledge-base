@@ -110,8 +110,8 @@ date created: Wednesday 24th May 2023, Wed
 - As work in XAI continues, it must attend to what exactly is being explained, to whom the explanation is directed, and how it is going to be used, and must provide a structured, standard evaluation approach via metrics of success.
 
 ## Images
-- ![](../images/Page11Image28.503841911723242_69.0524207960309-390.09416045002604_526.8046627143713.png)
-- ![](../images/Page12Image42.55803980601578_445.26651888696006-359.94635491537673_174.37303587724818.png)
+- ![](../../../../images/Page11Image28.503841911723242_69.0524207960309-390.09416045002604_526.8046627143713.webp)
+- ![](../../../../images/Page12Image42.55803980601578_445.26651888696006-359.94635491537673_174.37303587724818.webp)
 
 
 

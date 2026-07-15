@@ -73,14 +73,14 @@ date created: Monday 27th February 2023, Mon
 - taking model average of models in the same basin does not disturb the performance
 
 ## Images
-- ![](../images/Pasted%20image%2020230306145203.png)
-- ![](../images/Pasted%20image%2020230306145307.png)
-- ![](../images/Pasted%20image%2020230306145327.png)
-- ![](../images/Pasted%20image%2020230306145335.png)
-- ![](../images/Pasted%20image%2020230306145355.png)
-- ![](../images/Pasted%20image%2020230306145405.png)
-- ![](../images/Pasted%20image%2020230306145416.png)
-- ![](../images/Pasted%20image%2020230306145426.png)
+- ![](../../../../images/Pasted%20image%2020230306145203.webp)
+- ![](../../../../images/Pasted%20image%2020230306145307.webp)
+- ![](../../../../images/Pasted%20image%2020230306145327.webp)
+- ![](../../../../images/Pasted%20image%2020230306145335.webp)
+- ![](../../../../images/Pasted%20image%2020230306145355.webp)
+- ![](../../../../images/Pasted%20image%2020230306145405.webp)
+- ![](../../../../images/Pasted%20image%2020230306145416.webp)
+- ![](../../../../images/Pasted%20image%2020230306145426.webp)
 
 
 

@@ -13,7 +13,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - Fine grained info encoded -> smaller hypercubes to increase resolution
 - n = 2 : quadtree
 - n = 3 : octree
-- ![](../images/Pasted%20image%2020220316000739.png)
+- ![](../../images/Pasted%20image%2020220316000739.webp)
 - [Mesh refinement](Mesh%20refinement.md)
 
 ## …

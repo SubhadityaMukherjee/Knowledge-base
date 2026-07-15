@@ -8,7 +8,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 ---
 
 # Prismatic Joint
-- ![](../images/Pasted%20image%2020220928213554.png)
+- ![](../../images/Pasted%20image%2020220928213554.webp)
 - Linear movement like a piston
 
 

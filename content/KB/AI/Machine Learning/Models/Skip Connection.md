@@ -8,7 +8,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Skip Connection
-- ![](../images/Pasted%20image%2020220306120520.png)
+- ![](../../../../images/Pasted%20image%2020220306120520.webp)
 - $$x_i = F(x_{i-1}) + x_{i-1}$$
 - [Effect Of Depth](Effect%20Of%20Depth.md)
 - Previous layer gradient carried to next module untouched -> [loss](../Tag%20Pages/loss.md) surface is smoother

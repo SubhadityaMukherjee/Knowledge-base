@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 # Vision [Transformer](Transformer.md)
 - @dosovitskiyImageWorth16x162021
 - [paper](https://arxiv.org/abs/2010.11929)
-- ![](../images/vit.png)
+- ![](../../../../images/vit.webp)
 - [Transformer](Transformer.md) applied directly to sequences/patches of images
 - Lower computational resources
 - [ImageNet](ImageNet.md) , [CIFAR](CIFAR.md), [VTAB](VTAB.md)

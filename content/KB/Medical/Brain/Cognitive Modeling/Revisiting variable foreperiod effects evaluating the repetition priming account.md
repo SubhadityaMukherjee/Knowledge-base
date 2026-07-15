@@ -64,10 +64,10 @@ date created: Wednesday 1st February 2023, Wed
 - This consistency between different foreperiod paradigms is not predicted by the MTP, which attributes the foreperiod-RT function to the proportions of foreperiods
 
 ## Images
-- ![](../images/Pasted%20image%2020230201113945.png)
-- ![](../images/Pasted%20image%2020230201114214.png)
-- ![](../images/Pasted%20image%2020230201114227.png)
-- ![](../images/Pasted%20image%2020230201114237.png)
+- ![](../../../../images/Pasted%20image%2020230201113945.webp)
+- ![](../../../../images/Pasted%20image%2020230201114214.webp)
+- ![](../../../../images/Pasted%20image%2020230201114227.webp)
+- ![](../../../../images/Pasted%20image%2020230201114237.webp)
 - 
 
 

@@ -15,7 +15,7 @@ date created: Friday 30th June 2023, Fri
 - prompt-based learning approach, PromptIR, for All-In-One image restoration that can effectively restore images from various types and levels of degradation 
 - uses prompts to encode degradation-specific information 
 - generic and efficient plugin module with few lightweight prompts that can be used to restore images of various types and levels of degradation with no prior information on the corruptions present in the image  
-- ![](../images/img_p1_1.png) 
+- ![](../../../../images/img_p1_1.webp) 
 - AirNet 
 - addresses the all-in-one restoration task by employing the contrastive learning paradigm. 
 - involves training an extra encoder to differentiate various types of image degradations 
@@ -25,7 +25,7 @@ date created: Friday 30th June 2023, Fri
 ## Method 
 - # aim to learn a single model M to restore an image I from a degraded image I, that has been degraded using a degradation D, while having no prior information about D. 
 - While the model is initially "blind" to the nature of degradation, its performance in recovering a clean image can be enhanced by providing implicit contextual information about the type of degradation  
-- ![](../images/img_p2_1.png) 
+- ![](../../../../images/img_p2_1.webp) 
 - From a given degraded input image I ∈ RH ×W ×3 
 - first extracts low-level features F0 ∈ RH×W×C by applying a convolution operation; where H × W is the spatial resolution and C denotes the channels. 
 - eature embeddings F0 undergo a 4-level hierarchical encoder-decoder, transforming into deep features Fr ∈ RH ×W ×2C 
@@ -36,7 +36,7 @@ date created: Friday 30th June 2023, Fri
 - Prompt blocks are adapter modules that sequentially connect every two levels of the decoder. 
 
 ## Prompt Block  
-- ![](../images/img_p3_1.png) 
+- ![](../../../../images/img_p3_1.webp) 
 
 ## Prompt Generation Module 
 - Prompt components Pc form a set of learnable parameters that interact with the incoming features to embed degradation information 
@@ -47,7 +47,7 @@ date created: Friday 30th June 2023, Fri
 - first applies global average pooling (GAP) across spatial dimension to generate feature vector v 2 RCˆ 
 - pass v through a channeldownscaling convolution layer to obtain a compact feature vector, followed by the softmax operation, thus yielding prompt-weights w 2 RN 
 - use these weights to make adjustments in prompt components, followed by a 3 x 3 convolution layer  
-- ![](../images/img_p4_1.png) 
+- ![](../../../../images/img_p4_1.webp) 
 - Since at inference time, it is necessary for the restoration network to be able to handle images of different resolutions, we cannot use the prompt components Pc with a fixed size. 
 - bilinear upsampling operation to upscale the prompt components 
 
@@ -57,11 +57,11 @@ date created: Friday 30th June 2023, Fri
 - pass the concatenated representations through a Transformer block that exploits degradation information encoded in the prompts and transforms the input features. 
 - The Transformer block is composed of two sequentially connected sub-modules: Multi-Dconv head transposed attention (MDTA), and Gated-Dconv feedforward network (GDFN). MDTA applies self-attention operation across channels rather than the spatial dimension and has linear complexity. 
 - The goal of GDFN is to transform features in a controlled manner, i.e., suppressing the less informative features and allowing only useful ones to propagate through the network  
-- ![](../images/img_p5_1.png)  
+- ![](../../../../images/img_p5_1.webp)  
 - ![img_p5_2](img_p5_2.png) 
 
 ##  
-- ![](../images/img_p6_1.png) 
+- ![](../../../../images/img_p6_1.webp) 
 - Implementation Details 
 - end-to-end trainable and requires no pretraining of any individual component 
 - 4-level encoder-decoder, with varying numbers of Transformer blocks at each level, specifically [4, 6, 6, 8] from level-1 to level-4. 
@@ -77,7 +77,7 @@ date created: Friday 30th June 2023, Fri
 - Urban100 
 - Rain100L 
 - SOTS  
-- ![](../images/img_p8_1.png)  
-- ![](../images/img_p8_2.png)  
-- ![](../images/img_p9_1.png) 
+- ![](../../../../images/img_p8_1.webp)  
+- ![](../../../../images/img_p8_2.webp)  
+- ![](../../../../images/img_p9_1.webp) 
 

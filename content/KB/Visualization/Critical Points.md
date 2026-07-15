@@ -13,7 +13,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - saddle point: slopes are zero in orthogonal directions, no extremum • center point: embedded by (circular) flow around  
 - attracting focus: flow is attracted in a spiral pattern
 - repelling focus, where the flow is repelled in a spiral pattern
-- ![](../images/Screenshot%202022-09-14%20at%2012.45.37%20PM.png)
+- ![](../../images/Screenshot%202022-09-14%20at%2012.45.37%20PM.webp)
 
 
 

@@ -13,10 +13,10 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 	- Harder problems - thinking time
 	- Reaches an asymptote when the task is too difficult , processing load
 - Measure of resource allocation
-- ![](../images/Screenshot%202022-09-12%20at%204.01.29%20PM.png)
+- ![](../../images/Screenshot%202022-09-12%20at%204.01.29%20PM.webp)
 - Light based response - [Parasympathetic](Parasympathetic.md)
 - Increases with emotional stimulation
-- ![](../images/Screenshot%202022-09-12%20at%204.08.53%20PM.png)
+- ![](../../images/Screenshot%202022-09-12%20at%204.08.53%20PM.webp)
 - Speech replacement
 
 

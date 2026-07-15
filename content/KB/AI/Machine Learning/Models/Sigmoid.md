@@ -15,4 +15,4 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - RNN : Hidden
 - [Bernoulli Distribution](Bernoulli%20Distribution.md) over a binary variable
 - ![](../images/Pasted%20image%2020220626151646.jpg)
-- ![](../images/Pasted%20image%2020240828101704.png)
+- ![](../../../../images/Pasted%20image%2020240828101704.webp)

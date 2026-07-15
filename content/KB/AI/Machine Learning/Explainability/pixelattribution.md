@@ -46,22 +46,22 @@ date created: Wednesday 31st May 2023, Wed
 - The recipe for this approach is:
 -   1.  Perform a forward pass of the image of interest.
 -   2.  Compute the gradient of the class score of interest with respect to the input pixels:
-- ![](../images/img_p2_1.png)
+- ![](../../../../images/img_p2_1.webp)
 - Here we set all other classes to zero.
 - 1.  Visualize the gradients. You can either show the absolute values or highlight negative and positive contributions separately.
 - More formally, we have an image I and the convolutional neural 𝑆𝑐(𝐼) network gives ita score
 - for class c
 - The score is a highly non-linear function of our image.
 - The idea behind using the gradient is that we can approximate that score byapplying a first-order Taylor expansion
-- ![](../images/img_p3_1.png)
+- ![](../../../../images/img_p3_1.webp)
 - some ambiguity how to perform a backward pass of the gradients
 - since non-linear units such as ReLU (Rectifying Linear Unit) "remove" the sign
 - So when we do a backpass, we do not know whether to assign a positive or negativeactivation
-- ![](../images/img_p4_1.png)
+- ![](../../../../images/img_p4_1.webp)
 
 - This means that when the activation of a neuron is zero, we do not know which valueto backpropagate
 - In the case of Vanilla Gradient, the ambiguity is resolved as follows: 𝛿𝑓= 𝛿𝑓
-- ![](../images/img_p4_2.png)
+- ![](../../../../images/img_p4_2.webp)
 - 𝐈 e r e , activation at the lower layer was negative, and one where it is positive orzero
 - Vanilla Gradient takes the gradient we have backpropagated so far up to layer n+1,and then simply sets the gradients to zero where the activation at the layer below isnegative
 
@@ -75,7 +75,7 @@ date created: Wednesday 31st May 2023, Wed
 - but apart from the reversal of the ReLU layer, DeconvNet is equivalent to the Vanilla Gradient approach
 - Vanilla Gradient can be seen as a generalization of DeconvNet
 - DeconvNet makes a different choice for backpropagating the gradient- **12:24**  through ReLU:
-- ![](../images/img_p5_1.png)
+- ![](../../../../images/img_p5_1.webp)
 - When backpassing from layer n to layer n-1, DeconvNet "remembers" which of theactivations in layer n were set to zero in the forward pass and sets them to zero in layer n-1
 - 𝑋ctivations with a negative value in layer x are set to zero in layer n-1.
 
@@ -97,14 +97,14 @@ date created: Wednesday 31st May 2023, Wed
 - Grad-CAM removes all negative values by using a ReLU function, with the argumentthat we are only interested in the parts that contribute to the selected class c and not to other classes
 - The word pixel might be misleading here as the feature map is smaller than theimage (because of the pooling units) but is mapped back to the original image
 - We then scale the GradCAM map to the interval [0,1] for visualization purposes and overlay it over the original image.
-- ![](../images/img_p7_1.png)
+- ![](../../../../images/img_p7_1.webp)
 - Forward-propagate the input image through the convolutional neural network.
 - Obtain the raw score for the class of interest, meaning the activation of the neuron before the softmax layer.
 - Set all other class activations to zero.
-- ![](../images/img_p8_1.png)
+- ![](../../../../images/img_p8_1.webp)
 - Back-propagate the gradient of the class of interest to the last 𝛿𝑦𝑐 𝛿𝐴𝑘 convolutional layer before the fully connected layers.
 - Weight each feature map "pixel" by the gradient for the class. Indices i and j refer to the width and height dimensions.
-- ![](../images/img_p8_2.png)
+- ![](../../../../images/img_p8_2.webp)
 - This means that the gradients are globally pooled
 - Calculate an average of the feature maps, weighted per pixel by the gradient.
 - Apply ReLU to the averaged feature map.
@@ -127,9 +127,9 @@ date created: Wednesday 31st May 2023, Wed
 - The theory is that the derivative fluctuates greatly at small scales
 - Neural networks have no incentive during training to keep the gradients smooth,their goal is to classify images correctly
 - Averaging over multiple maps "smooths out" these fluctuations
-- ![](../images/img_p10_1.png)
-- ![](../images/img_p10_2.png)
-- ![](../images/img_p11_1.png)
+- ![](../../../../images/img_p10_1.webp)
+- ![](../../../../images/img_p10_2.webp)
+- ![](../../../../images/img_p11_1.webp)
 - And that is the big issue with all of these methods
 - We do not have a ground truth for the explanations
 - We can only, in a first step, reject explanations that obviously make no sense (andeven in this step we do not have strong confidence

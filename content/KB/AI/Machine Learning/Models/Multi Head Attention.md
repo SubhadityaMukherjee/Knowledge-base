@@ -17,7 +17,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - $$MultiHead(Q,K,V) = Concat(head_1, head_2, …., head_h)W^O$$
 	- $$head_i = Attention(QW_i^Q, KW_i^K , VW_i^V)$$
 - W is learnable projections for [Attention](Attention.md) params
-- ![](../images/Pasted%20image%2020220307183058.png)
+- ![](../../../../images/Pasted%20image%2020220307183058.webp)
 - To improve efficiency
 	- Cut the incoming vector into chunks -> no of [Attention](Attention.md) heads
 

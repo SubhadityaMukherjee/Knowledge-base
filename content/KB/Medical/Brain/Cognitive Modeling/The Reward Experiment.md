@@ -16,7 +16,7 @@ date created: Monday, December 5th 2022, 2:24:28 pm
 	- [Cognition Hazard Rates](Cognition Hazard Rates.md)
 - Reward blocks: less memory effects
 	- [Cognitive fMTP](Cognitive fMTP.md)
-- ![](../images/Pasted%20image%2020221205142636.png)
+- ![](../../../../images/Pasted%20image%2020221205142636.webp)
 - Fanning
 	- smaller if reward
 	- less effects of previous trial
@@ -28,27 +28,27 @@ date created: Monday, December 5th 2022, 2:24:28 pm
 	- Stimulus visibility does not interact with preparation
 		- Maybe not a visual attention process
 		
-	- ![](../images/Pasted%20image%2020221205143429.png)
+	- ![](../../../../images/Pasted%20image%2020221205143429.webp)
 - Reward has more effects when targets are highly visible
 	- Interaction : Reward * Brightness
-	- ![](../images/Pasted%20image%2020221205143452.png)
+	- ![](../../../../images/Pasted%20image%2020221205143452.webp)
 - Effects on accuracy
 	- Reward blocks→ higher accuracy  
 	 - High visibility → higher accuracy  
 	 - More errors with longer foreperiod….  
 		- …But only when rewarded/motivated  
 		- …And mainly when visibility low
-	- ![](../images/Pasted%20image%2020221205143505.png)
+	- ![](../../../../images/Pasted%20image%2020221205143505.webp)
 - Effects on memory from past trials
 	- Past trial effects $$fp \ast fp(n-1)$$
 	- This effect (the fanning) is essentially constant across target visibility and reward  
 	- If anything: a little bit larger when there is no reward.
-	- ![](../images/Pasted%20image%2020221205143614.png)
+	- ![](../../../../images/Pasted%20image%2020221205143614.webp)
 - Effects on memory
 	- Up to n-5
 	- When there is reward, there is slightly ‘faster forgetting’
 	- Faster forgetting when rewarded slightly
-	- ![](../images/Pasted%20image%2020221205143724.png)
+	- ![](../../../../images/Pasted%20image%2020221205143724.webp)
 
 
 

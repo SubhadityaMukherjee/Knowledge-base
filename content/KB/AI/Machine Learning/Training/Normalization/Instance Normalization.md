@@ -20,7 +20,7 @@ date created: Sunday, December 11th 2022, 1:15:01 pm
 $$
 - This prevents instance-specific mean and [Covariance](Covariance.md) shift simplifying the learning process.
 - Intuitively, the normalization process allows to remove instance-specific contrast information from the content image in a task like image stylization, which simplifies generation.
-- ![](../images/Pasted%20image%2020221211131622.png)
+- ![](../../../../../images/Pasted%20image%2020221211131622.webp)
 
 
 

@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Long Short Term Memory (LSTM)
-- ![](../images/Pasted%20image%2020220621124622.png)
+- ![](../../../../images/Pasted%20image%2020220621124622.webp)
 - Smaller chance of exploding or vanishing #architecture
 - Better ability to model long term dependencies
 - Gated connections

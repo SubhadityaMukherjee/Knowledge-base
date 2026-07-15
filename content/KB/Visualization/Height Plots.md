@@ -10,7 +10,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 - 2D scalar field
 - $$\{(x,y, f(x,y))|(x,y)\in \mathbb{R}^{2}\}$$
 - Displacement along $z = f(x,y)$
-- ![](../images/Pasted%20image%2020220411133101.png)
+- ![](../../images/Pasted%20image%2020220411133101.webp)
 
 
 

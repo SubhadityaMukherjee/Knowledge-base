@@ -7,7 +7,7 @@ date created: Tuesday, July 26th 2022, 8:33:15 pm
 ---
 
 # Front to Back [Raycasting](Raycasting.md)
-- ![](../images/Pasted%20image%2020220418002010.png)
+- ![](../../images/Pasted%20image%2020220418002010.webp)
 - [Color Compositing](Color%20Compositing.md)
 
 

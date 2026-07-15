@@ -11,7 +11,7 @@ date created: Tuesday, December 13th 2022, 5:02:02 pm
 
 
 ## Architecture
-- ![](../images/F5FD8256-22A4-45E2-A635-E1B8BD48C0AB.png)
+- ![](../../../../images/F5FD8256-22A4-45E2-A635-E1B8BD48C0AB.webp)
 
 ### Weight Init
 - If conv Random Normal with mean = 0 and std.dev = 0.02
@@ -25,7 +25,7 @@ date created: Tuesday, December 13th 2022, 5:02:02 pm
 - Output passed through [Tanh](Tanh.md) to return it to [-1,1]
 - [Batch Normalization] AFTER [Transposed Conv](Batch Normalization] AFTER [Transposed Conv.md) is super important as it helps with flow of gradients
 - Notice, how the inputs we set in the input section (_nz_, _ngf_, and _nc_) influence the generator architecture in code. _nz_ is the length of the z input vector, _ngf_ relates to the size of the feature maps that are propagated through the generator, and _nc_ is the number of channels in the output image (set to 3 for RGB images)
-- ![](../images/0A6407EB-22F6-4D06-AB2E-E99EF94E25C0.png)
+- ![](../../../../images/0A6407EB-22F6-4D06-AB2E-E99EF94E25C0.webp)
 
 ### Discriminator
 - [Strided] [Conv], [Batch Normalization], and [Leaky Relu](Strided] [Conv], [Batch Normalization], and [Leaky Relu.md)

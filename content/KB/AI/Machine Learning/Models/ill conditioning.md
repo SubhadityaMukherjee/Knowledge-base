@@ -11,7 +11,7 @@ date created: Tuesday 7th February 2023, Tue
 
 
 - Gradient can behave in unexpected ways, e.g in the figure above, very large gradients near flat regions.
-- ![](../images/Pasted%20image%2020230207111010.png)
+- ![](../../../../images/Pasted%20image%2020230207111010.webp)
 
 
 

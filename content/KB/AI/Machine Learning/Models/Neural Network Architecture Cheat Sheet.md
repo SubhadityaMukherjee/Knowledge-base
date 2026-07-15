@@ -15,7 +15,7 @@ date created: Thursday, July 28th 2022, 5:59:06 pm
 - [Recurrent](Recurrent.md)
 - [Conv](Conv.md)
 
-![](../images/NeuralNetworkZoo20042019.png)
+![](../../../../images/NeuralNetworkZoo20042019.webp)
 
 
 

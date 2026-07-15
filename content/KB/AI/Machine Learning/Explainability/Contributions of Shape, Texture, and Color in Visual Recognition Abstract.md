@@ -105,13 +105,13 @@ date created: Saturday, November 5th 2022, 12:37:28 pm
 - Inspired by the pixel2pixel GAN[26] and AdaIN[25] in the style transfer, we design a crossfeature pixel2pixel GAN model to generate the final image.
 
 ## Pictures
-- ![](../images/Pasted%20image%2020221105123820.png)
-- ![](../images/Pasted%20image%2020221105123830.png)
-- ![](../images/Pasted%20image%2020221105123841.png)
-- ![](../images/Pasted%20image%2020221105123855.png)
-- ![](../images/Pasted%20image%2020221105123905.png)
-- ![](../images/Pasted%20image%2020221105123919.png)
-- ![](../images/Pasted%20image%2020221105123931.png)
-- ![](../images/Pasted%20image%2020221105123951.png)
+- ![](../../../../images/Pasted%20image%2020221105123820.webp)
+- ![](../../../../images/Pasted%20image%2020221105123830.webp)
+- ![](../../../../images/Pasted%20image%2020221105123841.webp)
+- ![](../../../../images/Pasted%20image%2020221105123855.webp)
+- ![](../../../../images/Pasted%20image%2020221105123905.webp)
+- ![](../../../../images/Pasted%20image%2020221105123919.webp)
+- ![](../../../../images/Pasted%20image%2020221105123931.webp)
+- ![](../../../../images/Pasted%20image%2020221105123951.webp)
 
 

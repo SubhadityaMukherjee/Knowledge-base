@@ -18,7 +18,7 @@ date created: Tuesday 6th June 2023, Tue
 - augmented dataset can represent more comprehensive characteristics 
 - data augmentation methods are tasks-independent 
 - Because the operations are performed on the image data and labels at the same time, and the label types are different under different tasks, the data augmentation methods for object detection task can not be directly applied to semantic segmentation task  
-- ![](../images/img_p1_1.png) 
+- ![](../../../../images/img_p1_1.webp) 
 - it is meaningful to apply basic image manipulations only under the assumption that the existing data obeys the distribution close to the actual data distribution. 
 - some basic image manipulation methods, such as translation and rotation, suffer from the padding effect 
 - , some areas of the images will be moved out of the boundary and lost 
@@ -38,13 +38,13 @@ date created: Tuesday 6th June 2023, Tue
 
 ## Semantic Segmentation
 - PASCAL VOC  
-- ![](../images/img_p7_1.png) 
+- ![](../../../../images/img_p7_1.webp) 
 
 ## Image Classification
-- ![](../images/img_p8_1.png) 
+- ![](../../../../images/img_p8_1.webp) 
 
 ## Object Detection
-- ![](../images/img_p9_1.png)
+- ![](../../../../images/img_p9_1.webp)
 
 ## Discussion for Future Directions
 - lack of theoretical research on data augmentation   
